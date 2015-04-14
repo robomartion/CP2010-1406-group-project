@@ -36,9 +36,6 @@ Does every team member know how to contact every other member?
 
 Yes
 
-
-
-
 Question 7:
 What are the arrangements for the procedure that a team member should follow if a planned meeting can’t be attended due to unforeseen circumstances?
 
@@ -74,6 +71,7 @@ Jason Page – Html , CSS
 Robert Marsh – Html, CSS , php, sql – Project Manager
 
 Bradley Boye – HTML CSS
+
 Question 12:
 What is your team name?
 
