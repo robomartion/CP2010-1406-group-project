@@ -2,7 +2,7 @@
 ###Question 1:
 List the names of the members of your team. Note here anyone who was away for this first prac/meeting:
 
-Jaison Thyil, Bradley Boye, Jason Paige, Robert Marsh, Hendrik Nel.
+Jaison Thyil, Bradley Boye, Josh Page, Robert Marsh, Hendrik Nel.
 
 ###Question 2:
 Did all members agree to meet at least for two hours of teamwork in addition to the practical time?
