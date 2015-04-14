@@ -1,10 +1,10 @@
 # CP2010-1406-group-project
-##Question 1: ##
+##Question 1:##
 List the names of the members of your team. Note here anyone who was away for this first prac/meeting:
 
 Jaison Thyil, Bradley Boye, Jason Paige, Robert Marsh, Hendrik Nel.
 
-##Question 2: ##
+##Question 2:##
 Did all members agree to meet at least for two hours of teamwork in addition to the practical time?
 
 Yes 
@@ -15,7 +15,7 @@ What are your meeting arrangements?
 
 Friday Morning: 11am – 12:45 pm Library
 
-##Question 4: ##
+##Question 4:##
 What preferred methods of communication has your team decided on?
 (You must have a plan for communicating regularly and effectively.)
 
