@@ -26,7 +26,7 @@ Please provide contact details for each team member for your preferred methods o
 
 Jaison Thyil Github: jaisonthomas 
 Bradley Boye Github: bboye9	
-Jason Page Guthub: Jpage46
+Josh Page Guthub: Jpage46
 Hendrik Nel Github: Comedy112
 Robert Marsh Github: Robomartion
 
@@ -65,7 +65,7 @@ Jaison Thyil -  Html, CSS
 
 Hendrik Nel – Html CSS
 
-Jason Page – Html , CSS
+Josh Page – Html , CSS
 
 Robert Marsh – Html, CSS , php, sql – Project Manager
 
