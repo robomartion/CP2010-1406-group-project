@@ -59,12 +59,15 @@ a {
 }
 a:link {
 	color: #000DFF;
+	border-top-left-radius: 0px;
 }
 a:visited {
 	color: #0200FF;
+	border-top-left-radius: 10px;
 }
 a:hover, a:active, a:focus {
 	text-decoration: underline;
+	border-top-left-radius: 10px;
 }
 #mainnav ul {
 	list-style-type: none;
@@ -75,24 +78,25 @@ a:hover, a:active, a:focus {
 	padding-right: 0px;
 	border: thin solid #000000;
 	display: block;
-	margin-top: 10%;
+	margin-top: 0%;
 }
 #mainnav a:hover  , #mainnav a:active, #mainnav a:focus, #mainnav a.thispage{
 	background-color: #AEB193;
 	color: #000000;
+	border-radius: 0em;
 }
 
 #mainnav a {
 	float: left;
 	text-align: center;
 	background-color: #000000;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 0px;
+	padding-bottom: 12px;
 	border-bottom: thin solid #000000;
 	color: #FFFFFF;
 	display: block;
-	margin-left: 3%;
-	margin-right: 3%;
+	margin-left: 0%;
+	margin-right: 0%;
 }
 
 #wrapper #content #top {
@@ -101,7 +105,7 @@ a:hover, a:active, a:focus {
 	left: 0px;
 	top: 0px;
 	width: ;
-	height: 178px;
+	height: 189px;
 	z-index: 4;
 	padding-left: 1%;
 	padding-top: 1%;
@@ -161,7 +165,9 @@ a:hover, a:active, a:focus {
 	left: 645.937px;
 	top: 115.9px;
 	z-index: 55;
-	width: 100%;
+	width: 66%;
+	height: 9px;
+	padding-bottom: 35px;
 }
 #Artists {
 	font-size: 36px;
@@ -182,7 +188,7 @@ a:hover, a:active, a:focus {
 	line-height: 1.2;
 	text-align: left;
 	position: absolute;
-	left: 910.937px;
+	left: 912px;
 	top: 117.108px;
 	z-index: 53;
 	width: 100%;
