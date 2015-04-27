@@ -60,6 +60,7 @@ a {
 a:link {
 	color: #000DFF;
 	border-top-left-radius: 0px;
+	display: block;
 }
 a:visited {
 	color: #0200FF;
@@ -68,35 +69,34 @@ a:visited {
 a:hover, a:active, a:focus {
 	text-decoration: underline;
 	border-top-left-radius: 10px;
+	display: block;
 }
 #mainnav ul {
 	list-style-type: none;
-	margin-left: 32.5%;
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-bottom: 0px;
-	padding-right: 0px;
+	padding-left: 33px;
 	border: thin solid #000000;
-	display: block;
-	margin-top: 0%;
+	margin-top: 119px;
+	margin-left: 438px;
 }
 #mainnav a:hover  , #mainnav a:active, #mainnav a:focus, #mainnav a.thispage{
 	background-color: #AEB193;
 	color: #000000;
 	border-radius: 0em;
+	display: block;
 }
 
 #mainnav a {
 	float: left;
 	text-align: center;
 	background-color: #000000;
-	padding-top: 0px;
-	padding-bottom: 12px;
 	border-bottom: thin solid #000000;
 	color: #FFFFFF;
 	display: block;
-	margin-left: 0%;
-	margin-right: 0%;
+	padding-left: 21px;
+	padding-right: 21px;
+	font-size: 30px;
+	padding-bottom: 16px;
+	padding-top: 16px;
 }
 
 #wrapper #content #top {
@@ -107,29 +107,28 @@ a:hover, a:active, a:focus {
 	width: 0px;
 	height: 189px;
 	z-index: 4;
-	padding-left: 1%;
 	padding-top: 1%;
 	min-width: 1432px;
 	width: 100%;
 }
-.VOLUNTEER {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1569px;
-  height: 1080px;
-  z-index: 52;
-}
-.VOLUNTEER {
-  font-size: 23px;
-  font-family: "Myriad Pro";
-  color: rgb(255, 255, 255);
-  line-height: 1.2;
-  text-align: center;
-  position: absolute;
-  left: 1364.904px;
-  top: 43.2px;
-  z-index: 51;
+#VOLUNTEER {
+	position: static;
+	left: 0px;
+	top: 0px;
+	z-index: 52;
+	color: #FFFFFF;
+	display: block;
+	right: 94px;
+	float: right;
+	font-size: 20px;
+	border: medium solid #FFFFFF;
+	margin-top: -138px;
+	margin-right: 8px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 180px;
+	text-align: center;
+	border-radius: 10px;
 }
 .Rounded_Rectangle_1 {
   border-width: 3px;
@@ -143,56 +142,67 @@ a:hover, a:active, a:focus {
   height: 47px;
   z-index: 50;
 }
-#Home {
-	font-size: 36px;
-	font-family: "Myriad Pro";
-	color: rgb(255, 255, 255);
-	line-height: 1.2;
-	text-align: left;
-	position: absolute;
-	left: 520.937px;
-	top: 113.9px;
-	z-index: 56;
-	width: 100%;
-}
-#Events {
-	font-size: 36px;
-	font-family: "Myriad Pro";
-	color: rgb(255, 255, 255);
-	line-height: 1.2;
-	text-align: left;
-	position: absolute;
-	left: 645.937px;
-	top: 115.9px;
-	z-index: 55;
-	width: 66%;
-	height: 9px;
-	padding-bottom: 35px;
-}
-#Artists {
-	font-size: 36px;
-	font-family: "Myriad Pro";
-	color: rgb(255, 255, 255);
-	line-height: 1.2;
-	text-align: left;
-	position: absolute;
-	left: 779.938px;
-	top: 115.9px;
-	z-index: 54;
-	width: 100%;
-}
-#About_Us {
-	font-size: 32.32px;
-	font-family: "Myriad Pro";
-	color: rgb(255, 255, 255);
-	line-height: 1.2;
-	text-align: left;
-	position: absolute;
-	left: 912px;
-	top: 117.108px;
-	z-index: 53;
-	width: 100%;
-}
+
 #content #top img {
 	float: left;
+	margin-left: 40px;
+	margin-top: 28px;
+}
+#content #top #BECOME_A_MEMBER {
+	color: #FFFFFF;
+	font-size: 20px;
+	border-color: #FFFFFF;
+	border-style: solid;
+	margin-top: -138px;
+	float: right;
+	margin-right: 202px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	width: 180px;
+	text-align: center;
+	border-radius: 10px;
+}
+#content #top #ARTIST_SIGN-UP {
+	color: #FFFFFF;
+	font-size: 20px;
+	width: 180px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	float: right;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: -45px;
+	margin-right: 8px;
+	border-radius: 10px;
+}
+#content #top #BUY_TICKETS {
+	color: #FFFFFF;
+	font-size: 20px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-right: 202px;
+	text-align: center;
+	float: right;
+	margin-top: -80px;
+	width: 180px;
+	border-radius: 10px;
+}
+#footer #footer_content h2 {
+	text-align: left;
+	color: #FFFFFF;
+}
+#wrapper #footer #footer_content {
+	color: #FFFFFF;
+	text-align: left;
+	margin-left: 29px;
+	margin-top: -7px;
+}
+#wrapper #footer img {
+	float: right;
+	margin-right: 165px;
+	margin-top: -99px;
+
 }
