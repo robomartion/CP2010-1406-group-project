@@ -132,6 +132,12 @@ a:hover, a:active, a:focus {
 	text-align: center;
 	border-radius: 10px;
 }
+
+#VOLUNTEER:hover{
+    color:black;
+    background-color: white;
+}
+
 .Rounded_Rectangle_1 {
   border-width: 3px;
   border-color: rgb(255, 255, 255);
@@ -164,6 +170,13 @@ a:hover, a:active, a:focus {
 	text-align: center;
 	border-radius: 10px;
 }
+
+
+#content #top #BECOME_A_MEMBER:hover{
+    color:black;
+    background-color: white;
+}
+
 #content #top #ARTIST_SIGN-UP {
 	color: #FFFFFF;
 	font-size: 20px;
@@ -178,6 +191,12 @@ a:hover, a:active, a:focus {
 	margin-right: 8px;
 	border-radius: 10px;
 }
+
+#content #top #ARTIST_SIGN-UP:hover{
+    color:black;
+    background-color: white;
+}
+
 #content #top #BUY_TICKETS {
 	color: #FFFFFF;
 	font-size: 20px;
@@ -192,6 +211,12 @@ a:hover, a:active, a:focus {
 	width: 180px;
 	border-radius: 10px;
 }
+
+#content #top #BUY_TICKETS:hover{
+    color:black;
+    background-color: white;
+}
+
 #footer #footer_content h2 {
 	text-align: left;
 	color: #FFFFFF;
