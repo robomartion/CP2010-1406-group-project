@@ -1,4 +1,9 @@
 @charset "utf-8";
+@font-face {
+    font-family: centuryGothic;
+    src: url(GOTHICB.ttf);
+}
+
 /* CSS Document */
 body {
 	margin-top: 0px;
@@ -6,7 +11,8 @@ body {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	color: #151515;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-family: centuryGothic;
+/*	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
 	background-color: #EFF5F8;
 	overflow-y: scroll;
     position: absolute;
@@ -164,9 +170,10 @@ a:hover, a:active, a:focus {
 	margin-top: -138px;
 	float: right;
 	margin-right: 202px;
-	padding-bottom: 25px;
-	padding-top: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	width: 180px;
+    height: 55px;
 	text-align: center;
 	border-radius: 10px;
 }
