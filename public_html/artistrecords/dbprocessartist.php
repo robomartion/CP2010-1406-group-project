@@ -65,7 +65,7 @@ else if ($_REQUEST['submit'] == "Update Entry")
 {
 	include("upload.php");
 	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "UPDATE artist SET artist = '$_REQUEST[artist]', image = '$imageName', details = '$_REQUEST[details]' zWHERE id = '$_REQUEST[id]'";
+	$sql = "UPDATE artist SET artist = '$_REQUEST[artist]', image = '$imageName', details = '$_REQUEST[details]' WHERE id = '$_REQUEST[id]'";
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
 		echo "Updated $_REQUEST[artist]";
@@ -110,6 +110,6 @@ foreach ($dbh->query($sql) as $row)
 $dbh = null;
 
 ?>
-<p><a href="details.php">Return to database test page</a></p>
+<p><a href="artists.php">Add another artist</a></p>
 </body>
 </html>

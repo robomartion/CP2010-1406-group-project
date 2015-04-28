@@ -22,6 +22,7 @@ include("dbconnect.php")
 
 <body>
 <h1>Artist Database</h1>
+<h2><a href='displayartists.php'>View artists</a><h2>
 
 <form id="insert" name="insert" method="post" action="dbprocessartist.php" enctype="multipart/form-data">
 <fieldset class="subtleSet">

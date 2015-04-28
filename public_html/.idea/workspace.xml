@@ -28,8 +28,8 @@
       <file leaf-file-name="artists.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artistrecords/artists.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1568627" vertical-offset="621" max-vertical-offset="1564">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            <state vertical-scroll-proportion="-20.884615" vertical-offset="698" max-vertical-offset="1564">
+              <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
               <folding>
                 <marker date="1430188664000" expanded="true" signature="1590:1610" placeholder="SELECT * FRO..artist..." />
                 <marker date="1430188664000" expanded="true" signature="1784:2131" placeholder="..." />
@@ -51,44 +51,66 @@
       <file leaf-file-name="details.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artistrecords/details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="782">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="799">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
-                <marker date="1430189960000" expanded="true" signature="544:564" placeholder="SELECT * FRO..artist..." />
-                <marker date="1430189960000" expanded="true" signature="544:564" placeholder="SELECT * FRO..artist..." />
-                <marker date="1430189960000" expanded="true" signature="544:564" placeholder="SELECT * FRO..artist..." />
-                <marker date="1430189960000" expanded="true" signature="544:564" placeholder="SELECT * FRO..artist..." />
-                <marker date="1430189960000" expanded="true" signature="652:672" placeholder="..." />
-                <marker date="1430189960000" expanded="true" signature="652:713" placeholder="..." />
+                <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:666" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:668" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:685" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:685" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="631:686" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211674000" expanded="true" signature="749:769" placeholder="..." />
+                <marker date="1430211674000" expanded="true" signature="749:810" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbprocessartist.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/artistrecords/upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.423077" vertical-offset="0" max-vertical-offset="918">
+              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbprocessartist.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/artistrecords/dbprocessartist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.490196" vertical-offset="638" max-vertical-offset="2040">
-              <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.44470868" vertical-offset="0" max-vertical-offset="2040">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
-                <marker date="1430190816000" expanded="true" signature="423:468" placeholder="DELETE FROM ..." />
-                <marker date="1430190816000" expanded="true" signature="553:610" placeholder="SELECT `arti..." />
-                <marker date="1430190816000" expanded="true" signature="1459:1567" placeholder="INSERT INTO ..." />
-                <marker date="1430190816000" expanded="true" signature="1834:1879" placeholder="DELETE FROM ..." />
-                <marker date="1430190816000" expanded="true" signature="2161:2289" placeholder="UPDATE artis..." />
-                <marker date="1430190816000" expanded="true" signature="2647:2667" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430213376000" expanded="true" signature="423:468" placeholder="DELETE FROM ..." />
+                <marker date="1430213376000" expanded="true" signature="553:610" placeholder="SELECT `arti..." />
+                <marker date="1430213376000" expanded="true" signature="1459:1567" placeholder="INSERT INTO ..." />
+                <marker date="1430213376000" expanded="true" signature="1834:1879" placeholder="DELETE FROM ..." />
+                <marker date="1430213376000" expanded="true" signature="2161:2288" placeholder="UPDATE artis..." />
+                <marker date="1430213376000" expanded="true" signature="2646:2666" placeholder="SELECT * FRO..artist..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="displayartists.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="displayartists.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artistrecords/displayartists.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1510107" vertical-offset="9" max-vertical-offset="850">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="867">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding>
-                <marker date="1430191236000" expanded="true" signature="752:819" placeholder="SELECT * FRO..artist..." />
+                <marker date="1430211028000" expanded="true" signature="752:823" placeholder="SELECT * FRO..artist..." />
               </folding>
             </state>
           </provider>
@@ -100,9 +122,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/artistrecords/artists.php" />
-        <option value="$PROJECT_DIR$/artistrecords/details.php" />
-        <option value="$PROJECT_DIR$/artistrecords/dbprocessartist.php" />
         <option value="$PROJECT_DIR$/artistrecords/displayartists.php" />
+        <option value="$PROJECT_DIR$/artistrecords/details.php" />
+        <option value="$PROJECT_DIR$/artistrecords/upload.php" />
+        <option value="$PROJECT_DIR$/artistrecords/dbprocessartist.php" />
       </list>
     </option>
   </component>
@@ -111,7 +134,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="850" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -138,6 +161,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,11 +196,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -197,6 +221,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
@@ -215,27 +244,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="850" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3665254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -260,47 +289,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artistrecords/dbconnect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="892">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artistrecords/dbprocessartist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.490196" vertical-offset="638" max-vertical-offset="2040">
-          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-          <folding>
-            <marker date="1430190816000" expanded="true" signature="423:468" placeholder="DELETE FROM ..." />
-            <marker date="1430190816000" expanded="true" signature="553:610" placeholder="SELECT `arti..." />
-            <marker date="1430190816000" expanded="true" signature="1459:1567" placeholder="INSERT INTO ..." />
-            <marker date="1430190816000" expanded="true" signature="1834:1879" placeholder="DELETE FROM ..." />
-            <marker date="1430190816000" expanded="true" signature="2161:2289" placeholder="UPDATE artis..." />
-            <marker date="1430190816000" expanded="true" signature="2647:2667" placeholder="SELECT * FRO..artist..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artistrecords/details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="782">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <marker date="1430189960000" expanded="true" signature="544:564" placeholder="SELECT * FRO..artist..." />
-            <marker date="1430189960000" expanded="true" signature="544:564" placeholder="SELECT * FRO..artist..." />
-            <marker date="1430189960000" expanded="true" signature="544:564" placeholder="SELECT * FRO..artist..." />
-            <marker date="1430189960000" expanded="true" signature="544:564" placeholder="SELECT * FRO..artist..." />
-            <marker date="1430189960000" expanded="true" signature="652:672" placeholder="..." />
-            <marker date="1430189960000" expanded="true" signature="652:713" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artistrecords/artists.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1568627" vertical-offset="621" max-vertical-offset="1564">
+        <state vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1564">
           <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <marker date="1430188664000" expanded="true" signature="1590:1610" placeholder="SELECT * FRO..artist..." />
@@ -309,12 +300,141 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/artistrecords/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artistrecords/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="782">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:666" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:668" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:685" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:685" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:686" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="749:769" placeholder="..." />
+            <marker date="1430211674000" expanded="true" signature="749:810" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artistrecords/dbprocessartist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="2040">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <folding>
+            <marker date="1430213376000" expanded="true" signature="423:468" placeholder="DELETE FROM ..." />
+            <marker date="1430213376000" expanded="true" signature="553:610" placeholder="SELECT `arti..." />
+            <marker date="1430213376000" expanded="true" signature="1459:1567" placeholder="INSERT INTO ..." />
+            <marker date="1430213376000" expanded="true" signature="1834:1879" placeholder="DELETE FROM ..." />
+            <marker date="1430213376000" expanded="true" signature="2161:2288" placeholder="UPDATE artis..." />
+            <marker date="1430213376000" expanded="true" signature="2646:2666" placeholder="SELECT * FRO..artist..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/artistrecords/displayartists.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1510107" vertical-offset="9" max-vertical-offset="850">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1430191236000" expanded="true" signature="752:819" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211028000" expanded="true" signature="752:823" placeholder="SELECT * FRO..artist..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artistrecords/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="892">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artistrecords/artists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.884615" vertical-offset="698" max-vertical-offset="1564">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+          <folding>
+            <marker date="1430188664000" expanded="true" signature="1590:1610" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430188664000" expanded="true" signature="1784:2131" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artistrecords/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="799">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:651" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:666" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:667" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:668" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:685" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:685" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="631:686" placeholder="SELECT * FRO..artist..." />
+            <marker date="1430211674000" expanded="true" signature="749:769" placeholder="..." />
+            <marker date="1430211674000" expanded="true" signature="749:810" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artistrecords/displayartists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <marker date="1430211028000" expanded="true" signature="752:823" placeholder="SELECT * FRO..artist..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artistrecords/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.423077" vertical-offset="0" max-vertical-offset="918">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artistrecords/dbprocessartist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44470868" vertical-offset="0" max-vertical-offset="2040">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <marker date="1430213376000" expanded="true" signature="423:468" placeholder="DELETE FROM ..." />
+            <marker date="1430213376000" expanded="true" signature="553:610" placeholder="SELECT `arti..." />
+            <marker date="1430213376000" expanded="true" signature="1459:1567" placeholder="INSERT INTO ..." />
+            <marker date="1430213376000" expanded="true" signature="1834:1879" placeholder="DELETE FROM ..." />
+            <marker date="1430213376000" expanded="true" signature="2161:2288" placeholder="UPDATE artis..." />
+            <marker date="1430213376000" expanded="true" signature="2646:2666" placeholder="SELECT * FRO..artist..." />
           </folding>
         </state>
       </provider>
