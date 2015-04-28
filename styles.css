@@ -210,15 +210,15 @@ a:hover, a:active, a:focus {
 body ul img {
 	top: 207px;
 	position: fixed;
-	width: 310px;
-	height: 190px;
+	width: 340px;
+	height: 155px;
 }
 body p {
 	position: fixed;
 	top: 200px;
 	right: 127px;
 	left: 372px;
-	font-size: x-large;
+	font-size: large;
 }
 image {
 	top: 0px;
@@ -238,7 +238,7 @@ body img {
 	width: 340px;
 	height: 155px;
 	left: 28px;
-	padding-left: 1px;
+	padding-left: 0px;
 }
 #wrapper #body p two {
 	position: fixed;
