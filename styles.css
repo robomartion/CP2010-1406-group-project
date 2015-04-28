@@ -232,3 +232,22 @@ image body {
 body img {
 	position: absolute;
 }
+#wrapper #body #image1 {
+	position: fixed;
+	top: 210px;
+	width: 340px;
+	height: 155px;
+	left: 28px;
+	padding-left: 1px;
+}
+#wrapper #body p two {
+	position: fixed;
+	top: 142px;
+	left: 0px;
+}
+#wrapper #body li {
+	position: fixed;
+	top: 362px;
+	left: 100px;
+	font-size: xx-large;
+}
