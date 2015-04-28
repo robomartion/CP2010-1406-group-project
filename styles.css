@@ -208,11 +208,27 @@ a:hover, a:active, a:focus {
 
 }
 body ul img {
-	top: 196px;
-	position: absolute;
+	top: 207px;
+	position: fixed;
+	width: 310px;
+	height: 190px;
 }
 body p {
-	position: absolute;
-	top: 471px;
+	position: fixed;
+	top: 200px;
 	right: 127px;
+	left: 372px;
+	font-size: x-large;
+}
+image {
+	top: 0px;
+	position: absolute;
+}
+image body {
+	position: absolute;
+	top: 0px;
+	padding-top: 0px;
+}
+body img {
+	position: absolute;
 }
