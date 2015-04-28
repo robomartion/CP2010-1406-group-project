@@ -111,6 +111,7 @@ a:hover, a:active, a:focus {
 	padding-top: 1%;
 	min-width: 1432px;
 	width: 100%;
+	padding-left: 0px;
 }
 #VOLUNTEER {
 	position: static;
@@ -208,16 +209,17 @@ a:hover, a:active, a:focus {
 
 }
 body ul img {
+	float: left;
 	top: 207px;
-	position: fixed;
+	position: relative;
 	width: 340px;
 	height: 155px;
 }
 body p {
-	position: fixed;
-	top: 200px;
-	right: 127px;
-	left: 372px;
+	position: absolute;
+	top: 184px;
+	right: 0px;
+	left: 375px;
 	font-size: large;
 }
 image {
@@ -233,12 +235,13 @@ body img {
 	position: absolute;
 }
 #wrapper #body #image1 {
-	position: fixed;
-	top: 210px;
+	position: relative;
+	top: 204px;
 	width: 340px;
 	height: 155px;
 	left: 28px;
 	padding-left: 0px;
+	float: left;
 }
 #wrapper #body p two {
 	position: fixed;
