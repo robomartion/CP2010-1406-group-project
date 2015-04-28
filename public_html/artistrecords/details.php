@@ -19,10 +19,11 @@
 </head>
 
 <body>
-<h1><?php $sql = "SELECT * FROM artist";
-    foreach ($dbh->query($sql) as $row) {
-        echo "$row[artist]";
-    }
+<h1>
+    <?php
+    $sql = "SELECT * FROM artist";
+    foreach ($dbh->query($sql) as $row);
+    echo "$row[artist]";
     ?>
 </h1>
 <table>

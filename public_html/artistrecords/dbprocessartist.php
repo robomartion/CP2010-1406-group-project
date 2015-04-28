@@ -66,7 +66,6 @@ else if ($_REQUEST['submit'] == "Update Entry")
 	include("upload.php");
 	$imageName = basename($_FILES["fileToUpload"]["name"]);
 	$sql = "UPDATE artist SET artist = '$_REQUEST[artist]', image = '$imageName', details = '$_REQUEST[details]' zWHERE id = '$_REQUEST[id]'";
-
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
 		echo "Updated $_REQUEST[artist]";

@@ -69,7 +69,7 @@ foreach ($dbh->query($sql) as $row)
 	echo "<tr><td><input type='text' name='artist' value='$row[artist]'></td>
    <td><input type='text' name='details' id='details' value='$row[details]'></td>
    <td><input action='upload.php' method='post' enctype='multipart/form-data' type='file' name='fileToUpload' id='fileToUpload'></td>
-    <td><img src= 'uploads/$row[image]' width=50px></td></table>\n";
+    <td><img src= 'uploads/$row[image]' width=100px></td></table>\n";
 
     echo "<input type='hidden' name='id' value='$row[id]'/>\n";
 
