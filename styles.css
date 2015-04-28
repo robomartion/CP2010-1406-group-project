@@ -37,6 +37,7 @@ body {
 	position: relative;
 	padding-top: 2px;
 	padding-bottom: 2px;
+	margin-top: 0px;
 }
 #footer {
 	clear: both;
@@ -205,4 +206,13 @@ a:hover, a:active, a:focus {
 	margin-right: 165px;
 	margin-top: -99px;
 
+}
+body ul img {
+	top: 196px;
+	position: absolute;
+}
+body p {
+	position: absolute;
+	top: 471px;
+	right: 127px;
 }
