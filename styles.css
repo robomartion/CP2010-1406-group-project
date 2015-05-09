@@ -11,54 +11,43 @@ body {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	color: #151515;
-    font-family: centuryGothic;
-/*	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
+	font-family: "Minion Pro";
+	/*	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
 	background-color: #EFF5F8;
-	overflow-y: scroll;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
 }
 
 #wrapper {
-	background-color: #FFFFFF;
-	background-image: url("spike.jpg");
-	background-repeat: no-repeat;
 	width: 100%;
-	min-width: 1432px;
+	min-width: 1700px;
 	min-height: 100%;
 	max-width: 1002px;
 	margin-left: auto;
 	margin-right: auto;
-	border-right-width: thin;
-	border-right-style: solid;
-	border-left-width: thin;
-	border-left-style: solid;
-	border-top: thin solid #000000;
-	max-height: 1400px;
+	max-height: 1300px;
 	position: relative;
-	padding-top: 2px;
-	padding-bottom: 2px;
 	margin-top: 0px;
+	border-color: #000000;
+	border-width: medium;
 }
 #footer {
-	clear: both;
 	background-color: #000000;
-	border-top: thin solid #000000;
-	border-bottom: thin solid #000000;
-	clear: both;
 	position: relative;
-	z-index: 10;
-	height: 178px;
+	height: 180px;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	padding-top: 2px;
+	font-family: "Minion Pro";
+	border-width: medium;
+	border-style: solid;
+	font-style: italic;
 }
 a {
 	font-weight: bold;
@@ -81,35 +70,31 @@ a:hover, a:active, a:focus {
 #mainnav ul {
 	list-style-type: none;
 	padding-left: 33px;
-	border: thin solid #000000;
-	margin-top: 118px;
-	margin-left: 438px;
+	margin-top: 57px;
+	margin-left: 318px;
+	font-style: italic;
 }
 #mainnav a:hover  , #mainnav a:active, #mainnav a:focus, #mainnav a.thispage{
-	background-color: #AEB193;
-	color: #000000;
+	color: #FFFFFF;
 	border-radius: 0em;
 	display: block;
+	text-decoration: underline;
 }
 
 #mainnav a {
 	float: left;
 	text-align: center;
-	background-color: #000000;
-	border-bottom: thin solid #000000;
 	color: #FFFFFF;
 	display: block;
 	padding-left: 21px;
 	padding-right: 21px;
-	font-size: 30px;
+	font-size: 45px;
 	padding-bottom: 16px;
 	padding-top: 16px;
 }
 
 #wrapper #content #top {
-	background-color: rgb(0, 0, 0);
 	position: absolute;
-	left: 0px;
 	top: 0px;
 	width: 0px;
 	height: 190px;
@@ -118,9 +103,17 @@ a:hover, a:active, a:focus {
 	min-width: 1432px;
 	width: 100%;
 	padding-left: 0px;
+	font-family: "Minion Pro";
+	background-image: url(1068470_34673790.jpeg);
+	background-repeat: no-repeat;
+	background-size: 2000px 1000px;
+	background-position: 52% 46%;
+	max-height: 100%;
+	border-width: medium;
+	border-style: solid;
+	font-style: italic;
 }
-#VOLUNTEER {
-	position: static;
+#BUY_TICKETS {
 	left: 0px;
 	top: 0px;
 	z-index: 52;
@@ -128,98 +121,85 @@ a:hover, a:active, a:focus {
 	display: block;
 	right: 94px;
 	float: right;
-	font-size: 20px;
 	border: medium solid #FFFFFF;
-	margin-top: -138px;
-	margin-right: 8px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	width: 180px;
+	margin-top: -48px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 250px;
 	text-align: center;
 	border-radius: 10px;
+	margin-right: 29px;
+	font-size: xx-large;
 }
-
-#VOLUNTEER:hover{
-    color:black;
-    background-color: white;
-}
-
-.Rounded_Rectangle_1 {
-  border-width: 3px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  border-radius: 5px;
-  position: absolute;
-  left: 1314px;
-  top: 30px;
-  width: 211px;
-  height: 47px;
-  z-index: 50;
+#BUY_TICKETS:hover{
+	color: black;
+	background-color: white;
+	font-style: italic;
+	font-size: xx-large;
 }
 
 #content #top img {
 	float: left;
-	margin-left: 40px;
-	margin-top: 28px;
+	margin-left: 8px;
+	margin-top: -9px;
 }
-#content #top #BECOME_A_MEMBER {
+#content #top #PLAY_FOR_US {
 	color: #FFFFFF;
-	font-size: 20px;
 	border-color: #FFFFFF;
 	border-style: solid;
-	margin-top: -138px;
+	margin-top: -48px;
 	float: right;
-	margin-right: 202px;
+	margin-right: 20px;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	width: 180px;
-    height: 55px;
+	width: 250px;
 	text-align: center;
 	border-radius: 10px;
+	font-size: xx-large;
 }
-
-
-#content #top #BECOME_A_MEMBER:hover{
+#content #top #PLAY_FOR_US:hover{
     color:black;
     background-color: white;
 }
 
 #content #top #ARTIST_SIGN-UP {
 	color: #FFFFFF;
-	font-size: 20px;
-	width: 180px;
+	width: 250px;
 	border-style: solid;
 	border-color: #FFFFFF;
 	float: right;
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	margin-top: -45px;
-	margin-right: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 36px;
+	margin-right: -539px;
 	border-radius: 10px;
+	position: relative;
+	font-size: xx-large;
 }
 
 #content #top #ARTIST_SIGN-UP:hover{
     color:black;
     background-color: white;
 }
-
-#content #top #BUY_TICKETS {
+#content #top #BECOME_A_VOLUNTEER {
 	color: #FFFFFF;
-	font-size: 20px;
 	border-style: solid;
 	border-color: #FFFFFF;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	margin-right: 202px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: -258px;
 	text-align: center;
 	float: right;
-	margin-top: -80px;
-	width: 180px;
+	margin-top: 37px;
+	width: 250px;
 	border-radius: 10px;
+	position: relative;
+	font-size: xx-large;
+	padding-right: 0px;
+	padding-left: 0px;
 }
-
-#content #top #BUY_TICKETS:hover{
+#content #top #BECOME_A_VOLUNTEER:hover{
     color:black;
     background-color: white;
 }
@@ -227,25 +207,14 @@ a:hover, a:active, a:focus {
 #footer #footer_content h2 {
 	text-align: left;
 	color: #FFFFFF;
+	font-style: italic;
 }
-#wrapper #footer #footer_content {
+#wrapper #footer #footer_content1 {
 	color: #FFFFFF;
 	text-align: left;
-	margin-left: 29px;
-	margin-top: -7px;
-}
-#wrapper #footer img {
-	float: right;
-	margin-right: 165px;
-	margin-top: -99px;
-
-}
-body ul img {
-	float: left;
-	top: 207px;
-	position: relative;
-	width: 340px;
-	height: 155px;
+	font-style: italic;
+	margin-top: -12px;
+	margin-left: 16px;
 }
 body p {
 	position: absolute;
@@ -262,9 +231,6 @@ image body {
 	position: absolute;
 	top: 0px;
 	padding-top: 0px;
-}
-body img {
-	position: absolute;
 }
 #wrapper #body #image1 {
 	position: relative;
@@ -285,4 +251,56 @@ body img {
 	top: 362px;
 	left: 100px;
 	font-size: xx-large;
+}
+#wrapper #footer #footer_content_links1 {
+	color: #FFFFFF;
+	font-size: xx-large;
+	font-style: italic;
+	text-align: left;
+	margin-left: 697px;
+}
+#wrapper #footer #footer_content_links2 {
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: large;
+	text-align: left;
+	margin-left: 812px;
+	margin-top: -115px;
+}
+#wrapper #footer #sponsors {
+	color: #FFFFFF;
+	font-style: italic;
+	text-align: right;
+	position: relative;
+	left: 1287px;
+	bottom: 154px;
+}
+#wrapper #footer #sponsor1 {
+	margin-right: -372px;
+	margin-left: 262px;
+	margin-top: 28px;
+
+
+}
+#wrapper #footer #sponsor2 {
+	margin-left: 280px;
+	margin-right: -609px;
+	margin-top: -6px;
+
+}
+#wrapper #footer #sponsor3 {
+	margin-left: 247px;
+	margin-right: -882px;
+	margin-top: 40px;
+
+
+}
+#wrapper #footer #sponsor0 {
+	margin-top: -154px;
+	margin-left: 464px;
+
+
+}
+#wrapper #footer #footer_content2 {
+	margin-top: 22px;
 }
