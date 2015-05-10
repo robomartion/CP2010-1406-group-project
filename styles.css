@@ -12,8 +12,6 @@ body {
 	margin-left: 0px;
 	color: #151515;
 	font-family: "Minion Pro";
-	/*	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
-	background-color: #EFF5F8;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -21,6 +19,9 @@ body {
 	right: 0;
 	padding: 0;
 	margin: 0;
+	background-repeat: no-repeat;
+	background-image: url(911253_46265354.jpeg);
+	background-size: 2000px 1000px;
 }
 
 #wrapper {
@@ -32,7 +33,6 @@ body {
 	margin-right: auto;
 	max-height: 1300px;
 	position: relative;
-	margin-top: 0px;
 	border-color: #000000;
 	border-width: medium;
 }
@@ -42,10 +42,10 @@ body {
 	height: 180px;
 	position: absolute;
 	bottom: 0;
-	width: 100%;
+	width: 99.5%;
 	text-align: center;
 	font-family: "Minion Pro";
-	border-width: medium;
+	border-width: 4.95px;
 	border-style: solid;
 	font-style: italic;
 }
@@ -100,8 +100,7 @@ a:hover, a:active, a:focus {
 	height: 190px;
 	z-index: 4;
 	padding-top: 1%;
-	min-width: 1432px;
-	width: 100%;
+	width: 99.5%;
 	padding-left: 0px;
 	font-family: "Minion Pro";
 	background-image: url(1068470_34673790.jpeg);
@@ -109,7 +108,7 @@ a:hover, a:active, a:focus {
 	background-size: 2000px 1000px;
 	background-position: 52% 46%;
 	max-height: 100%;
-	border-width: medium;
+	border-width: 4.95px;
 	border-style: solid;
 	font-style: italic;
 }
@@ -125,7 +124,7 @@ a:hover, a:active, a:focus {
 	margin-top: -48px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width: 250px;
+	width: 300px;
 	text-align: center;
 	border-radius: 10px;
 	margin-right: 29px;
@@ -152,7 +151,7 @@ a:hover, a:active, a:focus {
 	margin-right: 20px;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	width: 250px;
+	width: 300px;
 	text-align: center;
 	border-radius: 10px;
 	font-size: xx-large;
@@ -164,7 +163,7 @@ a:hover, a:active, a:focus {
 
 #content #top #ARTIST_SIGN-UP {
 	color: #FFFFFF;
-	width: 250px;
+	width: 300px;
 	border-style: solid;
 	border-color: #FFFFFF;
 	float: right;
@@ -172,7 +171,7 @@ a:hover, a:active, a:focus {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-top: 36px;
-	margin-right: -539px;
+	margin-right: -632px;
 	border-radius: 10px;
 	position: relative;
 	font-size: xx-large;
@@ -188,11 +187,11 @@ a:hover, a:active, a:focus {
 	border-color: #FFFFFF;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-right: -258px;
+	margin-right: -308px;
 	text-align: center;
 	float: right;
 	margin-top: 37px;
-	width: 250px;
+	width: 300px;
 	border-radius: 10px;
 	position: relative;
 	font-size: xx-large;
@@ -303,4 +302,74 @@ image body {
 }
 #wrapper #footer #footer_content2 {
 	margin-top: 22px;
+}
+#wrapper body1 {
+	font-family: "Minion Pro";
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 60px;
+	position: fixed;
+	margin-top: -399px;
+}
+#wrapper #body1 #welcome {
+	font-family: "Minion Pro";
+	font-style: italic;
+	color: #FFFFFF;
+	text-align: left;
+	padding-top: 0px;
+}
+#wrapper #welcome_img {
+	padding-top: 215px;
+	opacity: 0.65;
+}
+#body1 #welcome #BECOME_A_VOLUNTEER_1 {
+	width: 300px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-left: 66px;
+	text-align: center;
+	margin-bottom: -69px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#body1 #welcome #BECOME_A_VOLUNTEER_1:hover  {
+	width: 300px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-left: 66px;
+	text-align: center;
+	margin-bottom: -69px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+#body1 #welcome #PLAY_FOR_US_1 {
+	width: 300px;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 467px;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#body1 #welcome #PLAY_FOR_US_1:hover  {
+	width: 300px;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 467px;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
 }
