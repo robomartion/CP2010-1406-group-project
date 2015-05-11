@@ -20,8 +20,8 @@ body {
 	padding: 0;
 	margin: 0;
 	background-repeat: no-repeat;
-	background-image: url(911253_46265354.jpeg);
-	background-size: 2000px 1000px;
+	background-image: url(pictures/911253_46265354.jpeg);
+	background-size: 2600px 1600px;
 }
 
 #wrapper {
@@ -31,7 +31,7 @@ body {
 	max-width: 1002px;
 	margin-left: auto;
 	margin-right: auto;
-	max-height: 1300px;
+	max-height: 1400px;
 	position: relative;
 	border-color: #000000;
 	border-width: medium;
@@ -40,14 +40,15 @@ body {
 	background-color: #000000;
 	position: relative;
 	height: 180px;
-	position: absolute;
-	bottom: 0;
+	position: static;
 	width: 99.5%;
 	text-align: center;
 	font-family: "Minion Pro";
-	border-width: 4.95px;
-	border-style: solid;
+	border: 4.95px solid #000000;
 	font-style: italic;
+	top: 147px;
+	float: left;
+	margin-top: -6px;
 }
 a {
 	font-weight: bold;
@@ -103,13 +104,12 @@ a:hover, a:active, a:focus {
 	width: 99.5%;
 	padding-left: 0px;
 	font-family: "Minion Pro";
-	background-image: url(1068470_34673790.jpeg);
+	background-image: url(pictures/1068470_34673790.jpeg);
 	background-repeat: no-repeat;
 	background-size: 2000px 1000px;
 	background-position: 52% 46%;
 	max-height: 100%;
-	border-width: 4.95px;
-	border-style: solid;
+	border: 4.95px solid #000000;
 	font-style: italic;
 }
 #BUY_TICKETS {
@@ -135,6 +135,7 @@ a:hover, a:active, a:focus {
 	background-color: white;
 	font-style: italic;
 	font-size: xx-large;
+	border-color: #000000;
 }
 
 #content #top img {
@@ -157,8 +158,9 @@ a:hover, a:active, a:focus {
 	font-size: xx-large;
 }
 #content #top #PLAY_FOR_US:hover{
-    color:black;
-    background-color: white;
+	color: black;
+	background-color: white;
+	border-color: #000000;
 }
 
 #content #top #ARTIST_SIGN-UP {
@@ -178,8 +180,9 @@ a:hover, a:active, a:focus {
 }
 
 #content #top #ARTIST_SIGN-UP:hover{
-    color:black;
-    background-color: white;
+	color: black;
+	background-color: white;
+	border-color: #000000;
 }
 #content #top #BECOME_A_VOLUNTEER {
 	color: #FFFFFF;
@@ -199,8 +202,9 @@ a:hover, a:active, a:focus {
 	padding-left: 0px;
 }
 #content #top #BECOME_A_VOLUNTEER:hover{
-    color:black;
-    background-color: white;
+	color: black;
+	background-color: white;
+	border-color: #000000;
 }
 
 #footer #footer_content h2 {
@@ -251,73 +255,21 @@ image body {
 	left: 100px;
 	font-size: xx-large;
 }
-#wrapper #footer #footer_content_links1 {
-	color: #FFFFFF;
-	font-size: xx-large;
-	font-style: italic;
-	text-align: left;
-	margin-left: 697px;
-}
-#wrapper #footer #footer_content_links2 {
-	color: #FFFFFF;
-	font-style: italic;
-	font-size: large;
-	text-align: left;
-	margin-left: 812px;
-	margin-top: -115px;
-}
-#wrapper #footer #sponsors {
-	color: #FFFFFF;
-	font-style: italic;
-	text-align: right;
-	position: relative;
-	left: 1287px;
-	bottom: 154px;
-}
-#wrapper #footer #sponsor1 {
-	margin-right: -372px;
-	margin-left: 262px;
-	margin-top: 28px;
-
-
-}
-#wrapper #footer #sponsor2 {
-	margin-left: 280px;
-	margin-right: -609px;
-	margin-top: -6px;
-
-}
-#wrapper #footer #sponsor3 {
-	margin-left: 247px;
-	margin-right: -882px;
-	margin-top: 40px;
-
-
-}
-#wrapper #footer #sponsor0 {
-	margin-top: -154px;
-	margin-left: 464px;
-
-
-}
-#wrapper #footer #footer_content2 {
-	margin-top: 22px;
-}
 #wrapper body1 {
 	font-family: "Minion Pro";
 	font-style: italic;
 	color: #FFFFFF;
 	font-size: xx-large;
-	margin-left: 60px;
-	position: fixed;
-	margin-top: -399px;
+	margin-left: 54px;
+	position: relative;
+	margin-top: -388px;
+	float: left;
 }
 #wrapper #body1 #welcome {
 	font-family: "Minion Pro";
 	font-style: italic;
 	color: #FFFFFF;
 	text-align: left;
-	padding-top: 0px;
 }
 #wrapper #welcome_img {
 	padding-top: 215px;
@@ -328,26 +280,12 @@ image body {
 	border-style: solid;
 	border-color: #FFFFFF;
 	border-radius: 10px;
-	margin-top: 15px;
+	margin-top: 7px;
 	margin-left: 66px;
 	text-align: center;
 	margin-bottom: -69px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-}
-#body1 #welcome #BECOME_A_VOLUNTEER_1:hover  {
-	width: 300px;
-	border-style: solid;
-	border-color: #FFFFFF;
-	border-radius: 10px;
-	margin-top: 15px;
-	margin-left: 66px;
-	text-align: center;
-	margin-bottom: -69px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	color: #000000;
-	background-color: #FFFFFF;
 }
 #body1 #welcome #PLAY_FOR_US_1 {
 	width: 300px;
@@ -360,9 +298,23 @@ image body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+#body1 #welcome #BECOME_A_VOLUNTEER_1:hover  {
+	width: 300px;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 10px;
+	margin-top: 7px;
+	margin-left: 66px;
+	text-align: center;
+	margin-bottom: -69px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
 #body1 #welcome #PLAY_FOR_US_1:hover  {
 	width: 300px;
-	border-color: #FFFFFF;
+	border-color: #000000;
 	border-style: solid;
 	border-radius: 10px;
 	margin-left: 467px;
@@ -372,4 +324,270 @@ image body {
 	padding-bottom: 10px;
 	color: #000000;
 	background-color: #FFFFFF;
+}
+#body1 #welcome #body1_bottom_text {
+	margin-top: 11px;
+}
+#body1 #welcome #body1_top_text {
+	margin-top: -15px;
+}
+#wrapper #body2 #body2_background_img {
+	margin-left: 1019px;
+	margin-top: -356px;
+}
+#wrapper #body2 {
+	color: #000000;
+	font-size: large;
+	font-style: italic;
+	padding-top: 0px;
+	float: left;
+
+
+
+}
+#wrapper #body2 #body2_text1 {
+	margin-top: -366px;
+	color: #FFFFFF;
+	font-style: italic;
+	text-align: right;
+	margin-right: 32px;
+	font-size: large;
+
+}
+#wrapper #body2 #body2_text1_2 {
+	color: #FFFFFF;
+	font-style: italic;
+	margin-left: 1620px;
+	font-size: large;
+	margin-top: -42px;
+}
+#wrapper #body2 #body2_text2 {
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: large;
+	margin-top: 234px;
+	text-align: right;
+	margin-right: 29px;
+}
+#wrapper #body2 #part3 {
+	z-index: 1;
+	float: left;
+	margin-top: 14px;
+
+
+
+}
+#wrapper #body2 #part3 #body2_background_img1 {
+	opacity: 0.45;
+
+}
+#wrapper #body2 #part3 #body2_third_text1 {
+	color: #000000;
+	font-style: italic;
+	font-size: x-large;
+	margin-top: -233px;
+	z-index: 2;
+	margin-left: 50px;
+}
+#wrapper #body3 {
+	position: static;
+	margin-top: -312px;
+	float: left;
+	margin-left: 57px;
+	color: #000000;
+	font-style: italic;
+	font-family: "Minion Pro";
+	font-size: large;
+
+
+
+}
+#wrapper #body3_background {
+	position: static;
+	float: left;
+	margin-top: -5px;
+	opacity: 0.4;
+
+}
+#wrapper #body3 #welcome {
+	position: relative;
+	color: #000000;
+	font-family: "Minion Pro";
+	font-style: italic;
+	font-size: large;
+}
+#body3 #welcome #event1 {
+}
+#body3 #welcome #event1_text {
+	color: #000000;
+	font-style: italic;
+	font-family: "Minion Pro";
+	margin-top: -186px;
+	margin-left: 218px;
+}
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_1 {
+	width: 150px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 219px;
+	text-align: center;
+	margin-top: 21px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: italic;
+	font-family: "Minion Pro";
+	font-size: x-large;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_1:hover  {
+	width: 150px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 219px;
+	text-align: center;
+	margin-top: 21px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: italic;
+	font-family: "Minion Pro";
+	font-size: x-large;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFFFFF;
+}
+#body3 #welcome #event2 {
+	margin-left: 561px;
+	margin-top: -162px;
+}
+#body3 #welcome #event2_text {
+	margin-top: -184px;
+	margin-left: 779px;
+}
+
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_2 {
+	width: 150px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 778px;
+	text-align: center;
+	margin-top: 21px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: italic;
+	font-family: "Minion Pro";
+	font-size: x-large;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_3 {
+	width: 150px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 1374px;
+	text-align: center;
+	margin-top: 21px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: italic;
+	font-family: "Minion Pro";
+	font-size: x-large;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_3:hover  {
+	width: 150px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 1374px;
+	text-align: center;
+	margin-top: 21px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: italic;
+	font-family: "Minion Pro";
+	font-size: x-large;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFFFFF;
+}
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_2:hover  {
+	width: 150px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 10px;
+	margin-left: 778px;
+	text-align: center;
+	margin-top: 21px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: italic;
+	font-family: "Minion Pro";
+	font-size: x-large;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFFFFF;
+}
+#body3 #welcome #event3 {
+	margin-left: 1156px;
+	margin-top: -166px;
+}
+#body3 #welcome #event3_text {
+	margin-left: 1375px;
+	margin-top: -182px;
+}
+#wrapper #footer #contact {
+	color: #FFFFFF;
+	text-align: left;
+	margin-top: -5px;
+	margin-left: 15px;
+}
+#contact strong h2 {
+	margin-top: 19px;
+	margin-bottom: 4px;
+}
+#footer #contact #fblogo {
+	padding-top: 0px;
+	margin-top: -127px;
+	margin-left: 464px;
+}
+#footer #contact #links1 {
+	margin-left: 720px;
+	margin-top: -60px;
+	font-style: italic;
+	font-family: "Minion Pro";
+	font-size: xx-large;
+}
+#footer #contact #links2 {
+	font-family: "Minion Pro";
+	font-style: italic;
+	margin-left: 843px;
+	margin-top: -94px;
+}
+#wrapper #footer #sponsors {
+	margin-top: -142px;
+	color: #FFFFFF;
+	font-family: "Minion Pro";
+	font-style: italic;
+	text-align: right;
+	margin-right: 27px;
+	margin-left: 616px;
+}
+#footer #sponsors #sponsor1 {
+	margin-right: 377px;
+	margin-top: 22px;
+}
+#footer #sponsors #sponsor2 {
+	margin-right: 191px;
+	margin-top: -93px;
+
+}
+#footer #sponsors #sponsor3 {
+	margin-top: -87px;
+	margin-right: 9px;
 }
