@@ -279,7 +279,7 @@ image body {
 }
 #wrapper #body1 #welcome {
 	font-family: "Minion Pro";
-	font-style: italic;
+	font-style: normal;
 	color: #FFFFFF;
 	text-align: left;
 }
@@ -318,7 +318,7 @@ image body {
 }
 #body1 #welcome #PLAY_FOR_US_1 {
 	width: 300px;
-	border-color: #FFFFFF;
+	border-color: #32F26C;
 	border-style: solid;
 	border-radius: 10px;
 	margin-left: 467px;
@@ -326,6 +326,7 @@ image body {
 	margin-top: 5px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	color: #32F26C;
 }
 #body1 #welcome #BECOME_A_VOLUNTEER_1:hover  {
 	width: 300px;
@@ -343,7 +344,7 @@ image body {
 }
 #body1 #welcome #PLAY_FOR_US_1:hover  {
 	width: 300px;
-	border-color: #000000;
+	border-color: #32F26C;
 	border-style: solid;
 	border-radius: 10px;
 	margin-left: 467px;
@@ -352,7 +353,7 @@ image body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #000000;
-	background-color: #FFFFFF;
+	background-color: #32F26C;
 }
 #body1 #welcome #body1_bottom_text {
 	margin-top: 11px;
