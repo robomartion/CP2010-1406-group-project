@@ -11,7 +11,7 @@ body {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	color: #151515;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: "Minion Pro";
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -19,6 +19,7 @@ body {
 	right: 0;
 	padding: 0;
 	margin: 0;
+	background-repeat: no-repeat;
 	background-image: url(pictures/911253_46265354.jpeg);
 	background-size: 2600px 1600px;
 }
@@ -34,7 +35,6 @@ body {
 	position: relative;
 	border-color: #000000;
 	border-width: medium;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #footer {
 	background-color: #000000;
@@ -43,14 +43,16 @@ body {
 	position: static;
 	width: 99.5%;
 	text-align: center;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: "Minion Pro";
+	border: 4.95px solid #000000;
+	font-style: italic;
 	top: 147px;
 	float: left;
 	margin-top: -6px;
 }
 a {
+	font-weight: bold;
 	text-decoration: none;
-	color: #FFFFFF;
 }
 a:link {
 	border-top-left-radius: 0px;
@@ -67,8 +69,10 @@ a:hover, a:active, a:focus {
 	padding-left: 33px;
 	margin-top: 57px;
 	margin-left: 318px;
+	font-style: italic;
 }
 #mainnav a:hover  , #mainnav a:active, #mainnav a:focus, #mainnav a.thispage{
+	color: #FFFFFF;
 	border-radius: 0em;
 	display: block;
 	text-decoration: underline;
@@ -77,20 +81,20 @@ a:hover, a:active, a:focus {
 #mainnav a {
 	float: left;
 	text-align: center;
+	color: #FFFFFF;
 	display: block;
 	padding-left: 21px;
 	padding-right: 21px;
-	font-size: 25px;
+	font-size: 45px;
 	padding-bottom: 16px;
 	padding-top: 16px;
-	color: #FFFFFF;
 }
 
 #wrapper #content #top {
 	position: absolute;
 	top: 0px;
 	width: 0px;
-	height: 130px;
+	height: 190px;
 	z-index: 4;
 	padding-top: 1%;
 	width: 99.5%;
@@ -98,39 +102,42 @@ a:hover, a:active, a:focus {
 	font-family: "Minion Pro";
 	background-image: url(pictures/1068470_34673790.jpeg);
 	background-repeat: no-repeat;
-	background-size: 3900px 2000px;
-	background-position: 13% 61%;
+	background-size: 2000px 1000px;
+	background-position: 52% 46%;
 	max-height: 100%;
-	font-style: normal;
+	border: 4.95px solid #000000;
+	font-style: italic;
 }
 #BUY_TICKETS {
 	left: 0px;
 	top: 0px;
+	z-index: 52;
 	color: #FFFFFF;
 	display: block;
 	right: 94px;
 	float: right;
 	border: medium solid #FFFFFF;
 	margin-top: -48px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 300px;
 	text-align: center;
 	border-radius: 10px;
 	margin-right: 29px;
+	font-size: xx-large;
 }
 #BUY_TICKETS:hover{
-	color: #FFFFFF;
-	background-color: #000000;
+	color: black;
+	background-color: white;
+	font-style: italic;
+	font-size: xx-large;
 	border-color: #000000;
 }
 
 #content #top img {
-	margin-left: 19px;
-	margin-top: -6px;
-
-
-
+	float: left;
+	margin-left: 8px;
+	margin-top: -9px;
 }
 #content #top #PLAY_FOR_US {
 	color: #FFFFFF;
@@ -138,54 +145,61 @@ a:hover, a:active, a:focus {
 	border-style: solid;
 	margin-top: -48px;
 	float: right;
-	margin-right: 290px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	width: 250px;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 300px;
 	text-align: center;
 	border-radius: 10px;
+	font-size: xx-large;
 }
 #content #top #PLAY_FOR_US:hover{
-	color: #FFFFFF;
-	background-color: #000000;
+	color: black;
+	background-color: white;
 	border-color: #000000;
 }
-#content #top #BECOME_A_MEMBER {
+
+#content #top #ARTIST_SIGN-UP {
 	color: #FFFFFF;
-	width: 250px;
+	width: 300px;
 	border-style: solid;
 	border-color: #FFFFFF;
 	float: right;
 	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-top: 5px;
-	margin-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 36px;
+	margin-right: -632px;
 	border-radius: 10px;
 	position: relative;
+	font-size: xx-large;
 }
-#content #top #BECOME_A_MEMBER:hover{
-	color: #FFFFFF;
-	background-color: #000000;
+
+#content #top #ARTIST_SIGN-UP:hover{
+	color: black;
+	background-color: white;
 	border-color: #000000;
 }
 #content #top #BECOME_A_VOLUNTEER {
 	color: #FFFFFF;
 	border-style: solid;
 	border-color: #FFFFFF;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	margin-right: 6px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: -308px;
 	text-align: center;
 	float: right;
-	margin-top: 5px;
-	width: 250px;
+	margin-top: 37px;
+	width: 300px;
 	border-radius: 10px;
 	position: relative;
+	font-size: xx-large;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 #content #top #BECOME_A_VOLUNTEER:hover{
-	color: #FFFFFF;
-	background-color: #000000;
+	color: black;
+	background-color: white;
 	border-color: #000000;
 }
 
@@ -239,20 +253,12 @@ image body {
 }
 #wrapper body1 {
 	font-family: "Minion Pro";
+	font-style: italic;
 	color: #FFFFFF;
 	font-size: xx-large;
 	margin-left: 54px;
 	position: relative;
-	margin-top: -632px;
-	float: left;
-}
-#wrapper #body1_artists  {
-	font-family: "Minion Pro";
-	color: #FFFFFF;
-	font-size: xx-large;
-	margin-left: 40px;
-	position: relative;
-	margin-top: -408px;
+	margin-top: -385px;
 	float: left;
 }
 #wrapper body1_artists {
@@ -266,10 +272,10 @@ image body {
 	float: left;
 }
 #wrapper #body1 #welcome {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: "Minion Pro";
+	font-style: italic;
 	color: #FFFFFF;
 	text-align: left;
-	margin-left: -25px;
 }
 #wrapper #body1 #welcome1 {
 	font-family: "Minion Pro";
@@ -284,11 +290,11 @@ image body {
 	text-align: left;
 }
 #wrapper #welcome_img {
-	padding-top: 147px;
+	padding-top: 215px;
 	opacity: 0.65;
 }
 #wrapper #artists_background0 {
-	padding-top: 147px;
+	padding-top: 215px;
 	opacity: 0.65;
 }
 #body1 #welcome #BECOME_A_VOLUNTEER_1 {
@@ -296,7 +302,7 @@ image body {
 	border-style: solid;
 	border-color: #FFFFFF;
 	border-radius: 10px;
-	margin-top: 35px;
+	margin-top: 7px;
 	margin-left: 66px;
 	text-align: center;
 	margin-bottom: -69px;
@@ -313,14 +319,13 @@ image body {
 	margin-top: 5px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-bottom: 30px;
 }
 #body1 #welcome #BECOME_A_VOLUNTEER_1:hover  {
 	width: 300px;
 	border-style: solid;
 	border-color: #000000;
 	border-radius: 10px;
-	margin-top: 35px;
+	margin-top: 7px;
 	margin-left: 66px;
 	text-align: center;
 	margin-bottom: -69px;
@@ -341,54 +346,50 @@ image body {
 	padding-bottom: 10px;
 	color: #000000;
 	background-color: #FFFFFF;
-	margin-bottom: 30px;
 }
 #body1 #welcome #body1_bottom_text {
 	margin-top: 11px;
-	text-align: left;
-	font-size: 25px;
 }
 #body1 #welcome #body1_top_text {
 	margin-top: -15px;
-	font-size: 25px;
 }
 #wrapper #body2 #body2_background_img {
 	margin-left: 1019px;
-	margin-top: -605px;
+	margin-top: -356px;
 }
 #wrapper #body2 {
 	color: #000000;
 	font-size: large;
+	font-style: italic;
 	padding-top: 0px;
 	float: left;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 
 
 
 }
 #wrapper #body2 #body2_text1 {
-	margin-top: -608px;
+	margin-top: -366px;
 	color: #FFFFFF;
+	font-style: italic;
 	text-align: right;
 	margin-right: 32px;
 	font-size: large;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 
 }
 #wrapper #body2 #body2_text1_2 {
 	color: #FFFFFF;
-	margin-left: 1598px;
+	font-style: italic;
+	margin-left: 1620px;
 	font-size: large;
 	margin-top: -42px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #body2 #body2_text2 {
 	color: #FFFFFF;
+	font-style: italic;
 	font-size: large;
-	margin-top: 452px;
+	margin-top: 234px;
 	text-align: right;
 	margin-right: 29px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #body2 #part3 {
 	z-index: 1;
@@ -416,7 +417,8 @@ image body {
 	float: left;
 	margin-left: 57px;
 	color: #000000;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-family: "Minion Pro";
 	font-size: large;
 
 
@@ -434,36 +436,22 @@ image body {
 	float: left;
 	margin-top: -330px;
 	opacity: 0.4;
-	margin-left: 28px;
-
-}
-#wrapper #artists_background2 {
-	position: static;
-	float: left;
-	margin-top: -196px;
-	opacity: 0.4;
-	margin-left: 592px;
-
-}
-#wrapper #artists_background3 {
-	position: static;
-	float: left;
-	margin-top: -193px;
-	opacity: 0.4;
-	margin-left: 592px;
+	margin-left: 33px;
 
 }
 #wrapper #body3 #welcome {
 	position: relative;
 	color: #000000;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: "Minion Pro";
+	font-style: italic;
 	font-size: large;
 }
 #body3 #welcome #event1 {
 }
 #body3 #welcome #event1_text {
 	color: #000000;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-family: "Minion Pro";
 	margin-top: -186px;
 	margin-left: 218px;
 }
@@ -477,7 +465,8 @@ image body {
 	margin-top: 21px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-family: "Minion Pro";
 	font-size: x-large;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -492,7 +481,8 @@ image body {
 	margin-top: 21px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-family: "Minion Pro";
 	font-size: x-large;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -500,12 +490,11 @@ image body {
 }
 #body3 #welcome #event2 {
 	margin-left: 561px;
-	margin-top: -170px;
+	margin-top: -162px;
 }
 #body3 #welcome #event2_text {
 	margin-top: -184px;
 	margin-left: 779px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 
 #wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_2 {
@@ -518,7 +507,8 @@ image body {
 	margin-top: 21px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-family: "Minion Pro";
 	font-size: x-large;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -533,7 +523,8 @@ image body {
 	margin-top: 21px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-family: "Minion Pro";
 	font-size: x-large;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -548,7 +539,8 @@ image body {
 	margin-top: 21px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-family: "Minion Pro";
 	font-size: x-large;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -564,7 +556,8 @@ image body {
 	margin-top: 21px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: italic;
+	font-family: "Minion Pro";
 	font-size: x-large;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -572,19 +565,17 @@ image body {
 }
 #body3 #welcome #event3 {
 	margin-left: 1156px;
-	margin-top: -170px;
+	margin-top: -166px;
 }
 #body3 #welcome #event3_text {
 	margin-left: 1375px;
 	margin-top: -182px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #footer #contact {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -5px;
 	margin-left: 15px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #contact strong h2 {
 	margin-top: 19px;
@@ -596,21 +587,23 @@ image body {
 	margin-left: 464px;
 }
 #footer #contact #links1 {
-	margin-left: 694px;
-	margin-top: -92px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	font-size: x-large;
+	margin-left: 720px;
+	margin-top: -60px;
+	font-style: italic;
+	font-family: "Minion Pro";
+	font-size: xx-large;
 }
 #footer #contact #links2 {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	margin-left: 824px;
-	margin-top: -129px;
-	font-size: x-large;
+	font-family: "Minion Pro";
+	font-style: italic;
+	margin-left: 843px;
+	margin-top: -94px;
 }
 #wrapper #footer #sponsors {
-	margin-top: -166px;
+	margin-top: -142px;
 	color: #FFFFFF;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: "Minion Pro";
+	font-style: italic;
 	text-align: right;
 	margin-right: 27px;
 	margin-left: 616px;
@@ -618,7 +611,6 @@ image body {
 #footer #sponsors #sponsor1 {
 	margin-right: 377px;
 	margin-top: 22px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #footer #sponsors #sponsor2 {
 	margin-right: 191px;
@@ -635,45 +627,18 @@ image body {
 	margin-left: 16px;
 }
 #wrapper #body1_artists #artist_name {
-	margin-left: 227px;
+	margin-left: 247px;
+	margin-bottom: -56px;
 	padding-top: 16px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #body1_artists #artist_name #artists_events_text {
-	margin-top: -23px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-top: 70px;
 
 }
 #artist_name #artists_events_text #event1_details {
-	margin-left: 282px;
-	margin-top: -86px;
+	margin-left: 300px;
+	margin-top: -77px;
 }
 #contact #links1 .nav-link {
 	color: #FFFFFF;
-}
-#content #top #mainnav {
-	margin-top: -161px;
-	margin-left: 157px;
-	color: #FFFFFF;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-}
-#content #top #second_nav {
-	margin-top: 95px;
-	font-size: 25px;
-	color: #FFFFFF;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-}
-#content #top #header_transparent_background {
-	opacity: 0.8;
-	margin-top: -22px;
-	margin-bottom: -256px;
-}
-#artist_name #artists_events_text #more_info1 {
-	margin-top: 17px;
-	margin-left: 157px;
-	font-size: 25px;
-}
-#body1 #welcome #welcome_title {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	font-size: 30px;
 }
