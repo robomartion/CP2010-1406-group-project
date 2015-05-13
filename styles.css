@@ -680,8 +680,62 @@ image body {
 }
 .image5 {
 	position: absolute;
-	top: 72px;
-	width: 1693px;
-	height: 1693px;
+	top: 333px;
+	width: 1000px;
+	height: 1000px;
 	opacity: 0.89;
+}
+
+body img {
+	top: 15px;
+}
+.image2 {
+	position: absolute;
+	top: 149px;
+	left: 0px;
+	opacity: 0.73;
+	height: 1764px;
+	background-color: #FCFCFC;
+	width: 1698px;
+}
+.image3 {
+	position: absolute;
+	top: 226px;
+	left: 26px;
+	opacity: 0.49;
+}
+.body_content {
+	position: relative;
+	top: 366px;
+	left: 549px;
+	color: #FFFFFF;
+}
+.image4 {
+	position: absolute;
+	top: 512px;
+	right: 0px;
+	left: 30px;
+	opacity: 1;
+	width: 608px;
+	height: 410px;
+}
+.body_content2 {
+	position: relative;
+	top: 376px;
+	left: 30px;
+	color: #171717;
+}
+.body_content3 {
+}
+.body_conten3 {
+}
+.body_content3 {
+	position: absolute;
+	top: 494px;
+	left: 709px;
+	color: #000000;
+	font-size: large;
+	text-align: justify;
+	right: -24px;
+
 }
