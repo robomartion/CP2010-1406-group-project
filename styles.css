@@ -681,9 +681,9 @@ image body {
 .image5 {
 	position: absolute;
 	top: 333px;
-	width: 1000px;
+	width: 99.5%;
 	height: 1000px;
-	opacity: 0.89;
+	opacity: 0.92;
 }
 
 body img {
@@ -696,7 +696,7 @@ body img {
 	opacity: 0.73;
 	height: 1764px;
 	background-color: #FCFCFC;
-	width: 1698px;
+	width: 99.5%;
 }
 .image3 {
 	position: absolute;
