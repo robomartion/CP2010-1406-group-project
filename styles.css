@@ -39,14 +39,15 @@ body {
 #footer {
 	background-color: #000000;
 	position: static;
-	height: 190px;
+	height: 180px;
 	position: absolute;
 	width: 99.5%;
 	text-align: center;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	margin-top: 338px;
+	top: 1845px;
+	float: left;
+	margin-top: -6px;
 	color: #FCF9F9;
-	margin-left: -2px;
 }
 a {
 	text-decoration: none;
@@ -85,7 +86,8 @@ a:hover, a:active, a:focus {
 	padding-top: 16px;
 	color: #FFFFFF;
 }
-#wrapper #header  {
+
+#wrapper #content #top {
 	position: absolute;
 	top: 0px;
 	width: 0px;
@@ -101,7 +103,6 @@ a:hover, a:active, a:focus {
 	background-position: 13% 61%;
 	max-height: 100%;
 	font-style: normal;
-	margin-top: -146px;
 }
 #BUY_TICKETS {
 	left: 0px;
@@ -124,14 +125,15 @@ a:hover, a:active, a:focus {
 	background-color: #000000;
 	border-color: #000000;
 }
-#header img  {
+
+#content #top img {
 	margin-left: 19px;
 	margin-top: -6px;
 
 
 
 }
-#header #PLAY_FOR_US  {
+#content #top #PLAY_FOR_US {
 	color: #FFFFFF;
 	border-color: #FFFFFF;
 	border-style: solid;
@@ -144,12 +146,12 @@ a:hover, a:active, a:focus {
 	text-align: center;
 	border-radius: 10px;
 }
-#header #PLAY_FOR_US:hover{
+#content #top #PLAY_FOR_US:hover{
 	color: #FFFFFF;
 	background-color: #000000;
 	border-color: #000000;
 }
-#header #BECOME_A_MEMBER  {
+#content #top #BECOME_A_MEMBER {
 	color: #FFFFFF;
 	width: 250px;
 	border-style: solid;
@@ -163,12 +165,12 @@ a:hover, a:active, a:focus {
 	border-radius: 10px;
 	position: relative;
 }
-#header #BECOME_A_MEMBER:hover{
+#content #top #BECOME_A_MEMBER:hover{
 	color: #FFFFFF;
 	background-color: #000000;
 	border-color: #000000;
 }
-#header #BECOME_A_VOLUNTEER  {
+#content #top #BECOME_A_VOLUNTEER {
 	color: #FFFFFF;
 	border-style: solid;
 	border-color: #FFFFFF;
@@ -182,7 +184,7 @@ a:hover, a:active, a:focus {
 	border-radius: 10px;
 	position: relative;
 }
-#header #BECOME_A_VOLUNTEER:hover{
+#content #top #BECOME_A_VOLUNTEER:hover{
 	color: #FFFFFF;
 	background-color: #000000;
 	border-color: #000000;
@@ -269,8 +271,6 @@ image body {
 	color: #FFFFFF;
 	text-align: left;
 	margin-left: -25px;
-	margin-top: -839px;
-	z-index: 1;
 }
 #wrapper #body1 #welcome1 {
 	font-family: "Minion Pro";
@@ -284,14 +284,18 @@ image body {
 	color: #FFFFFF;
 	text-align: left;
 }
+#wrapper #welcome_img {
+	padding-top: 147px;
+	opacity: 0.65;
+}
 #wrapper #artists_background0 {
 	padding-top: 147px;
 	opacity: 0.65;
 }
 #body1 #welcome #BECOME_A_VOLUNTEER_1 {
 	width: 300px;
-	border-color: #FFFFFF;
 	border-style: solid;
+	border-color: #FFFFFF;
 	border-radius: 10px;
 	margin-top: 35px;
 	margin-left: 66px;
@@ -299,8 +303,6 @@ image body {
 	margin-bottom: -69px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-size: 25px;
-	color: #FFFFFF;
 }
 #body1 #welcome #PLAY_FOR_US_1 {
 	width: 300px;
@@ -309,16 +311,15 @@ image body {
 	border-radius: 10px;
 	margin-left: 467px;
 	text-align: center;
-	margin-top: 11px;
+	margin-top: 5px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-bottom: 30px;
-	font-size: 25px;
 }
 #body1 #welcome #BECOME_A_VOLUNTEER_1:hover  {
 	width: 300px;
 	border-style: solid;
-	border-color: #FFFFFF;
+	border-color: #000000;
 	border-radius: 10px;
 	margin-top: 35px;
 	margin-left: 66px;
@@ -326,33 +327,35 @@ image body {
 	margin-bottom: -69px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	color: #000000;
 	background-color: #FFFFFF;
 }
 #body1 #welcome #PLAY_FOR_US_1:hover  {
 	width: 300px;
-	border-color: #FFFFFF;
+	border-color: #000000;
 	border-style: solid;
 	border-radius: 10px;
+	margin-left: 467px;
 	text-align: center;
+	margin-top: 5px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	color: #000000;
 	background-color: #FFFFFF;
-	margin-top: 11px;
 	margin-bottom: 30px;
-	margin-left: 467px;
 }
 #body1 #welcome #body1_bottom_text {
 	margin-top: 11px;
 	text-align: left;
-	font-size: 30px;
+	font-size: 25px;
 }
 #body1 #welcome #body1_top_text {
 	margin-top: -15px;
-	font-size: 30px;
+	font-size: 25px;
 }
 #wrapper #body2 #body2_background_img {
 	margin-left: 1019px;
-	margin-top: -591px;
+	margin-top: -605px;
 }
 #wrapper #body2 {
 	color: #000000;
@@ -360,13 +363,12 @@ image body {
 	padding-top: 0px;
 	float: left;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	margin-top: 29px;
 
 
 
 }
 #wrapper #body2 #body2_text1 {
-	margin-top: -618px;
+	margin-top: -608px;
 	color: #FFFFFF;
 	text-align: right;
 	margin-right: 32px;
@@ -384,7 +386,7 @@ image body {
 #wrapper #body2 #body2_text2 {
 	color: #FFFFFF;
 	font-size: large;
-	margin-top: 462px;
+	margin-top: 452px;
 	text-align: right;
 	margin-right: 29px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -424,9 +426,8 @@ image body {
 #wrapper #body3_background {
 	position: static;
 	float: left;
+	margin-top: -5px;
 	opacity: 0.4;
-	margin-top: 9px;
-	margin-left: -1px;
 
 }
 #wrapper #artists_background1 {
@@ -582,7 +583,7 @@ image body {
 #wrapper #footer #contact {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -21px;
+	margin-top: -14px;
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
@@ -651,19 +652,19 @@ image body {
 #contact #links1 .nav-link {
 	color: #FFFFFF;
 }
-#header #mainnav  {
+#content #top #mainnav {
 	margin-top: -161px;
 	margin-left: 157px;
 	color: #FFFFFF;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
-#header #second_nav  {
+#content #top #second_nav {
 	margin-top: 95px;
 	font-size: 25px;
 	color: #FFFFFF;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
-#header #header_transparent_background  {
+#content #top #header_transparent_background {
 	opacity: 0.8;
 	margin-top: -22px;
 	margin-bottom: -256px;
@@ -687,7 +688,6 @@ image body {
 
 body img {
 	top: 15px;
-	opacity: 1;
 }
 .image2 {
 	position: absolute;
@@ -738,23 +738,4 @@ body img {
 	text-align: justify;
 	right: -24px;
 
-}
-#wrapper #body1 {
-	margin-top: 238px;
-	margin-left: 48px;
-	z-index: 1;
-}
-#wrapper #welcome_img {
-
-
-}
-#wrapper #body1 #welcome_img {
-	opacity: 0.5;
-}
-#wrapper #section_body1_background {
-	margin-top: 144px;
-}
-#body1 #welcome #feeder_page_intro_text {
-	font-size: 30px;
-	margin-top: 71px;
 }
