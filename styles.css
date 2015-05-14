@@ -59,7 +59,7 @@ body {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	top: 2306px;
 	float: left;
-	margin-top: -1809px;
+	margin-top: -1259px;
 	color: #FCF9F9;
 }
 #footer4 {
@@ -72,7 +72,7 @@ body {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	float: left;
 	color: #FCF9F9;
-	margin-top: 575px;
+	margin-top: -5px;
 }
 #footer2 {
 	background-color: #000000;
@@ -282,16 +282,61 @@ image body {
 	font-size: xx-large;
 	margin-left: 54px;
 	position: relative;
-	margin-top: -632px;
+	margin-top: -870px;
 	float: left;
 }
-#wrapper #body1_artists  {
+#wrapper #body1 {
 	font-family: "Minion Pro";
 	color: #FFFFFF;
 	font-size: xx-large;
-	margin-left: 40px;
+	margin-left: 54px;
 	position: relative;
-	margin-top: -408px;
+	margin-top: -645px;
+	float: left;
+}
+#wrapper #body1_artists  {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 44px;
+	position: relative;
+	margin-top: -869px;
+	float: left;
+}
+#wrapper #body1_artists #artists_name  {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 422px;
+	position: relative;
+	margin-top: -869px;
+	float: left;
+}
+#wrapper #body1_artists #artist_name  {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 848px;
+	position: relative;
+	margin-top: -537px;
+	float: left;
+}
+#wrapper #body2_artists  {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 38px;
+	position: relative;
+	margin-top: -445px;
+	float: left;
+}
+#wrapper #body2_events  {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: -20px;
+	position: relative;
+	margin-top: -445px;
 	float: left;
 }
 #wrapper #body1_aboutus_page  {
@@ -480,9 +525,9 @@ image body {
 #wrapper #artists_background1 {
 	position: static;
 	float: left;
-	margin-top: -330px;
-	opacity: 0.4;
-	margin-left: 28px;
+	margin-top: -873px;
+	opacity: 0.5;
+	margin-left: 36px;
 
 }
 #wrapper #artists_background2 {
@@ -494,11 +539,10 @@ image body {
 
 }
 #wrapper #artists_background3 {
-	position: static;
 	float: left;
-	margin-top: -193px;
-	opacity: 0.4;
-	margin-left: 592px;
+	margin-top: -447px;
+	margin-left: 35px;
+	opacity: 0.5;
 
 }
 #wrapper #body3 #welcome {
@@ -811,22 +855,95 @@ image body {
 	margin-right: 9px;
 }
 #wrapper #body1_artists #artists_artist1 {
-	margin-top: 103px;
-	margin-bottom: -259px;
-	margin-left: 16px;
+	margin-top: 22px;
+	margin-bottom: -399px;
+	margin-left: 14px;
 }
-#wrapper #body1_artists #artist_name {
-	margin-left: 227px;
+#wrapper #body1_artists #artists_artist1 {
+	margin-top: 22px;
+	margin-bottom: 173px;
+	margin-left: 14px;
+}
+#wrapper #body1_events #events_events1 {
+	margin-top: 22px;
+	margin-bottom: -399px;
+	margin-left: 14px;
+}
+#wrapper #body2_artists #artists_artist2 {
+	margin-top: 22px;
+	margin-bottom: -399px;
+	margin-left: 14px;
+}
+#wrapper #body2_events #events_artist2 {
+	margin-top: 22px;
+	margin-bottom: -399px;
+	margin-left: 14px;
+}
+#wrapper #body2_events #events_events2 {
+	margin-left: 14px;
 	padding-top: 16px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: center;
+	margin-top: 5px;
+	margin-right: 621px;
 }
-#body1_artists #artist_name #artists_events_text {
-	margin-top: -23px;
+#wrapper #body1_events #events_name {
+	margin-left: 695px;
+	padding-top: 16px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: center;
+}
+#wrapper #body2_artists #artist_name2 {
+	margin-left: 808px;
+	padding-top: 16px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: center;
+}
+#wrapper #body2_events #artist_name2 {
+	margin-left: 808px;
+	padding-top: 16px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: center;
+}
+#wrapper #body2_events #events_name2 {
+	margin-top: -386px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-left: 847px;
+	margin-right: -260px;
+
+}
+#body1_events #events_name #events_artist_text {
+	margin-top: 80px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-left: -332px;
+
+}
+#body2_artists #artist_name2 #artists_events_text2 {
+	margin-top: 80px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-left: -330px;
+
+}
+#body2_events #events_name2 #events_artist_text2 {
+	margin-top: 80px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-left: -59px;
 
 }
 #artist_name #artists_events_text #event1_details {
-	margin-left: 282px;
+	margin-left: 299px;
+	margin-top: -86px;
+}
+#events_name #events_artist_text #artist1_details {
+	margin-left: 607px;
+	margin-top: -86px;
+}
+#artist_name2 #artists_events_text2 #event1_details2 {
+	margin-left: 607px;
+	margin-top: -86px;
+}
+#events_name2 #events_artist_text2 #artist1_details2 {
+	margin-left: 166px;
 	margin-top: -86px;
 }
 #contact #links1 .nav-link {
@@ -851,8 +968,23 @@ image body {
 	margin-bottom: -256px;
 }
 #artist_name #artists_events_text #more_info1 {
-	margin-top: 17px;
-	margin-left: 157px;
+	margin-top: 101px;
+	margin-left: 240px;
+	font-size: 25px;
+}
+#events_name #events_artist_text #more_info2 {
+	margin-top: 101px;
+	margin-left: 325px;
+	font-size: 25px;
+}
+#artist_name2 #artists_events_text2 #more_info2 {
+	margin-top: 101px;
+	margin-left: 325px;
+	font-size: 25px;
+}
+#events_name2 #events_artist_text2 #more_info4 {
+	margin-top: 101px;
+	margin-left: 158px;
 	font-size: 25px;
 }
 #body1 #welcome #welcome_title {
@@ -927,4 +1059,16 @@ body img {
 #footer2 #contact_about #fblogo_about {
 	margin-top: -127px;
 	margin-left: 464px;
+}
+#wrapper #body2_artists #artists_background3 {
+	margin-left: 862px;
+	margin-top: -328px;
+}
+#wrapper #body2_artists #artist_name_1 {
+	margin-top: -323px;
+	margin-left: 910px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#body1_artists #artist_name #artists_events_text {
+	margin-left: -173px;
 }
