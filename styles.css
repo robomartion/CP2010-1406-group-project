@@ -607,14 +607,14 @@ image body {
 }
 #footer #contact #links1 {
 	margin-left: 694px;
-	margin-top: -92px;
+	margin-top: -58px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	font-size: x-large;
 }
 #footer #contact #links2 {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	margin-left: 824px;
-	margin-top: -129px;
+	margin-top: -105px;
 	font-size: x-large;
 }
 #wrapper #footer #sponsors {
@@ -660,6 +660,7 @@ image body {
 }
 #contact #links1 .nav-link {
 	color: #FFFFFF;
+	padding-top: 0px;
 }
 #content #top #mainnav {
 	margin-top: -161px;
@@ -690,9 +691,10 @@ image body {
 .image5 {
 	position: absolute;
 	top: 333px;
-	width: 99.5%;
+	width: 82.5%;
 	height: 1627px;
 	opacity: 0.92;
+	left: 108px;
 }
 
 body img {
@@ -721,16 +723,16 @@ body img {
 }
 .image4 {
 	position: absolute;
-	top: 512px;
+	top: 627px;
 	right: 0px;
-	left: 30px;
+	left: 22px;
 	opacity: 1;
 	width: 608px;
 	height: 410px;
 }
 .body_content2 {
 	position: relative;
-	top: 376px;
+	top: 517px;
 	left: 30px;
 	color: #171717;
 }
@@ -740,11 +742,10 @@ body img {
 }
 .body_content3 {
 	position: absolute;
-	top: 494px;
+	top: 612px;
 	left: 709px;
 	color: #000000;
 	font-size: large;
 	text-align: justify;
 	right: -24px;
-
 }
