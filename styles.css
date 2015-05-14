@@ -44,7 +44,7 @@ body {
 	width: 99.5%;
 	text-align: center;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	top: 1845px;
+	top: 2306px;
 	float: left;
 	margin-top: -6px;
 	color: #FCF9F9;
@@ -681,9 +681,9 @@ image body {
 .image5 {
 	position: absolute;
 	top: 333px;
-	width: 1000px;
-	height: 1000px;
-	opacity: 0.89;
+	width: 99.5%;
+	height: 1627px;
+	opacity: 0.92;
 }
 
 body img {
@@ -696,7 +696,7 @@ body img {
 	opacity: 0.73;
 	height: 1764px;
 	background-color: #FCFCFC;
-	width: 1698px;
+	width: 99.5%;
 }
 .image3 {
 	position: absolute;
