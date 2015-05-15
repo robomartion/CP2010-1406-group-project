@@ -1144,6 +1144,7 @@ body img {
 #body1_artists #artist_name #artists_events_text {
 	margin-left: -173px;
 }
+<<<<<<< Updated upstream
 #top #second_nav #BECOME_A_MEMBER.thispage {
 	border-color: #000000;
 	background-color: #000000;
@@ -1187,4 +1188,58 @@ body img {
 	margin-bottom: -500px;
 	z-index: -1;
 	opacity: 0.5;
+=======
+#content .buy_tickets input {
+	top: 48px;
+	position: absolute;
+	left: 184px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+}
+#content .buy_tickets form {
+	position: absolute;
+	top: 155px;
+	color: #FFFBFC;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: xx-large;
+	text-align: center;
+	width: 251px;
+}
+#wrapper #content .buy_tickets {
+	position: absolute;
+	top: 13px;
+}
+.buy_tickets form #event {
+	top: 85px;
+	position: absolute;
+	left: 197px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: xx-large;
+}
+.buy_tickets form #payment {
+	position: absolute;
+	top: 121px;
+	left: 251px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: xx-large;
+}
+.buy_tickets form submit {
+	position: absolute;
+}
+.submit {
+	position: absolute;
+	top: 178px;
+	left: 208px;
+	font-size: xx-large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.amount {
+}
+.reset {
+	position: absolute;
+	top: 178px;
+	left: 87px;
+	font-size: xx-large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+>>>>>>> Stashed changes
 }
