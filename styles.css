@@ -1207,7 +1207,7 @@ body img {
 }
 #wrapper #content .buy_tickets {
 	position: absolute;
-	top: 13px;
+	top: 296px;
 }
 .buy_tickets form #event {
 	top: 85px;
@@ -1234,6 +1234,9 @@ body img {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 .amount {
+	position: absolute;
+	top: 118px;
+	padding-top: 218px;
 }
 .reset {
 	position: absolute;
@@ -1242,4 +1245,8 @@ body img {
 	font-size: xx-large;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 >>>>>>> Stashed changes
+}
+#content .buy_tickets input {
+	position: absolute;
+	top: 298px;
 }
