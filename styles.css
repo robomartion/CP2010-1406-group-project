@@ -75,6 +75,32 @@ body {
 	margin-top: -1706px;
 	color: #FCF9F9;
 }
+#footer9 {
+	background-color: #000000;
+	position: static;
+	height: 180px;
+	position: absolute;
+	width: 99.5%;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	top: 2306px;
+	float: left;
+	margin-top: -1506px;
+	color: #FCF9F9;
+}
+#footer8 {
+	background-color: #000000;
+	position: static;
+	height: 180px;
+	position: absolute;
+	width: 99.5%;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	top: 2306px;
+	float: left;
+	margin-top: -1610px;
+	color: #FCF9F9;
+}
 #footer3 {
 	background-color: #000000;
 	position: static;
@@ -111,7 +137,7 @@ body {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	float: left;
 	color: #FCF9F9;
-	margin-top: -5px;
+	margin-top: -8px;
 }
 #footer2 {
 	background-color: #000000;
@@ -322,10 +348,10 @@ image body {
 	font-family: "Minion Pro";
 	color: #FFFFFF;
 	font-size: xx-large;
-	margin-left: 54px;
 	position: relative;
-	margin-top: -870px;
 	float: left;
+	margin-top: -99px;
+	margin-left: 96px;
 }
 #wrapper #body1 {
 	font-family: "Minion Pro";
@@ -346,6 +372,24 @@ image body {
 	float: left;
 }
 #wrapper #body1_buy_tickets {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 97px;
+	position: relative;
+	margin-top: -814px;
+	float: left;
+}
+#wrapper #body1_volunteer {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 97px;
+	position: relative;
+	margin-top: -814px;
+	float: left;
+}
+#wrapper #body1_volunteer {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	color: #FFFFFF;
 	font-size: xx-large;
@@ -423,7 +467,7 @@ image body {
 	font-size: xx-large;
 	margin-left: -20px;
 	position: relative;
-	margin-top: -445px;
+	margin-top: -443px;
 	float: left;
 }
 #wrapper #body1_aboutus_page  {
@@ -806,6 +850,20 @@ image body {
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
+#wrapper #footer9 #contact {
+	color: #FFFFFF;
+	text-align: left;
+	margin-top: -14px;
+	margin-left: 15px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#wrapper #footer8 #contact {
+	color: #FFFFFF;
+	text-align: left;
+	margin-top: -14px;
+	margin-left: 15px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
 #wrapper #footer3 #contact_artists {
 	color: #FFFFFF;
 	text-align: left;
@@ -853,6 +911,16 @@ image body {
 	margin-top: -127px;
 	margin-left: 464px;
 }
+#footer9 #contact #fblogo {
+	padding-top: 0px;
+	margin-top: -127px;
+	margin-left: 464px;
+}
+#footer8 #contact #fblogo {
+	padding-top: 0px;
+	margin-top: -127px;
+	margin-left: 464px;
+}
 #footer3 #contact_artists #fblogo_artists {
 	padding-top: 0px;
 	margin-top: -127px;
@@ -881,6 +949,18 @@ image body {
 	font-size: x-large;
 }
 #footer6 #contact #links1 {
+	margin-left: 694px;
+	margin-top: -88px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+}
+#footer9 #contact #links1 {
+	margin-left: 694px;
+	margin-top: -88px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+}
+#footer8 #contact #links1 {
 	margin-left: 694px;
 	margin-top: -88px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -928,6 +1008,18 @@ image body {
 	margin-top: -128px;
 	font-size: x-large;
 }
+#footer9 #contact #links2 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-left: 824px;
+	margin-top: -128px;
+	font-size: x-large;
+}
+#footer8 #contact #links2 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-left: 824px;
+	margin-top: -128px;
+	font-size: x-large;
+}
 #footer3 #contact_artists #links2_artists {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	margin-left: 824px;
@@ -969,6 +1061,22 @@ image body {
 	margin-left: 616px;
 }
 #wrapper #footer6 #sponsors {
+	margin-top: -166px;
+	color: #FFFFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: right;
+	margin-right: 27px;
+	margin-left: 616px;
+}
+#wrapper #footer9 #sponsors {
+	margin-top: -166px;
+	color: #FFFFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: right;
+	margin-right: 27px;
+	margin-left: 616px;
+}
+#wrapper #footer8 #sponsors {
 	margin-top: -166px;
 	color: #FFFFFF;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -1023,6 +1131,16 @@ image body {
 	margin-top: 22px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
+#footer9 #sponsors #sponsor1 {
+	margin-right: 377px;
+	margin-top: 22px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#footer8 #sponsors #sponsor1 {
+	margin-right: 377px;
+	margin-top: 22px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
 #footer3 #sponsors_artists #sponsor1_artists {
 	margin-right: 377px;
 	margin-top: 22px;
@@ -1054,6 +1172,16 @@ image body {
 
 }
 #footer6 #sponsors #sponsor2 {
+	margin-right: 191px;
+	margin-top: -93px;
+
+}
+#footer9 #sponsors #sponsor2 {
+	margin-right: 191px;
+	margin-top: -93px;
+
+}
+#footer8 #sponsors #sponsor2 {
 	margin-right: 191px;
 	margin-top: -93px;
 
@@ -1090,6 +1218,14 @@ image body {
 	margin-top: -87px;
 	margin-right: 9px;
 }
+#footer9 #sponsors #sponsor3 {
+	margin-top: -87px;
+	margin-right: 9px;
+}
+#footer8 #sponsors #sponsor3 {
+	margin-top: -87px;
+	margin-right: 9px;
+}
 #footer3 #sponsors_artists #sponsor3_artists {
 	margin-top: -87px;
 	margin-right: 9px;
@@ -1117,9 +1253,8 @@ image body {
 	margin-left: 14px;
 }
 #wrapper #body1_events #events_events1 {
-	margin-top: 22px;
-	margin-bottom: -399px;
-	margin-left: 14px;
+	margin-top: -766px;
+	margin-left: -26px;
 }
 #wrapper #body2_artists #artists_artist2 {
 	margin-top: 22px;
@@ -1149,6 +1284,7 @@ image body {
 	padding-top: 16px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	text-align: center;
+	margin-top: -408px;
 }
 #wrapper #body2_artists #artist_name2 {
 	margin-left: 808px;
@@ -1354,6 +1490,16 @@ body img {
 	background-color: #000000;
 	text-decoration: underline;
 }
+#top #second_nav #PLAY_FOR_US.thispage {
+	border-color: #000000;
+	background-color: #000000;
+	text-decoration: underline;
+}
+#top #second_nav #BECOME_A_VOLUNTEER.thispage {
+	border-color: #000000;
+	background-color: #000000;
+	text-decoration: underline;
+}
 #top #second_nav #BUY_TICKETS.thispage {
 	border-color: #000000;
 	background-color: #000000;
@@ -1362,10 +1508,20 @@ body img {
 #wrapper #become_a_member_body1 {
 	color: #FFFFFF;
 	float: left;
-	margin-top: 65px;
+	margin-top: 40px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #buy_tickets_body1 {
+	color: #FFFFFF;
+	float: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#wrapper #volunteer_body1 {
+	color: #FFFFFF;
+	float: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#wrapper #volunteer_body1 {
 	color: #FFFFFF;
 	float: left;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -1376,6 +1532,12 @@ body img {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #welcome_img_become_a_member {
+	opacity: 0.74;
+}
+#wrapper #welcome_img_become_a_volunteer {
+	opacity: 0.74;
+}
+#wrapper #welcome_img_volunteer {
 	opacity: 0.74;
 }
 #wrapper #welcome_img_sign_in {
@@ -1407,6 +1569,19 @@ body img {
 	font-size: x-large;
 	margin-top: 242px;
 	margin-left: -40px;
+
+}
+#wrapper #volunteer_body1 #volunteer_body1_text1 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+	margin-top: 242px;
+	margin-left: -40px;
+
+}
+#wrapper #volunteer_body1 #volunteer_body1_text1 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+	margin-top: -587px;
 
 }
 #wrapper #sign_in_body1 #sign_in_body1_text1 {
@@ -1517,4 +1692,8 @@ body img {
 	top: 0px;
 }
 .volunteer_body {
+	margin-top: -828px;
+}
+#wrapper #body1_events {
+	margin-top: -792px;
 }
