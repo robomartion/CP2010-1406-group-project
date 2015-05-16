@@ -62,6 +62,19 @@ body {
 	margin-top: -613px;
 	color: #FCF9F9;
 }
+#footer6 {
+	background-color: #000000;
+	position: static;
+	height: 180px;
+	position: absolute;
+	width: 99.5%;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	top: 2306px;
+	float: left;
+	margin-top: -1359px;
+	color: #FCF9F9;
+}
 #footer3 {
 	background-color: #000000;
 	position: static;
@@ -154,6 +167,7 @@ a:hover, a:active, a:focus {
 	background-position: 13% 61%;
 	max-height: 100%;
 	font-style: normal;
+	margin-bottom: -251px;
 }
 #BUY_TICKETS {
 	left: 0px;
@@ -314,6 +328,15 @@ image body {
 	margin-left: 54px;
 	position: relative;
 	margin-top: -1569px;
+	float: left;
+}
+#wrapper #body1_buy_tickets {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 97px;
+	position: relative;
+	margin-top: -814px;
 	float: left;
 }
 #wrapper #body1_artists  {
@@ -711,6 +734,13 @@ image body {
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
+#wrapper #footer6 #contact {
+	color: #FFFFFF;
+	text-align: left;
+	margin-top: -14px;
+	margin-left: 15px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
 #wrapper #footer3 #contact_artists {
 	color: #FFFFFF;
 	text-align: left;
@@ -746,6 +776,11 @@ image body {
 	margin-top: -127px;
 	margin-left: 464px;
 }
+#footer6 #contact #fblogo {
+	padding-top: 0px;
+	margin-top: -127px;
+	margin-left: 464px;
+}
 #footer3 #contact_artists #fblogo_artists {
 	padding-top: 0px;
 	margin-top: -127px;
@@ -763,6 +798,12 @@ image body {
 	font-size: x-large;
 }
 #footer5 #contact #links1 {
+	margin-left: 694px;
+	margin-top: -88px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+}
+#footer6 #contact #links1 {
 	margin-left: 694px;
 	margin-top: -88px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -798,6 +839,12 @@ image body {
 	margin-top: -128px;
 	font-size: x-large;
 }
+#footer6 #contact #links2 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-left: 824px;
+	margin-top: -128px;
+	font-size: x-large;
+}
 #footer3 #contact_artists #links2_artists {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	margin-left: 824px;
@@ -825,6 +872,14 @@ image body {
 	margin-left: 616px;
 }
 #wrapper #footer5 #sponsors {
+	margin-top: -166px;
+	color: #FFFFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: right;
+	margin-right: 27px;
+	margin-left: 616px;
+}
+#wrapper #footer6 #sponsors {
 	margin-top: -166px;
 	color: #FFFFFF;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -866,6 +921,11 @@ image body {
 	margin-top: 22px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
+#footer6 #sponsors #sponsor1 {
+	margin-right: 377px;
+	margin-top: 22px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
 #footer3 #sponsors_artists #sponsor1_artists {
 	margin-right: 377px;
 	margin-top: 22px;
@@ -891,6 +951,11 @@ image body {
 	margin-top: -93px;
 
 }
+#footer6 #sponsors #sponsor2 {
+	margin-right: 191px;
+	margin-top: -93px;
+
+}
 #footer3 #sponsors_artists #sponsor2_artists {
 	margin-right: 191px;
 	margin-top: -93px;
@@ -911,6 +976,10 @@ image body {
 	margin-right: 9px;
 }
 #footer5 #sponsors #sponsor3 {
+	margin-top: -87px;
+	margin-right: 9px;
+}
+#footer6 #sponsors #sponsor3 {
 	margin-top: -87px;
 	margin-right: 9px;
 }
@@ -1144,8 +1213,13 @@ body img {
 #body1_artists #artist_name #artists_events_text {
 	margin-left: -173px;
 }
-<<<<<<< Updated upstream
+
 #top #second_nav #BECOME_A_MEMBER.thispage {
+	border-color: #000000;
+	background-color: #000000;
+	text-decoration: underline;
+}
+#top #second_nav #BUY_TICKETS.thispage {
 	border-color: #000000;
 	background-color: #000000;
 	text-decoration: underline;
@@ -1156,10 +1230,18 @@ body img {
 	margin-top: 65px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
+#wrapper #buy_tickets_body1 {
+	color: #FFFFFF;
+	float: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
 #wrapper #welcome_img_become_a_member {
 	opacity: 0.74;
 }
 #wrapper #become_a_member_body1 form {
+	margin-top: 35px;
+}
+#wrapper #buy_tickets_form  {
 	margin-top: 35px;
 }
 #wrapper #become_a_member_body1 #become_a_member_text {
@@ -1170,10 +1252,14 @@ body img {
 }
 #wrapper form {
 	color: #FFFFFF;
-	margin-top: -1041px;
+	margin-top: 66px;
 }
 #wrapper #become_a_member_body1 #become_a_member_body1_text1 {
 	margin-top: 0px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+
+}
+#wrapper #buy_tickets_body1 #buy_tickets_body1_text1 {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 
 }
@@ -1188,7 +1274,7 @@ body img {
 	margin-bottom: -500px;
 	z-index: -1;
 	opacity: 0.5;
-=======
+
 #content .buy_tickets input {
 	top: 48px;
 	position: absolute;
@@ -1241,5 +1327,15 @@ body img {
 	left: 87px;
 	font-size: xx-large;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
->>>>>>> Stashed changes
+}
+#wrapper .buy_tickets {
+	margin-top: 1069px;
+}
+#buy_tickets_body1 #buy_tickets_body1_text1 form {
+
+
+
+}
+#buy_tickets_body1_text1 form label {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
