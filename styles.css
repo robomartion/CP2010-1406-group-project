@@ -88,6 +88,19 @@ body {
 	margin-top: -1259px;
 	color: #FCF9F9;
 }
+#footer7 {
+	background-color: #000000;
+	position: static;
+	height: 180px;
+	position: absolute;
+	width: 99.5%;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	top: 2306px;
+	float: left;
+	margin-top: -937px;
+	color: #FCF9F9;
+}
 #footer4 {
 	background-color: #000000;
 	position: static;
@@ -340,6 +353,15 @@ image body {
 	margin-top: -814px;
 	float: left;
 }
+#wrapper #body1_notice_bulletin {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 97px;
+	position: relative;
+	margin-top: -1290px;
+	float: left;
+}
 #wrapper #body1_artists  {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	color: #FFFFFF;
@@ -374,6 +396,15 @@ image body {
 	margin-left: 38px;
 	position: relative;
 	margin-top: -445px;
+	float: left;
+}
+#wrapper #notice_1  {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-left: 38px;
+	position: relative;
+	margin-top: -429px;
 	float: left;
 }
 #wrapper #body2_events  {
@@ -432,6 +463,10 @@ image body {
 }
 #wrapper #artists_background0 {
 	padding-top: 147px;
+	opacity: 0.65;
+}
+#wrapper #bulletin_background0 {
+	padding-top: 0px;
 	opacity: 0.65;
 }
 #body1 #welcome #BECOME_A_VOLUNTEER_1 {
@@ -590,7 +625,7 @@ image body {
 }
 #wrapper #artists_background3 {
 	float: left;
-	margin-top: -447px;
+	margin-top: -487px;
 	margin-left: 35px;
 	opacity: 0.5;
 
@@ -749,6 +784,13 @@ image body {
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
+#wrapper #footer7 #contact_artists {
+	color: #FFFFFF;
+	text-align: left;
+	margin-top: -14px;
+	margin-left: 15px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
 #wrapper #footer4 #contact_events {
 	color: #FFFFFF;
 	text-align: left;
@@ -787,6 +829,11 @@ image body {
 	margin-top: -127px;
 	margin-left: 464px;
 }
+#footer7 #contact_artists #fblogo_artists {
+	padding-top: 0px;
+	margin-top: -127px;
+	margin-left: 464px;
+}
 #footer4 #contact_events #fblogo_events {
 	padding-top: 0px;
 	margin-top: -127px;
@@ -811,6 +858,12 @@ image body {
 	font-size: x-large;
 }
 #footer3 #contact_artists #links1_artists {
+	margin-left: 694px;
+	margin-top: -88px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
+}
+#footer7 #contact_artists #links1_artists {
 	margin-left: 694px;
 	margin-top: -88px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -847,6 +900,12 @@ image body {
 	font-size: x-large;
 }
 #footer3 #contact_artists #links2_artists {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-left: 824px;
+	margin-top: -128px;
+	font-size: x-large;
+}
+#footer7 #contact_artists #links2_artists {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	margin-left: 824px;
 	margin-top: -128px;
@@ -896,6 +955,14 @@ image body {
 	margin-right: 27px;
 	margin-left: 616px;
 }
+#wrapper #footer7 #sponsors_artists {
+	margin-top: -166px;
+	color: #FFFFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: right;
+	margin-right: 27px;
+	margin-left: 616px;
+}
 #wrapper #footer4 #sponsors_events {
 	margin-top: -166px;
 	color: #FFFFFF;
@@ -932,6 +999,11 @@ image body {
 	margin-top: 22px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
+#footer7 #sponsors_artists #sponsor1_artists {
+	margin-right: 377px;
+	margin-top: 22px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
 #footer4 #sponsors_events #sponsor1_events {
 	margin-right: 377px;
 	margin-top: 22px;
@@ -962,6 +1034,11 @@ image body {
 	margin-top: -93px;
 
 }
+#footer7 #sponsors_artists #sponsor2_artists {
+	margin-right: 191px;
+	margin-top: -93px;
+
+}
 #footer4 #sponsors_events #sponsor2_events {
 	margin-right: 191px;
 	margin-top: -93px;
@@ -985,6 +1062,10 @@ image body {
 	margin-right: 9px;
 }
 #footer3 #sponsors_artists #sponsor3_artists {
+	margin-top: -87px;
+	margin-right: 9px;
+}
+#footer7 #sponsors_artists #sponsor3_artists {
 	margin-top: -87px;
 	margin-right: 9px;
 }
@@ -1016,6 +1097,11 @@ image body {
 	margin-bottom: -399px;
 	margin-left: 14px;
 }
+#wrapper #notice_1 #notice_notice {
+	margin-top: 22px;
+	margin-bottom: -399px;
+	margin-left: 14px;
+}
 #wrapper #body2_events #events_artist2 {
 	margin-top: 22px;
 	margin-bottom: -399px;
@@ -1040,6 +1126,14 @@ image body {
 	padding-top: 16px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	text-align: center;
+}
+#wrapper #notice_1 #notice_title {
+	margin-left: 38px;
+	padding-top: 16px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	margin-top: -42px;
+	font-size: 20px;
 }
 #wrapper #body2_events #artist_name2 {
 	margin-left: 808px;
@@ -1066,6 +1160,12 @@ image body {
 	margin-left: -330px;
 
 }
+#notice_1 #notice_title #notice_text1 {
+	margin-top: -92px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	margin-left: 579px;
+
+}
 #body2_events #events_name2 #events_artist_text2 {
 	margin-top: 80px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -1083,6 +1183,11 @@ image body {
 #artist_name2 #artists_events_text2 #event1_details2 {
 	margin-left: 607px;
 	margin-top: -86px;
+}
+#notice_title #notice_text1 #notice_details1 {
+	margin-left: -498px;
+	margin-top: 84px;
+	text-align: left;
 }
 #events_name2 #events_artist_text2 #artist1_details2 {
 	margin-left: 166px;
@@ -1346,4 +1451,14 @@ body img {
 #content .buy_tickets input {
 	position: absolute;
 	top: 298px;
+}
+#wrapper #post_notice form {
+	position: static;
+}
+#wrapper #post_notice {
+	position: static;
+	margin-top: -510px;
+
+}
+#wrapper #body1_notice_bulletin form {
 }
