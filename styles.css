@@ -287,6 +287,7 @@ body p {
 	right: 0px;
 	left: 375px;
 	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 image {
 	top: 0px;
@@ -1510,4 +1511,10 @@ body img {
 }
 #sign_in_body1 #sign_in_body1_text1 form {
 	margin-top: -154px;
+}
+.help {
+	position: absolute;
+	top: 0px;
+}
+.volunteer_body {
 }
