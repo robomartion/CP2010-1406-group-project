@@ -131,7 +131,8 @@ a:hover, a:active, a:focus {
 	list-style-type: none;
 	padding-left: 33px;
 	margin-top: 57px;
-	margin-left: 318px;
+	margin-left: 352px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #mainnav a:hover  , #mainnav a:active, #mainnav a:focus, #mainnav a.thispage{
 	border-radius: 0em;
@@ -1093,7 +1094,7 @@ image body {
 }
 #content #top #mainnav {
 	margin-top: -161px;
-	margin-left: 157px;
+	margin-left: -105px;
 	color: #FFFFFF;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
