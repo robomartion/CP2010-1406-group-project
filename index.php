@@ -13,35 +13,7 @@ include("dbconnect.php"); ?>
 ?>
 <div id="wrapper">
   <div id="content">  
-    <header id="top"> 	
-    <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
-      <nav id="mainnav">
-        <ul>
-<<<<<<< HEAD:index.php
-          <li><a href="index.php" class="thispage">Home</a></li>
-          <li><a href="Events.html">Events</a></li>
-          <li><a href="artists.php">Artists</a></li>
-          <li><a href="About.html">About</a></li>
-=======
-        	<li><a href="Bulletin_board.html">Bulletin Board</a></li>
-          	<li><a href="index.html" class="thispage">Home</a></li>
-          	<li><a href="Events.html">Events</a></li>
-          	<li><a href="Artists.html">Artists</a></li>
-          	<li><a href="About.html">About</a></li>
-            <li><a href="Member_sign_in.html">Sign in</a></li>
->>>>>>> origin/master:index.html
-        </ul>
-      </nav>
-      
-      <div id="second_nav">
-          <div id="BUY_TICKETS"><a href="Buy_Tickets.html">Buy Tickets</a></div>
-          <div id="PLAY_FOR_US"><a href="Play_for_us.html">Play For Us</a></div>
-          <div id="BECOME_A_MEMBER"><a href="Become_a_member.html">Become a Member</a></div>
-          <div id="BECOME_A_VOLUNTEER"><a href="Become_a_volunteer.html">Become a Volunteer</a></div>
-      </div>
-      
-    
-	</header>
+   
   </div>
  <div id="welcome_img"><img src="pictures/BlackBox.jpg" width="1020" height="600" alt=""/></div>
  <body1 id="body1"> 
