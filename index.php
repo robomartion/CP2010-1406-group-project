@@ -9,35 +9,30 @@ include("dbconnect.php"); ?>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<?php include("inc_header.php");
-?>
 <div id="wrapper">
   <div id="content">  
     <header id="top"> 	
     <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
         <ul>
-<<<<<<< HEAD:index.php
           <li><a href="index.php" class="thispage">Home</a></li>
-          <li><a href="Events.html">Events</a></li>
+          <li><a href="Events.php">Events</a></li>
           <li><a href="artists.php">Artists</a></li>
-          <li><a href="About.html">About</a></li>
-=======
-        	<li><a href="Bulletin_board.html">Bulletin Board</a></li>
-          	<li><a href="index.html" class="thispage">Home</a></li>
-          	<li><a href="Events.html">Events</a></li>
-          	<li><a href="Artists.html">Artists</a></li>
-          	<li><a href="About.html">About</a></li>
-            <li><a href="Member_sign_in.html">Sign in</a></li>
->>>>>>> origin/master:index.html
+          <li><a href="about.php">About</a></li>
+        	<li><a href="Bulletin_board.php">Bulletin Board</a></li>
+          	<li><a href="index.php" class="thispage">Home</a></li>
+          	<li><a href="Events.php">Events</a></li>
+          	<li><a href="Artists.php">Artists</a></li>
+          	<li><a href="About.php">About</a></li>
+            <li><a href="Member_sign_in.php">Sign in</a></li>
         </ul>
       </nav>
       
       <div id="second_nav">
-          <div id="BUY_TICKETS"><a href="Buy_Tickets.html">Buy Tickets</a></div>
-          <div id="PLAY_FOR_US"><a href="Play_for_us.html">Play For Us</a></div>
-          <div id="BECOME_A_MEMBER"><a href="Become_a_member.html">Become a Member</a></div>
-          <div id="BECOME_A_VOLUNTEER"><a href="Become_a_volunteer.html">Become a Volunteer</a></div>
+          <div id="BUY_TICKETS"><a href="Buy_Tickets.php">Buy Tickets</a></div>
+          <div id="PLAY_FOR_US"><a href="Play_for_us.php">Play For Us</a></div>
+          <div id="BECOME_A_MEMBER"><a href="Become_a_member.php">Become a Member</a></div>
+          <div id="BECOME_A_VOLUNTEER"><a href="Become_a_volunteer.php">Become a Volunteer</a></div>
       </div>
       
     
