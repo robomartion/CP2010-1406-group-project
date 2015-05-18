@@ -1,3 +1,9 @@
+
+ <?php include( "dbconnect.php") /* Fairly simple example - there 's a form for inserting a new artist record and a set of forms, one for each record,
+  that allows for deleting and updating each record. In these ones, the id of the record is passed using a hidden form field. 
+*/
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -9,10 +15,10 @@
 <body>
 <div id="wrapper">
   <div id="content">
-    <header id="top"> <a href="index.html"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
+    <header id="top"> <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="Events.html">Events</a></li>
           <li><a href="Artists.html" class="thispage">Artists</a></li>
           <li><a href="About.html">About</a></li>
@@ -28,6 +34,35 @@
     </header>
   </div>
   
+
+
+<body>
+<h1>Artist data</h1>
+<table>
+    <tr>
+        <td>
+            <h3>Artist</h3>
+        </td>
+        <td>
+            <h3>Image</h3>
+        </td>
+        <td>
+            <h3>Details</h3>
+        </td>
+    </tr>
+    <?php
+    $sql = "SELECT id, artist, image, substr(details, 1, 50) AS summary FROM artist";
+    foreach ($dbh->query($sql) as $row) {
+        echo "<tr><td><h3><a href=details.php?requested_artist=$row[artist]>$row[artist]</a></h3></td><td><img src= 'uploads/$row[image]' width=300px></td><td>$row[summary]...</td></tr>";
+    }
+
+    $dbh  = null;
+    ?>
+</table>
+    </body>
+
+    </html>
+
  <div id="artists_background0"><img src="pictures/BlackBox.jpg" width="1692" height="350" alt=""/></div>
  <div id="artists_background1"><img src="pictures/large_white_box_grayborder.jpg" width="800" height="255" alt=""/></div>
  
@@ -45,21 +80,5 @@
  <div id="artists_background3"><img src="pictures/large_white_box_grayborder.jpg" width="800" height="255" alt=""/></div>  
 </div>
 </body1> 
- 
-<footer id="footer">
-<div id="contact"><strong><h2>Contact</h2></strong> <br> Phone: 07 4724 2086 <br> Mobile: 0402 255 182 <br> Email Address: admin@townsvillemusic.org.au <br> Postal Address: PO Box 1006, Townsville, Qld 4810 <br> Street Address: Townsville Civic Theatre, 41 Boundary Street, Townsville, Qld 4810 
-<div id="fblogo"> <a href="https://www.facebook.com/pages/Townsville-Community-Music-Centre/159636880763534?fref=ts"><img src="pictures/fblogo.jpg" width="64" height="64" alt=""/></a></div>
-
-<div id="links1"><a href="index.html">Home</a><br> Artists<br>Events<br>About </div> <div id="links2"> Buy Tickets<br>Become a Volunteer<br>Become a member<br>Play for Us </div>
-</div>
-<div id="sponsors"> <strong><h2> Sponsors</h2> </strong> 
-<div id="sponsor1"> <a href="http://www.townsville.qld.gov.au/Pages/default.aspx"><img src="pictures/1152800_1_M.png" width="60" height="86" alt=""/></a> </div>
-<div id="sponsor2"> <a href="https://www.qld.gov.au/index.html"><img src="pictures/qg-coa-ogp.png" width="86" height="86" alt=""/></a> </div>
-<div id="sponsor3"> <img src="pictures/1525593_1_O.png" width="100" height="80" alt=""/> </div>
- </div>
-
-</footer>
-</div>     
-   
-</body>
+ </body>
 </html>

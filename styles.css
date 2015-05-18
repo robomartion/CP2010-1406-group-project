@@ -124,8 +124,9 @@ a:visited {
 	border-top-left-radius: 10px;
 }
 a:hover, a:active, a:focus {
-	text-decoration: underline;
+	text-decoration: none;
 	border-top-left-radius: 10px;
+	color:#E77E2B;
 }
 #mainnav ul {
 	list-style-type: none;
@@ -186,9 +187,9 @@ a:hover, a:active, a:focus {
 	margin-right: 29px;
 }
 #BUY_TICKETS:hover{
-	color: #FFFFFF;
-	background-color: #000000;
-	border-color: #000000;
+	color: #E77E2B;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
 }
 
 #content #top img {
@@ -212,9 +213,9 @@ a:hover, a:active, a:focus {
 	border-radius: 10px;
 }
 #content #top #PLAY_FOR_US:hover{
-	color: #FFFFFF;
-	background-color: #000000;
-	border-color: #000000;
+	color: #E77E2B;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
 }
 #content #top #BECOME_A_MEMBER {
 	color: #FFFFFF;
@@ -231,9 +232,9 @@ a:hover, a:active, a:focus {
 	position: relative;
 }
 #content #top #BECOME_A_MEMBER:hover{
-	color: #FFFFFF;
-	background-color: #000000;
-	border-color: #000000;
+	color: #E77E2B;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
 }
 #content #top #BECOME_A_VOLUNTEER {
 	color: #FFFFFF;
@@ -250,9 +251,9 @@ a:hover, a:active, a:focus {
 	position: relative;
 }
 #content #top #BECOME_A_VOLUNTEER:hover{
-	color: #FFFFFF;
-	background-color: #000000;
-	border-color: #000000;
+	color: #E77E2B;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
 }
 
 #footer #footer_content h2 {
@@ -332,7 +333,7 @@ image body {
 }
 #wrapper #body1_buy_tickets {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	color: #FFFFFF;
+	color: #000000;
 	font-size: xx-large;
 	margin-left: 97px;
 	position: relative;
@@ -460,7 +461,7 @@ image body {
 #body1 #welcome #BECOME_A_VOLUNTEER_1:hover  {
 	width: 300px;
 	border-style: solid;
-	border-color: #000000;
+	border-color: #FFFFFF;
 	border-radius: 10px;
 	margin-top: 35px;
 	margin-left: 66px;
@@ -473,7 +474,7 @@ image body {
 }
 #body1 #welcome #PLAY_FOR_US_1:hover  {
 	width: 300px;
-	border-color: #000000;
+	border-color: #FFFFFF;
 	border-style: solid;
 	border-radius: 10px;
 	margin-left: 467px;
@@ -1346,3 +1347,4 @@ body img {
 	position: absolute;
 	top: 298px;
 }
+

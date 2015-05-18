@@ -1,3 +1,5 @@
+<?php session_start(); 
+include("dbconnect.php"); ?>
 <!doctype html>
 <html>
 <head>
@@ -7,15 +9,17 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<?php include("inc_header.php");
+?>
 <div id="wrapper">
   <div id="content">  
     <header id="top"> 	
-    <a href="index.html"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
+    <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
         <ul>
-          <li><a href="index.html" class="thispage">Home</a></li>
+          <li><a href="index.php" class="thispage">Home</a></li>
           <li><a href="Events.html">Events</a></li>
-          <li><a href="Artists.html">Artists</a></li>
+          <li><a href="artists.php">Artists</a></li>
           <li><a href="About.html">About</a></li>
         </ul>
       </nav>
@@ -38,7 +42,13 @@
       <div id="BECOME_A_VOLUNTEER_1">Become a Volunteer</div>
       <div id="PLAY_FOR_US_1">Play For Us</div>
       
- <div id="body1_bottom_text">If you have other obligations but would still like to help out, <strong><u><a href="Become_a_member.html">become a member</a></u></strong> to <br>support us and get up to a <strong>50% discount on tickets</strong>
+ <div id="body1_bottom_text">If you have other obligations but would still like to help out, <strong><u><a href="Become_a_member.html">become a member</a></u></strong> to <br>support us and get up to a <strong>50% discount on tickets</strong> <i>or</i> make a donation. <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="67K2M93WVJM2L">
+                    <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal � The safer, easier way to pay online.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
  </div>
  </div>
  </body1> 
@@ -55,13 +65,13 @@
  
 <strong><h2>Upcoming Events:</h2></strong>
 
-<div id="event1"> <img src="pictures/Layer 3.jpg" width="200" height="200" alt=""/> </div>
-<div id="event1_text"> <strong>AVIVA AND FRIENDS</strong> <br>2pm Sunday 14 May<br>at C2 (Townsville Civic Centre)</div>
-<div id="BUY_TICKETS_BOTTOM_1"><strong><a href="Buy_Tickets.html">Buy Tickets</a></strong></div>
+<div id="event1"> <img src="pictures/Oompahlogo600.png" width="200" height="200" alt=""/> </div>
+<div id="event1_text"> <strong>Die Frankfurter Oompah Band</strong> <br>2pm 31 May 2015<br>at C2 (Townsville Civic Centre)</div>
+<div id="BUY_TICKETS_BOTTOM_1"><strong><a href="https://au.patronbase.com/_TVCC/Seats/NumSeats?prod_id=0831&perf_id=1&section_id=M&seat_type_id=S">Buy Tickets</a></strong></div>
 
-<div id="event2"> <img src="pictures/Harbourside300.jpg" width="200" height="200" alt=""/> </div>
-<div id="event2_text"> <strong>Dream Serenade</strong> <br>2pm Sunday 17 May<br>at C2 (Townsville Civic Centre)</div>
-<div id="BUY_TICKETS_BOTTOM_2"><strong><a href="Buy_Tickets.html">Buy Tickets</a></strong></div>
+<div id="event2"> <img src="pictures/AvivanF500.jpg" width="200" height="200" alt=""/> </div>
+<div id="event2_text"> <strong>AVIVA and Friends Go Abroad!</strong> <br>2pm Sunday 14 June<br>at C2 (Townsville Civic Centre)</div>
+<div id="BUY_TICKETS_BOTTOM_2"><strong><a href="https://au.patronbase.com/_TVCC/Seats/NumSeats?prod_id=0782&perf_id=1&section_id=M&seat_type_id=S">Buy Tickets</a></strong></div>
 
 <div id="event3"> <img src="pictures/Home Event SMALL1.jpg" width="200" height="200" alt=""/> </div>
 <div id="event3_text"> <strong>Townsville Concert Band</strong> <br>2pm Sunday 28 May<br>at C2 (Townsville Civic Centre)</div>
@@ -71,10 +81,10 @@
  </body3>
  
 <footer id="footer">
-<div id="contact"><h2 class="footer_contact"><strong>Contact</strong></h2> Phone: 07 4724 2086 <br> Mobile: 0402 255 182 <br> Email Address: admin@townsvillemusic.org.au <br> Postal Address: PO Box 1006, Townsville, Qld 4810 <br> Street Address: Townsville Civic Theatre, 41 Boundary Street, Townsville, Qld 4810 
+<div id="contact"><h2 class="footer_contact"><strong>Contact</strong></h2>Open: 9.30am - 2.30pm, Monday - Wednesday<br>Phone: 07 4724 2086 <br> Mobile: 0402 255 182 <br> Email Address: <a href="mailto:admin@townsvillemusic.org.au">admin@townsvillemusic.org.au</a> <br> Postal Address: PO Box 1006, Townsville, Qld 4810 <br> Street Address: Townsville Civic Theatre, 41 Boundary Street, Townsville, Qld 4810 
 <div id="fblogo"> <a href="https://www.facebook.com/pages/Townsville-Community-Music-Centre/159636880763534?fref=ts"><img src="pictures/fblogo.jpg" width="64" height="64" alt=""/></a></div>
 
-<div id="links1"><a href="index.html">Home</a><br> <a href="Events.html" class="nav-link">Events</a><br><a href="Artists.html" class="nav-link">Artists</a><br>
+<div id="links1"><a href="index.php">Home</a><br> <a href="Events.html" class="nav-link">Events</a><br><a href="Artists.html" class="nav-link">Artists</a><br>
   <a href="About.html" class="nav-link">About</a></div> 
 <div id="links2">Play For Us<br>
   <a href="Buy_Tickets.html">Buy Tickets</a><br>Become a Volunteer<br>
@@ -82,12 +92,15 @@
 </div>
 <div id="sponsors"> <strong><h2> Sponsors</h2> </strong> 
 <div id="sponsor1"> <a href="http://www.townsville.qld.gov.au/Pages/default.aspx"><img src="pictures/1152800_1_M.png" width="60" height="86" alt=""/></a> </div>
-<div id="sponsor2"> <a href="https://www.qld.gov.au/index.html"><img src="pictures/qg-coa-ogp.png" width="86" height="86" alt=""/></a> </div>
-<div id="sponsor3"> <img src="pictures/1525593_1_O.png" width="100" height="80" alt=""/> </div>
+<div id="sponsor2"> <a href="https://www.qld.gov.au/index.php"><img src="pictures/qg-coa-ogp.png" width="86" height="86" alt=""/></a> </div>
+<div id="sponsor3"> <a href="http://www.qni.com.au/"> <img src="pictures/1525593_1_O.png" width="100" height="80" alt=""/></a> </div>
  </div>
 
 </footer>
 </div>     
-</div>   
+</div>
+</section>
+<?php include("inc_footer.php"); ?>
+</body>
 </body>
 </html>
