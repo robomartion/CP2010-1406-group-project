@@ -4,7 +4,7 @@
                 <ul>
           <li><a href="Bulletin_board.php">Bulletin Board</a></li>
             <li><a href="index.php">Home</a></li>
-            <li><a href="Events.php" class="thispage">Events</a></li>
+            <li><a href="Events.php">Events</a></li>
             <li><a href="Artists.php">Artists</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="Member_sign_in.php">Sign in</a></li>

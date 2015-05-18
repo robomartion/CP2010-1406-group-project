@@ -15,13 +15,13 @@
 <body>
 <div id="wrapper">
   <div id="content">
-<?php include("footer.php");
-?>
   </div>
   
 
 
 <body>
+ <?php include("header.php");
+?>
 <h1>Artist data</h1>
 <table>
     <tr>
@@ -64,6 +64,8 @@
   </div>
  <div id="artists_background3"><img src="pictures/large_white_box_grayborder.jpg" width="800" height="255" alt=""/></div>  
 </div>
-</body1> 
+</body1>
+ <?php include("footer.php");
+?> 
  </body>
 </html>
