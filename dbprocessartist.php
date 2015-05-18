@@ -18,7 +18,7 @@ if ($_REQUEST['submit'] == "X")
 	@unlink('uploads/'.$image['file_name']);
 
 	if ($dbh->exec($sql))
-		header("Location: artists.php"); // NOTE: This must be done before ANY html is output, which is why it's right at the top!
+		header("Location: editartists.php"); // NOTE: This must be done before ANY html is output, which is why it's right at the top!
 /*	else
 		// set message to be printed on appropriate (results) page
 */
@@ -110,6 +110,6 @@ foreach ($dbh->query($sql) as $row)
 $dbh = null;
 
 ?>
-<p><a href="artists.php">Add another artist</a></p>
+<p><a href="editartists.php">Add another artist</a></p>
 </body>
 </html>
