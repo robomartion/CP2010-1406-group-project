@@ -1675,30 +1675,3 @@ body img {
 	position: absolute;
 	top: 298px;
 }
-<<<<<<< HEAD
-
-=======
-#wrapper #post_notice form {
-	position: static;
-}
-#wrapper #post_notice {
-	position: static;
-	margin-top: -510px;
-
-}
-#wrapper #body1_notice_bulletin form {
-}
-#sign_in_body1 #sign_in_body1_text1 form {
-	margin-top: -154px;
-}
-.help {
-	position: absolute;
-	top: 0px;
-}
-.volunteer_body {
-	margin-top: -828px;
-}
-#wrapper #body1_events {
-	margin-top: -792px;
-}
->>>>>>> origin/master
