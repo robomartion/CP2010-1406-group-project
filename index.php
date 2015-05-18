@@ -17,18 +17,27 @@ include("dbconnect.php"); ?>
     <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
         <ul>
+<<<<<<< HEAD:index.php
           <li><a href="index.php" class="thispage">Home</a></li>
           <li><a href="Events.html">Events</a></li>
           <li><a href="artists.php">Artists</a></li>
           <li><a href="About.html">About</a></li>
+=======
+        	<li><a href="Bulletin_board.html">Bulletin Board</a></li>
+          	<li><a href="index.html" class="thispage">Home</a></li>
+          	<li><a href="Events.html">Events</a></li>
+          	<li><a href="Artists.html">Artists</a></li>
+          	<li><a href="About.html">About</a></li>
+            <li><a href="Member_sign_in.html">Sign in</a></li>
+>>>>>>> origin/master:index.html
         </ul>
       </nav>
       
       <div id="second_nav">
           <div id="BUY_TICKETS"><a href="Buy_Tickets.html">Buy Tickets</a></div>
-          <div id="PLAY_FOR_US">Play For Us</div>
+          <div id="PLAY_FOR_US"><a href="Play_for_us.html">Play For Us</a></div>
           <div id="BECOME_A_MEMBER"><a href="Become_a_member.html">Become a Member</a></div>
-          <div id="BECOME_A_VOLUNTEER">Become a Volunteer</div>
+          <div id="BECOME_A_VOLUNTEER"><a href="Become_a_volunteer.html">Become a Volunteer</a></div>
       </div>
       
     
@@ -86,8 +95,9 @@ include("dbconnect.php"); ?>
 
 <div id="links1"><a href="index.php">Home</a><br> <a href="Events.html" class="nav-link">Events</a><br><a href="Artists.html" class="nav-link">Artists</a><br>
   <a href="About.html" class="nav-link">About</a></div> 
-<div id="links2">Play For Us<br>
-  <a href="Buy_Tickets.html">Buy Tickets</a><br>Become a Volunteer<br>
+<div id="links2"><a href="Play_for_us.html">Play For Us</a><br>
+  <a href="Buy_Tickets.html">Buy Tickets</a><br>
+  <a href="Become_a_volunteer.html">Become a Volunteer</a><br>
   <a href="Become_a_member.html">Become a Member</a></div>
 </div>
 <div id="sponsors"> <strong><h2> Sponsors</h2> </strong> 

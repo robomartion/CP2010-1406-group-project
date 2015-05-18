@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TCMC - Buy Tickets</title>
+<title>TCMC - Sign In</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -17,53 +17,36 @@
           	<li><a href="Events.html">Events</a></li>
           	<li><a href="Artists.html">Artists</a></li>
           	<li><a href="About.html">About</a></li>
-            <li><a href="Member_sign_in.html">Sign in</a></li>
+            <li><a href="Member_sign_in.html" class="thispage">Sign in</a></li>
         </ul>
       </nav>
       
       <div id="second_nav">
-          <div id="BUY_TICKETS" class="thispage"><a href="Buy_Tickets.html">Buy Tickets</a></div>
-          <div id="PLAY_FOR_US">Play For Us</div>
+          <div id="BUY_TICKETS"><a href="Buy_Tickets.html">Buy Tickets</a></div>
+          <div id="PLAY_FOR_US"><a href="Play_for_us.html">Play For Us</a></div>
           <div id="BECOME_A_MEMBER"><a href="Become_a_member.html">Become a Member</a></div>
-          <div id="BECOME_A_VOLUNTEER">Become a Volunteer</div>
+          <div id="BECOME_A_VOLUNTEER"><a href="Become_a_volunteer.html">Become a Volunteer</a></div>
       </div>
       
   </header>
   </div>
     
- <div id="welcome_img_become_a_member"><img src="pictures/BlackBox.jpg" width="1691" height="600" alt=""/></div>
- <body1 id="body1_buy_tickets"> 
-<div id="buy_tickets_body1">   
+ <div id="welcome_img_sign_in"><img src="pictures/BlackBox.jpg" width="1691" height="600" alt=""/></div>
+ <body1 id="body1_sign_in"> 
+<div id="sign_in_body1">   
   
   
-<div id="buy_tickets_body1_text1"> 
+<div id="sign_in_body1_text1"> 
 
 <form>
 
-  <label for="buy_tickets"><h1>Buy Tickets</h1></label>
-  <label for="event"> <br>Choose Event:</label> 
-  <select id = "event">
-               <option value = "Harbourside Duo">Harbourside Duo</option>
-               <option value = "Die Frankfurter Oompah Band">Die Frankfurter Oompah Band</option>
-               <option value = "AVIVA and Friends Go Abroad! ">AVIVA and Friends Go Abroad!</option>
-               <option value = "SUNDAY VARIETY CONCERT ">SUNDAY VARIETY CONCERT</option>
-               <option value = "Townsville Concert Band  ">Townsville Concert Band </option>
-               <option value = "Voices of Pimlico ">Voices of Pimlico</option>
-               <option value = "SUNDAY VARIETY CONCERT ">Allegro Choir </option>
-             </select>
+  <label for="sign_in"><h1>Sign In</h1></label>
+  <label for="Username"><br>Username:</label> <input type="text" class="username"></input>(The email you signed up with)
+  <label for="Password"> <br>Password:</label><input type="text" class="password"></input> (The password you signed up with)
+<br>
+
  
-
- <label for="amount"><br>Number of Tickets:</label> <input type="number" class="amount"></input>
-
-<label for="payment_method"><br>Payment Method:</label>
- <select id = "payment" onChange="window.location.href=this.value" >
-               <option value = "">MasterCard</option>
-               <option value = "">Visa</option>
-               <option value = "https://www.paypal.com/signin/?country.x=AU&locale.x=en_AU ">PayPal</option>
-             </select>
-<br> 
- <button  class="submit" >Submit</button> 
- <button type="reset" class="reset"> Reset </button>
+ <button  class="sign_in" >Sign In</button> 
  
 </form>
 </div>
@@ -76,8 +59,9 @@
 
 <div id="links1"><a href="index.html">Home</a><br> <a href="Events.html" class="nav-link">Events</a><br><a href="Artists.html" class="nav-link">Artists</a><br>
   <a href="About.html" class="nav-link">About</a></div> 
-<div id="links2">Play For Us<br>
-  <a href="Buy_Tickets.html">Buy Tickets</a><br>Become a Volunteer<br>
+<div id="links2"><a href="Play_for_us.html">Play For Us</a><br>
+  <a href="Buy_Tickets.html">Buy Tickets</a><br>
+  <a href="Become_a_volunteer.html">Become a Volunteer</a><br>
   <a href="Become_a_member.html">Become a Member</a></div>
 </div>
 <div id="sponsors"> <strong><h2> Sponsors</h2> </strong> 
