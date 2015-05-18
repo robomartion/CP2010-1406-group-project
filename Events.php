@@ -8,26 +8,42 @@
 <body>
 <div id="wrapper">
   <div id="content">
-  <header id="top">
-	<img src="TCMC98Neg.jpg" width="175" height="113" alt=""/>
-    <nav id="mainnav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Events.html" class="thispage">Events</a></li>
-        <li><a href="Artists.html">Artists</a></li>
-        <li><a href="About.html">About</a></li>
-      </ul>  
-    </nav>    
-    <div id="VOLUNTEER">VOLUNTEER</div>
-    <div id="BECOME_A_MEMBER">BECOME A MEMBER</div>
-    <div id="ARTIST_SIGN-UP">ARTIST SIGN-UP</div>
-    <div id="BUY_TICKETS">BUY TICKETS</div>
-  </header>  
-
+  <?php include("header.php");
+?>
 </div>
-<div id="footer">
-	<div id="footer_content"><h2>Contact</h2> Phone: 07 4724 2086 <br> Mobile: 0402 255 182 <br> Email Address: admin@townsvillemusic.org.au <br> Postal Address: PO Box 1006, Townsville, Qld 4810 <br> Street Address: Townsville Civic Theatre, 41 Boundary Street, Townsville, Qld 4810</div>
-    <a href="https://www.facebook.com/pages/Townsville-Community-Music-Centre/159636880763534?fref=ts"><img src="fblogo.jpg" width="64" height="64" alt=""/></a></div>
+
+ <div id="events_background0"><img src="pictures/BlackBox.jpg" width="1692" height="900" alt=""/></div>
+ <div id="events_background1"><img src="pictures/large_white_box_grayborder.jpg" width="1625" height="400" alt=""/></div>
+
+<body1 id="body1_events">
+<div id="events_events1"> <img src="pictures/Harbourside300.jpg" width="350" height="350" alt="aviva_quartet_group_photo.jpg"/> </div>
+<div id="events_name">
+  <h3>Dream Serenade</h3>  
+  <div id="events_artist_text">
+      <h4>Artists:</h4>
+      <div id="artist1_details"> <u>Harbourside Duo</u> </div>
+      <div id="more_info2"> <u> More Info </u> </div>
+  </div>  
+</div>
+</body1> 
+
+ <div id="events_background3"><img src="pictures/large_white_box_grayborder.jpg" width="1625" height="400" alt=""/></div>
+ 
+<body2 id="body2_events">
+<div id="events_events2"> <img src="pictures/Oompahlogo600.png" width="350" height="350" alt="aquapella_group_photo.jpg"/> </div>
+<div id="events_name2">
+  <h3>A Taste Of Bavaria</h3>  
+  <div id="events_artist_text2">
+      <h4>Artists:</h4>
+      <div id="artist1_details2">Die Frankfurter Oompah Band </div>
+      <div id="more_info4"> <u> More Info </u> </div>
+  </div>  
+</div>
+</body2> 
+
+<?php include("footer.php");
+?>
+
 </div>
 </body>
 </html

@@ -15,23 +15,8 @@
 <body>
 <div id="wrapper">
   <div id="content">
-    <header id="top"> <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
-      <nav id="mainnav">
-        <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="Events.html">Events</a></li>
-          <li><a href="Artists.html" class="thispage">Artists</a></li>
-          <li><a href="About.html">About</a></li>
-        </ul>
-      </nav>
-      
-      <div id="second_nav">
-          <div id="BUY_TICKETS">Buy Tickets</div>
-          <div id="PLAY_FOR_US">Play For Us</div>
-          <div id="BECOME_A_MEMBER">Become a Member</div>
-          <div id="BECOME_A_VOLUNTEER">Become a Volunteer</div>
-      </div>
-    </header>
+<?php include("footer.php");
+?>
   </div>
   
 

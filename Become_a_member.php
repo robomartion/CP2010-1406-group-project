@@ -9,28 +9,8 @@
 <body>
 <div id="wrapper">
   <div id="content">  
-    <header id="top"> 	
-    <a href="index.html"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
-      <nav id="mainnav">
-        <ul>
-        	<li><a href="Bulletin_board.html">Bulletin Board</a></li>
-          	<li><a href="index.html">Home</a></li>
-          	<li><a href="Events.html">Events</a></li>
-          	<li><a href="Artists.html">Artists</a></li>
-          	<li><a href="About.html">About</a></li>
-            <li><a href="Member_sign_in.html">Sign in</a></li>
-        </ul>
-      </nav>
-      
-      <div id="second_nav">
-          <div id="BUY_TICKETS"><a href="Buy_Tickets.html">Buy Tickets</a></div>
-          <div id="PLAY_FOR_US"><a href="Play_for_us.html">Play For Us</a></div>
-          <div id="BECOME_A_MEMBER" class="thispage"><a href="Become_a_member.html">Become a Member</a></div>
-          <div id="BECOME_A_VOLUNTEER"><a href="Become_a_volunteer.html">Become a Volunteer</a></div>
-      </div>
-      
-    
-	</header>
+    <?php include("header.php");
+?>
   </div>
  <div id="welcome_img_become_a_member"><img src="pictures/BlackBox.jpg" width="1691" height="1440" alt=""/></div>
  <body1 id="body1_become_a_member"> 
@@ -99,26 +79,8 @@ Pay with PayPal
 </div>
  </body1>   
 
-
- 
-<footer id="footer5">
-<div id="contact"><h2 class="footer_contact"><strong>Contact</strong></h2> Phone: 07 4724 2086 <br> Mobile: 0402 255 182 <br> Email Address: admin@townsvillemusic.org.au <br> Postal Address: PO Box 1006, Townsville, Qld 4810 <br> Street Address: Townsville Civic Theatre, 41 Boundary Street, Townsville, Qld 4810 
-<div id="fblogo"> <a href="https://www.facebook.com/pages/Townsville-Community-Music-Centre/159636880763534?fref=ts"><img src="pictures/fblogo.jpg" width="64" height="64" alt=""/></a></div>
-
-<div id="links1"><a href="index.html">Home</a><br> <a href="Events.html" class="nav-link">Events</a><br><a href="Artists.html" class="nav-link">Artists</a><br>
-  <a href="About.html" class="nav-link">About</a></div> 
-<div id="links2"><a href="Play_for_us.html">Play For Us</a><br>
-  <a href="Buy_Tickets.html">Buy Tickets</a><br>
-  <a href="Become_a_volunteer.html">Become a Volunteer</a><br>
-  <a href="Become_a_member.html">Become a Member</a></div>
-</div>
-<div id="sponsors"> <strong><h2> Sponsors</h2> </strong> 
-<div id="sponsor1"> <a href="http://www.townsville.qld.gov.au/Pages/default.aspx"><img src="pictures/1152800_1_M.png" width="60" height="86" alt=""/></a> </div>
-<div id="sponsor2"> <a href="https://www.qld.gov.au/index.html"><img src="pictures/qg-coa-ogp.png" width="86" height="86" alt=""/></a> </div>
-<div id="sponsor3"> <img src="pictures/1525593_1_O.png" width="100" height="80" alt=""/> </div>
- </div>
-
-</footer>
+<?php include("footer.php");
+?>
 </div>     
 </div>   
 </body>
