@@ -65,7 +65,6 @@ include("dbconnect.php"); ?>
 </div>     
 </div>
 </section>
-<?php include("inc_footer.php"); ?>
 </body>
 </body>
 </html>
