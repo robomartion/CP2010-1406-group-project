@@ -59,7 +59,7 @@ body {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	top: 2306px;
 	float: left;
-	margin-top: -720px;
+	margin-top: -460px;
 	color: #FCF9F9;
 }
 #footer6 {
@@ -165,7 +165,6 @@ a:visited {
 a:hover, a:active, a:focus {
 	text-decoration: none;
 	border-top-left-radius: 10px;
-	color:#E77E2B;
 }
 #mainnav ul {
 	list-style-type: none;
@@ -178,6 +177,7 @@ a:hover, a:active, a:focus {
 	border-radius: 0em;
 	display: block;
 	text-decoration: underline;
+	color: #000000;
 }
 
 #mainnav a {
@@ -227,7 +227,7 @@ a:hover, a:active, a:focus {
 	margin-right: 29px;
 }
 #BUY_TICKETS:hover{
-	color: #E77E2B;
+	color: #000000;
 	background-color: #FFFFFF;
 	border-color: #FFFFFF;
 }
@@ -253,7 +253,7 @@ a:hover, a:active, a:focus {
 	border-radius: 10px;
 }
 #content #top #PLAY_FOR_US:hover{
-	color: #E77E2B;
+	color: #000000;
 	background-color: #FFFFFF;
 	border-color: #FFFFFF;
 }
@@ -272,7 +272,7 @@ a:hover, a:active, a:focus {
 	position: relative;
 }
 #content #top #BECOME_A_MEMBER:hover{
-	color: #E77E2B;
+	color: #000000;
 	background-color: #FFFFFF;
 	border-color: #FFFFFF;
 }
@@ -291,7 +291,7 @@ a:hover, a:active, a:focus {
 	position: relative;
 }
 #content #top #BECOME_A_VOLUNTEER:hover{
-	color: #E77E2B;
+	color: #000000;
 	background-color: #FFFFFF;
 	border-color: #FFFFFF;
 }
@@ -369,7 +369,7 @@ image body {
 	font-size: x-large;
 	margin-left: 54px;
 	position: relative;
-	margin-top: -1476px;
+	margin-top: -1730px;
 	float: left;
 }
 #wrapper #body1_buy_tickets {
@@ -414,7 +414,7 @@ image body {
 	font-size: x-large;
 	margin-left: 64px;
 	position: relative;
-	margin-top: -1121px;
+	margin-top: -1213px;
 	float: left;
 }
 #wrapper #body1_artists  {
@@ -833,42 +833,42 @@ image body {
 #wrapper #footer #contact {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -24px;
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #footer5 #contact {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -24px;
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #footer6 #contact {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -24px;
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #footer9 #contact {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -24px;
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #footer8 #contact {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -24px;
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #footer3 #contact_artists {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -24px;
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
@@ -882,14 +882,14 @@ image body {
 #wrapper #footer4 #contact_events {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -24px;
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #footer2 #contact_about {
 	color: #FFFFFF;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -24px;
 	margin-left: 15px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
@@ -1486,27 +1486,6 @@ body img {
 #body1_artists #artist_name #artists_events_text {
 	margin-left: -173px;
 }
-
-#top #second_nav #BECOME_A_MEMBER.thispage {
-	border-color: #000000;
-	background-color: #000000;
-	text-decoration: underline;
-}
-#top #second_nav #PLAY_FOR_US.thispage {
-	border-color: #000000;
-	background-color: #000000;
-	text-decoration: underline;
-}
-#top #second_nav #BECOME_A_VOLUNTEER.thispage {
-	border-color: #000000;
-	background-color: #000000;
-	text-decoration: underline;
-}
-#top #second_nav #BUY_TICKETS.thispage {
-	border-color: #000000;
-	background-color: #000000;
-	text-decoration: underline;
-}
 #wrapper #become_a_member_body1 {
 	color: #FFFFFF;
 	float: left;
@@ -1524,6 +1503,11 @@ body img {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 #wrapper #volunteer_body1 {
+	color: #FFFFFF;
+	float: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#wrapper #play_for_us_body1 {
 	color: #FFFFFF;
 	float: left;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -1561,7 +1545,7 @@ body img {
 }
 #wrapper form {
 	color: #FFFFFF;
-	margin-top: 66px;
+	margin-top: 161px;
 }
 #wrapper #become_a_member_body1 #become_a_member_body1_text1 {
 	margin-top: 0px;
@@ -1585,7 +1569,14 @@ body img {
 #wrapper #volunteer_body1 #volunteer_body1_text1 {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	font-size: x-large;
+	margin-top: -667px;
+
+}
+#wrapper #play_for_us_body1 #play_for_us_body1_text1 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: x-large;
 	margin-top: -587px;
+	margin-left: -38px;
 
 }
 #wrapper #sign_in_body1 #sign_in_body1_text1 {
@@ -1677,4 +1668,26 @@ body img {
 #content .buy_tickets input {
 	position: absolute;
 	top: 298px;
+}
+#wrapper table {
+	margin-top: 1044px;
+}
+#second_nav #PLAY_FOR_US .thispage {
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+	text-decoration: underline;
+}
+#volunteer_body1 #volunteer_body1_text1 form {
+
+
+}
+#wrapper #play_for_us_main {
+
+}
+#top #second_nav .thispage {
+	color: #000000;
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	text-decoration: underline;
 }
