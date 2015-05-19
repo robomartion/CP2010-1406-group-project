@@ -1440,7 +1440,7 @@ body img {
 }
 .image4 {
 	position: absolute;
-	top: 627px;
+	top: 670px;
 	right: 0px;
 	left: 22px;
 	opacity: 1;
@@ -1468,6 +1468,7 @@ body img {
 	right: -24px;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	margin-left: -13px;
+	margin-right: 57px;
 }
 #footer2 #contact_about #fblogo_about {
 	margin-top: -127px;
