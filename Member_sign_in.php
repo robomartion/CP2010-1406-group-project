@@ -1,5 +1,5 @@
 <?php session_start(); 
-include("dbconnect.php"); ?>
+include("db/dbconnect.php"); ?>
 <!doctype html>
 <html>
 <head>
@@ -20,7 +20,6 @@ include("dbconnect.php"); ?>
   
   
 <div id="sign_in_body1_text1"> 
-
   <label for="sign_in"><h1>Sign In</h1></label>
   Sign in to your account here. Logging in with an admin account here will grant you aministrative priveleges.<br> Puting in new details here will automatically create a new account.
 <?php
@@ -30,6 +29,9 @@ $name = substr($filename, 0, strrpos($filename, ".")); ?>
   <aside id="login"><form action="login.php?page=<?php echo $name; ?>" method="post"><input name="username" type="text" placeholder="Username"><input name="password" type="password" placeholder="Password"><input name="submit" type="submit" value="Login"></form></aside>
 
 <?php
+if (isset($_SESSION['usertype'] == 2) {
+    echo "This is an administrator account, you can update the Artist and Events database";
+}
 if (isset($_SESSION['username'])) {
     echo "Hello " . $_SESSION['username'];
     echo " - <a href=\"logout.php?page=$name\">Logout</a>";

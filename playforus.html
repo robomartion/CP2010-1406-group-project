@@ -9,26 +9,28 @@
 <body>
 <div id="wrapper">
   <div id="content">  
-    <header id="top"> 	
+   <header id="top">   
     <a href="index.html"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
         <ul>
-          <li><a href="index.html">Home</a></li>
+        <li> <a href="Bulletin_board.html">Bulletin Board</a></li>
+          <li><a href="index.html" class="thispage">Home</a></li>
           <li><a href="Events.html">Events</a></li>
           <li><a href="Artists.html">Artists</a></li>
           <li><a href="About.html">About</a></li>
+          <li> <a href="Member_sign_in.html">Sign In</a></li>
         </ul>
       </nav>
       
       <div id="second_nav">
-          <div id="BUY_TICKETS"><a href="Buy_Tickets.html">Buy Tickets</a></div>
-          <div id="PLAY_FOR_US">Play For Us</div>
-          <div id="BECOME_A_MEMBER" class="thispage"><a href="Become_a_member.html">Become a Member</a></div>
-          <div id="BECOME_A_VOLUNTEER">Become a Volunteer</div>
+          <a href="Buy_Tickets.html"><div id="BUY_TICKETS">Buy Tickets</div></a>
+          <a href="Playforus.html"><div id="PLAY_FOR_US">Play For Us</div></a>
+          <a href="Become_a_member.html"><div id="BECOME_A_MEMBER">Become a Member</div></a>
+          <a href="Become_a_volunteer.html"><div id="BECOME_A_VOLUNTEER">Become a Volunteer</div></a>
       </div>
       
     
-	</header>
+  </header>
   </div>
  <div id="welcome_img_become_a_member"><img src="pictures/BlackBox.jpg" width="1691" height="1550" alt=""/></div>
  <body1 id="body1_become_a_member"> 
@@ -47,7 +49,7 @@ Desired Password: <input type="password" name="password"><br>
 <h3>Contact Details</h3>
 First name: <input type="text" name="fname"><br>
 Last name: <input type="text" name="lname"><br>
-Email: <input type="text" name="email"> (We won't send you any spam!)<br>
+Email: <input type="email" name="email"> (We won't send you any spam!)<br>
 
 <h3>About you/your band</h3>
 Genre: <input type="text" name="genre"><br>
@@ -58,9 +60,9 @@ How big is your band? <select>
   <option value="Lessthan5">Less than 5</option>
   <option value="morethan10">Big band</option>
 <br>
-About many songs do you have in your repertoire? <input type="number" name="repetoire">
+<input type="number" placeholder="How many songs?" name="repetoire">
 
-<h4>Optional</h4>
+<h3>Optional</h3>
 Mobile Phone: <input type="text" name="mphone"><br>
 Postal Address: <input type="text" name="paddress"><br>
 Home Phone: <input type="text" name="hphone"><br>

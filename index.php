@@ -46,7 +46,8 @@ include("dbconnect.php"); ?>
       <div id="BECOME_A_VOLUNTEER_1">Become a Volunteer</div>
       <div id="PLAY_FOR_US_1">Play For Us</div>
       
- <div id="body1_bottom_text">If you have other obligations but would still like to help out, <strong><u><a href="Become_a_member.html">become a member</a></u></strong> to <br>support us and get up to a <strong>50% discount on tickets</strong> <i>or</i> make a donation. <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+ <div id="body1_bottom_text">If you have other obligations but would still like to help out, <strong><u><a href="Become_a_member.html">become a member</a></u></strong> to <br>support us and get up to a <strong>50% discount on tickets</strong> <i>or</i> make a donation. 
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="67K2M93WVJM2L">
                     <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal � The safer, easier way to pay online.">
