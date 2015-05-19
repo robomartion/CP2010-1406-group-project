@@ -310,7 +310,7 @@ a:hover, a:active, a:focus {
 }
 body p {
 	position: absolute;
-	top: 184px;
+	top: 193px;
 	right: 0px;
 	left: 375px;
 	font-size: large;
@@ -1547,6 +1547,8 @@ body img {
 }
 #wrapper #become_a_member_body1 form {
 	margin-top: 35px;
+	padding-bottom: 0px;
+	padding-left: 0px;
 }
 #wrapper #buy_tickets_form  {
 	margin-top: 35px;
