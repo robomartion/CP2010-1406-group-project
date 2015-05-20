@@ -13,7 +13,7 @@ if ($_REQUEST['submit'] == "X")
 
 	//delete image from the server
 	$id = (int)$_GET['id'];
-	$select = mysql_query("SELECT `artist` FROM `artist` WHERE `artist`.`id` = '$id'");
+	$select = mysql_query("SELECT `event` FROM `events` WHERE `event`.`id` = '$id'");
 	$image  =mysql_fetch_array($select);
 	@unlink('uploads/'.$image['file_name']);
 
@@ -43,7 +43,7 @@ if ($_REQUEST['submit'] == "Insert Entry")
 {
 	include("upload.php");
 	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "INSERT INTO events (artist, details, image) VALUES ('$_REQUEST[artist]', '$_REQUEST[details]', '$imageName')";
+	$sql = "INSERT INTO events (artist, description, image, eventdate) VALUES ('$_REQUEST[artist]', '$_REQUEST[description]', '$imageName', '$_REQUEST[eventdate]', '$_REQUEST[cost]')";
 
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
@@ -65,7 +65,7 @@ else if ($_REQUEST['submit'] == "Update Entry")
 {
 	include("upload.php");
 	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "UPDATE artist SET artist = '$_REQUEST[artist]', image = '$imageName', details = '$_REQUEST[details]' WHERE id = '$_REQUEST[id]'";
+	$sql = "UPDATE events SET artist = '$_REQUEST[artist]', image = '$imageName', description = '$_REQUEST[description]', eventdate = '$_REQUEST[eventdate]', cost = '$_REQUEST[cost]' WHERE id = '$_REQUEST[id]'";
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
 		echo "Updated $_REQUEST[artist]";
@@ -110,6 +110,6 @@ foreach ($dbh->query($sql) as $row)
 $dbh = null;
 
 ?>
-<p><a href="artists.php">Add another artist</a></p>
+<p><a href="editevents.php">Go back</a></p>
 </body>
 </html>

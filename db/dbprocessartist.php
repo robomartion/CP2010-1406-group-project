@@ -110,6 +110,6 @@ foreach ($dbh->query($sql) as $row)
 $dbh = null;
 
 ?>
-<p><a href="artists.php">Add another artist</a></p>
+<p><a href="artists.php">Go back</a></p>
 </body>
 </html>

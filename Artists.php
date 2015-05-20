@@ -1,7 +1,11 @@
-
- <?php include( "dbconnect.php") /* Fairly simple example - there 's a form for inserting a new artist record and a set of forms, one for each record,
+<?php include( "db/dbconnect.php") /* Fairly simple example - there 's a form for inserting a new artist record and a set of forms, one for each record,
   that allows for deleting and updating each record. In these ones, the id of the record is passed using a hidden form field. 
 */
+?>
+<?php require("authenticate/authenticate.php"); 
+/*  Use include/require to avoid duplicating code.  
+  In this case, authenticate is included for every page we want to secure/protect.
+*/ 
 ?>
 
 <!doctype html>

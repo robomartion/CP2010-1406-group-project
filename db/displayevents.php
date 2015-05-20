@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Artists</title>
+<title>PHP SQLite Database (Artist Records)</title>
 <style type="text/css">
 .subtleSet {
 	border-radius:25px;

@@ -9,13 +9,7 @@ $debugOn = true;
 
 if ($_REQUEST['submit'] == "X")
 {
-	$sql = "DELETE FROM artist WHERE id = '$_REQUEST[id]'";
-
-	//delete image from the server
-	$id = (int)$_GET['id'];
-	$select = mysql_query("SELECT `artist` FROM `artist` WHERE `artist`.`id` = '$id'");
-	$image  =mysql_fetch_array($select);
-	@unlink('uploads/'.$image['file_name']);
+	$sql = "DELETE FROM members WHERE id = '$_REQUEST[id]'";
 
 	if ($dbh->exec($sql))
 		header("Location: artists.php"); // NOTE: This must be done before ANY html is output, which is why it's right at the top!
@@ -41,34 +35,30 @@ echo "</pre>";
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
 if ($_REQUEST['submit'] == "Insert Entry")
 {
-	include("upload.php");
-	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "INSERT INTO artist (artist, details, image) VALUES ('$_REQUEST[artist]', '$_REQUEST[details]', '$imageName')";
+	$sql = "INSERT INTO members (username, password, firstname, surname, accounttype) VALUES ('$_REQUEST[username]', '$_REQUEST[password]', '$_REQUEST[firstname]', '$_REQUEST[surname]','$_REQUEST[accounttype]')";
 
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
-		echo "Inserted $_REQUEST[artist]";
+		echo "Inserted $_REQUEST[username]";
 	else
 		echo "Not inserted"; // in case it didn't work - e.g. if database is not writeable
 
 }
 else if ($_REQUEST['submit'] == "Delete Entry")
 {
-	$sql = "DELETE FROM artist WHERE id = '$_REQUEST[id]'";
+	$sql = "DELETE FROM members WHERE id = '$_REQUEST[id]'";
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
-		echo "Deleted $_REQUEST[artist]";
+		echo "Deleted $_REQUEST[username]";
 	else
 		echo "Not deleted";
 }
 else if ($_REQUEST['submit'] == "Update Entry")
 {
-	include("upload.php");
-	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "UPDATE artist SET artist = '$_REQUEST[artist]', image = '$imageName', details = '$_REQUEST[details]' WHERE id = '$_REQUEST[id]'";
+	$sql = "UPDATE members SET username = '$_REQUEST[username]', password = '$_REQUEST[password]', firstname = '$_REQUEST[firstname]', surname = '$_REQUEST[surname]', accounttype = '$_REQUEST[accounttype]' WHERE id = '$_REQUEST[id]'";
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
-		echo "Updated $_REQUEST[artist]";
+		echo "Updated $_REQUEST[username]";
 	else
 		echo "Not updated";
 }
@@ -79,8 +69,8 @@ echo "</strong></p>\n";
 
 // Basic select and display all contents from table 
 
-echo "<h2>Artist Records in Database Now</h2>\n";
-$sql = "SELECT * FROM artist";
+echo "<h2>Member Records in Database Now</h2>\n";
+$sql = "SELECT * FROM members";
 $result = $dbh->query($sql);
 $resultCopy = $result;
 
@@ -110,6 +100,6 @@ foreach ($dbh->query($sql) as $row)
 $dbh = null;
 
 ?>
-<p><a href="artists.php">Add another artist</a></p>
+<p><a href="editmembers.php">Go back to list of members</a></p>
 </body>
 </html>
