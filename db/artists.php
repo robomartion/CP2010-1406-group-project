@@ -1,6 +1,7 @@
 <?php
+session_start(); 
 require("../authenticate/authenticate.php"); 
-include("dbconnect.php")
+include("dbconnect.php");
 /* Fairly simple example - there's a form for inserting a new artist record and a set of forms, one for each record,
 	that allows for deleting and updating each record. In these ones, the id of the record is passed using a hidden form field. 
 */
@@ -25,7 +26,7 @@ include("dbconnect.php")
 <h1>Artist Database</h1>
 <h2><a href='displayartists.php'>View artists</a><h2>
 
-<form id="insert" name="insert" method="post" action="dbprocessartist.php" enctype="multipart/form-data">
+<form id="insert" name="insert" method="post" action="dbprocessbulletin.php" enctype="multipart/form-data">
 <fieldset class="subtleSet">
     <h2>Insert new artist record:</h2>
     <p>

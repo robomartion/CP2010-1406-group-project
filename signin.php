@@ -17,7 +17,7 @@ include("db/dbconnect.php"); ?>
         	<li><a href="Bulletin_board.php">Bulletin Board</a></li>
           	<li><a href="index.php">Home</a></li>
           	<li><a href="Events.php">Events</a></li>
-          	<li><a href="Artists.php">Artists</a></li>
+          	<li><a href="db/displayartists.php">Artists</a></li>
           	<li><a href="about.php">About</a></li>
             <li><a href="Member_sign_in.php" class="thispage">Sign in</a></li>
         </ul>
@@ -39,7 +39,7 @@ include("db/dbconnect.php"); ?>
   
 <div id="sign_in_body1_text1"> 
   <label for="sign_in"><h1>Sign In</h1></label>
-  Sign in to your account here. Logging in with an admin username and password will grant you aministrative priveleges.<br> Puting in new details here will automatically create a new account.
+  Sign in to your account here. Logging in with an administrator account will grant you aministrative priveleges.
 <?php
 $filename = substr(strrchr($_SERVER['SCRIPT_NAME'], "/"), 1); // missing '' around index - notice error
 $name = substr($filename, 0, strrpos($filename, ".")); ?>

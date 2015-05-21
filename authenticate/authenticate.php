@@ -41,7 +41,7 @@ if (!isset($_SESSION['username']))
 	else // they didn't come from a form - tell them to log in, redirecting to login page
 	{
 		$_SESSION['msg'] = "You must log in first";
-		header("Location: ../authenticate/login.php");
+		header("Location: /CP2010-1406-group-project/authenticate/login.php");
 		exit();
 	}
 }

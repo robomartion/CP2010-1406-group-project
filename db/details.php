@@ -19,12 +19,16 @@
 </head>
 
 <body>
+<!-- 
+<?php include "../header.php" ?>
+ -->
 <h1>
     <?php
-    echo $_GET["requested_artist"];
+    $_GET["requested_artist"];
     $requested_artist = $_GET["requested_artist"];
-    $sql = "SELECT * FROM artist WHERE artist = '$requested_artist'";
+    $sql = "SELECT * FROM artist WHERE id = '$requested_artist'";
     foreach ($dbh->query($sql) as $row);
+    echo "$row[artist]";
     ?>
 </h1>
 <table>

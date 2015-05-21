@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 
 <title>TCMC - Become a Member</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
+<!-- <link href="styles.css" rel="stylesheet" type="text/css"> -->
 </head>
 <body>
 <div id="wrapper">
@@ -30,7 +30,7 @@
       </div>         
     </header>
   </div>
- <div id="welcome_img_become_a_member"><img src="pictures/BlackBox.jpg" width="1691" height="1700" alt=""/></div>
+ <!-- <div id="welcome_img_become_a_member"><img src="pictures/BlackBox.jpg" width="1691" height="1700" alt=""/></div> -->
  <body1 id="body1_become_a_member"> 
 <div id="become_a_member_body1">   
   
@@ -44,48 +44,61 @@ All members receive up to a <strong>50% discount on all tickets</strong>. By bec
 // Only display the signup form if the user is not logged in
 if (!isset($_SESSION['username'])) {
 ?>
-<form id="signup" name="signup" method="post" action="dbprocessmember.php" enctype="multipart/form-data">
+<form id="signup" name="signup" method="post" action="db/dbprocessmember.php" enctype="multipart/form-data">
 <fieldset class="subtleSet">
+<h3>Login Details</h3>
     <p>
-      <label for="username">Username: </label>
-      <input type="text" name="username" id="username">
+      <label for="username">Username(email address): </label>
+      <input type="email" name="username" id="username" required>
     </p>
     <p>
       <label for="password">Password: </label>
-      <input type="password" name="password" id="password">
+      <input type="password" name="password" id="password" required>
     </p>
-    <p>
-      <input type="submit" name="submit" id="submit" value="Insert Entry">
+    <h3>Contact Details</h3>
+     <p>
+      <label for="firstname">First name: </label>
+      <input type="text" name="firstname" id="firstname" required>
+    </p>
+      <p>
+      <label for="surname">Surname: </label>
+      <input type="text" name="surname" id="surname" required>
+    </p>
+    <h3>Optional</h3>
+     <p>
+      <label for="mobile">Mobile phone number: </label>
+      <input type="number" name="mobile" id="mobile" min="8" max="10">
+    </p>
+      <p>
+      <label for="homephone">Home phone number: </label>
+      <input type="text" name="homephone" id="homephone" min="8" max="10">
+    </p>
+      <p>
+      <label for="postaddress">Postal Address: </label>
+      <input type="text" name="postaddress" id="postaddress">
+    </p>
+    <label for="extra">Anything else (comments, suggestions, anything):</label> <br>
+    <textarea rows="4" cols="50" type="text" name="extra" id="extra"></textarea>
+    <br>
+    <h3>Account Type</h3>
+A members account will allow you to buy tickets at a discounted price on our website, post on the bulletin board, add artists as well as see members only content.
+ A free account will allow you to post on the bulletin board.<br><br>
+ Individual Membership subscription is <b>$25</b> per year.<br>
+    <label for="accounttype">Type of Membership: </label>
+    <select type="text" name="accounttype" id="accounttype">
+  <option value="freemember">Free Member</option>
+  <option value="paidmember">Paid Member</option>
+</select>
+<p>
+      <input type="submit" name="submit" id="submit" value="Sign up">
     </p>
 </fieldset>
 </form>
 <?php } ?>
 
 <form>
-<h3>Login Details</h3>
 
-<h3>Contact Details</h3>
-First name: <input type="text" name="fname"><br>
-Last name: <input type="text" name="lname"><br>
-<h4>Optional</h4>
-Mobile Phone: <input type="text" name="mphone"><br>
-Postal Address: <input type="text" name="paddress"><br>
-Home Phone: <input type="text" name="hphone"><br>
-Anything else (comments, suggestions, anything): <br><textarea rows="4" cols="50">
-</textarea><br>
-
-<h3>Account Type</h3>
-A members account will allow you to buy tickets at a discounted price on our website, post on the bulletin board, add artists as well as see members only content.
- A free account will allow you to post on the bulletin board.<br><br>
-
-Type of Membership: <select>
-  <option value="free_member">Free Member</option>
-  <option value="paid_member">Paid Member</option>
-</select>
-
-Individual Membership subscription is <b>$25</b> per year.
 <br>
-<input type="submit" value="Submit">
 </form>
 <img src="pictures/paypal.png" alt="Pay with PayPal" width=auto height=35>
 <br>
@@ -94,7 +107,6 @@ Individual Membership subscription is <b>$25</b> per year.
                     <input type="hidden" name="hosted_button_id" value="GCRJ28AFLXURQ">
                     <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_paynow_SM.gif" name="submit" alt="PayPal � The safer, easier way to pay online.">
                     <img alt="" bord
-<input type="submit" value="Submit">
 <br>
 </form>
 <br>

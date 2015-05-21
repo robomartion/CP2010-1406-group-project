@@ -17,18 +17,18 @@ include("db/dbconnect.php"); ?>
         <ul>
         <li> <a href="Bulletin_board.php">Bulletin Board</a></li>
           <li><a href="index.php" class="thispage">Home</a></li>
-          <li><a href="Events.php">Events</a></li>
-          <li><a href="Artists.php">Artists</a></li>
+          <li><a href="db/displayevents.php">Events</a></li>
+          <li><a href="db/displayartists.php">Artists</a></li>
           <li><a href="about.php">About</a></li>
-          <li> <a href="Member_sign_in.php">Sign In</a></li>
+          <li> <a href="signin.php">Sign In</a></li>
         </ul>
       </nav>
       
       <div id="second_nav">
-          <a href="Buy_Tickets.php"><div id="BUY_TICKETS">Buy Tickets</div></a>
-        <a href="Play_for_us.php"><div id="PLAY_FOR_US">Play For Us</div></a>
-          <a href="Become_a_member.php"><div id="BECOME_A_MEMBER">Become a Member</div></a>
-          <a href="Become_a_volunteer.php"><div id="BECOME_A_VOLUNTEER">Become a Volunteer</div></a>
+          <a href="buytickets.php"><div id="BUY_TICKETS">Buy Tickets</div></a>
+        <a href="playforus.php"><div id="PLAY_FOR_US">Play For Us</div></a>
+          <a href="membersignup.php"><div id="BECOME_A_MEMBER">Become a Member</div></a>
+          <a href="volunteersignup.php"><div id="BECOME_A_VOLUNTEER">Become a Volunteer</div></a>
       </div>
       
     
