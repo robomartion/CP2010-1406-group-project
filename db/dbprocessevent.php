@@ -43,7 +43,8 @@ if ($_REQUEST['submit'] == "Insert Entry")
 {
 	include("upload.php");
 	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "INSERT INTO events (artist, description, image, eventdate) VALUES ('$_REQUEST[artist]', '$_REQUEST[description]', '$imageName', '$_REQUEST[eventdate]', '$_REQUEST[cost]')";
+	$sql = "INSERT INTO events (title, artist, details, image, eventdate, time, ticket) 
+	VALUES ('$_REQUEST[title]', '$_REQUEST[artist]', '$_REQUEST[details]', '$imageName', '$_REQUEST[eventdate]', '$_REQUEST[time]', '$_REQUEST[ticket]')";
 
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
@@ -65,7 +66,7 @@ else if ($_REQUEST['submit'] == "Update Entry")
 {
 	include("upload.php");
 	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "UPDATE events SET artist = '$_REQUEST[artist]', image = '$imageName', description = '$_REQUEST[description]', eventdate = '$_REQUEST[eventdate]', cost = '$_REQUEST[cost]' WHERE id = '$_REQUEST[id]'";
+	$sql = "UPDATE events SET title = '$_REQUEST[title]', artist = '$_REQUEST[artist]', details = '$_REQUEST[details]', image = '$imageName', eventdate = '$_REQUEST[eventdate]', time = '$_REQUEST[time]', ticket = '$_REQUEST[ticket]' WHERE id = '$_REQUEST[id]'";
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
 		echo "Updated $_REQUEST[artist]";
@@ -80,7 +81,7 @@ echo "</strong></p>\n";
 // Basic select and display all contents from table 
 
 echo "<h2>Artist Records in Database Now</h2>\n";
-$sql = "SELECT * FROM artist";
+$sql = "SELECT * FROM events";
 $result = $dbh->query($sql);
 $resultCopy = $result;
 
@@ -102,7 +103,7 @@ if ($debugOn) {
 }
 foreach ($dbh->query($sql) as $row)
 {
-	print $row['artist'] .' - '. $row['details'] . "<br />\n";
+	print $row['title'] .': '. $row['details'] . "<br />\n";
 }
 
 
@@ -110,6 +111,6 @@ foreach ($dbh->query($sql) as $row)
 $dbh = null;
 
 ?>
-<p><a href="editevents.php">Go back</a></p>
+<p><a href="events.php">Go back</a></p>
 </body>
 </html>

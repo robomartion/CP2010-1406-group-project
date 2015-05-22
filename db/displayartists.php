@@ -32,7 +32,7 @@ if (!isset($_SESSION['username']))
  -->
 <a href="artists.php">Edit artists</a>
 
-<h1>Artist data</h1>
+<h1>Bulletin Board</h1>
 <table>
     <tr>
         <td>

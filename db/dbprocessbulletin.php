@@ -9,16 +9,16 @@ $debugOn = true;
 
 if ($_REQUEST['submit'] == "X")
 {
-	$sql = "DELETE FROM artist WHERE id = '$_REQUEST[id]'";
+	$sql = "DELETE FROM bulletinboard WHERE id = '$_REQUEST[id]'";
 
 	//delete image from the server
 	$id = (int)$_GET['id'];
-	$select = mysql_query("SELECT `artist` FROM `artist` WHERE `artist`.`id` = '$id'");
+	$select = mysql_query("SELECT `title` FROM `bulletinboard` WHERE `title`.`id` = '$id'");
 	$image  =mysql_fetch_array($select);
 	@unlink('uploads/'.$image['file_name']);
 
 	if ($dbh->exec($sql))
-		header("Location: artists.php"); // NOTE: This must be done before ANY html is output, which is why it's right at the top!
+		header("Location: bulletinboard.php"); // NOTE: This must be done before ANY html is output, which is why it's right at the top!
 /*	else
 		// set message to be printed on appropriate (results) page
 */
@@ -39,25 +39,25 @@ echo "<pre>";
 print_r($_REQUEST); // a useful debugging function to see everything in an array, best inside a <pre> element
 echo "</pre>";
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
-if ($_REQUEST['submit'] == "Insert Entry")
+if ($_REQUEST['submit'] == "Insert post")
 {
 	include("upload.php");
 	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "INSERT INTO artist (artist, details, image) VALUES ('$_REQUEST[artist]', '$_REQUEST[details]', '$imageName')";
+	$sql = "INSERT INTO bulletinboard (title, details, image) VALUES ('$_REQUEST[title]', '$_REQUEST[details]', '$imageName')";
 
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
-		echo "Inserted $_REQUEST[artist]";
+		echo "Inserted $_REQUEST[title]";
 	else
 		echo "Not inserted"; // in case it didn't work - e.g. if database is not writeable
 
 }
 else if ($_REQUEST['submit'] == "Delete Entry")
 {
-	$sql = "DELETE FROM artist WHERE id = '$_REQUEST[id]'";
+	$sql = "DELETE FROM bulletinboard WHERE id = '$_REQUEST[id]'";
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
-		echo "Deleted $_REQUEST[artist]";
+		echo "Deleted $_REQUEST[title]";
 	else
 		echo "Not deleted";
 }
@@ -65,10 +65,10 @@ else if ($_REQUEST['submit'] == "Update Entry")
 {
 	include("upload.php");
 	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "UPDATE artist SET artist = '$_REQUEST[artist]', image = '$imageName', details = '$_REQUEST[details]' WHERE id = '$_REQUEST[id]'";
+	$sql = "UPDATE bulletinboard SET title = '$_REQUEST[title]', image = '$imageName', details = '$_REQUEST[details]' WHERE id = '$_REQUEST[id]'";
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
-		echo "Updated $_REQUEST[artist]";
+		echo "Updated $_REQUEST[title]";
 	else
 		echo "Not updated";
 }
@@ -79,8 +79,8 @@ echo "</strong></p>\n";
 
 // Basic select and display all contents from table 
 
-echo "<h2>Artist Records in Database Now</h2>\n";
-$sql = "SELECT * FROM artist";
+echo "<h2>Post Records in Database Now</h2>\n";
+$sql = "SELECT * FROM bulletinboard";
 $result = $dbh->query($sql);
 $resultCopy = $result;
 
@@ -110,6 +110,6 @@ foreach ($dbh->query($sql) as $row)
 $dbh = null;
 
 ?>
-<p><a href="artists.php">Go back</a></p>
+<p><a href="bulletinboard.php">Go back</a></p>
 </body>
 </html>

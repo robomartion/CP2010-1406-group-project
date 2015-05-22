@@ -1,6 +1,7 @@
 <?php
 require("../authenticate/authenticate.php"); 
-include("dbconnect.php")
+include("dbconnect.php");
+error_reporting(E_ALL);
 /* Fairly simple example - there's a form for inserting a new artist record and a set of forms, one for each record,
 	that allows for deleting and updating each record. In these ones, the id of the record is passed using a hidden form field. 
 */
@@ -22,26 +23,54 @@ include("dbconnect.php")
 </head>
 
 <body>
-<h1>Artist Database</h1>
-<h2><a href='displayartists.php'>View artists</a><h2>
+<h1>Member Database</h1>
+<h2>Add a new member or edit an exisiting one at the bottom of this page.<h2>
 
-<form id="insert" name="insert" method="post" action="dbprocessartist.php" enctype="multipart/form-data">
+<form id="signup" name="signup" method="post" action="dbprocessmember.php" enctype="multipart/form-data">
 <fieldset class="subtleSet">
-    <h2>Insert new artist record:</h2>
+<h3>Login Details</h3>
     <p>
-      <label for="artist">Artist: </label>
-      <input type="text" name="artist" id="artist">
+      <label for="username">Username(email address): </label>
+      <input type="email" name="username" id="username" required>
     </p>
     <p>
-      <label for="details">Details: </label>
-      <input type="text" name="details" id="details">
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" minlength="8" required>
     </p>
-    <p>
-        Select image to upload:
-        <input action="upload.php" method="post" enctype="multipart/form-data" type="file" name="fileToUpload" id="fileToUpload">
+    <h3>Contact Details</h3>
+     <p>
+      <label for="firstname">First name: </label>
+      <input type="text" name="firstname" id="firstname" required>
     </p>
-    <p>
-      <input type="submit" name="submit" id="submit" value="Insert Entry">
+      <p>
+      <label for="surname">Surname: </label>
+      <input type="text" name="surname" id="surname" required>
+    </p>
+    <h3>Optional</h3>
+     <p>
+      <label for="mobile">Mobile phone number: </label>
+      <input type="number" name="mobile" id="mobile" minlength="8" maxlength="10">
+    </p>
+      <p>
+      <label for="homephone">Home phone number: </label>
+      <input type="text" name="homephone" id="homephone" minlength="8" maxlength="10">
+    </p>
+      <p>
+      <label for="postaddress">Postal Address: </label>
+      <input type="text" name="postaddress" id="postaddress">
+    </p>
+    <label for="extra">Anything else (comments, suggestions, anything):</label> <br>
+    <textarea rows="4" cols="50" type="text" name="extra" id="extra"></textarea>
+    <br>
+    <h3>Account Type</h3>
+    <label for="accounttype">Type of Membership: </label>
+    <select type="text" name="accounttype" id="accounttype">
+  <option value="freemember">Free Member</option>
+  <option value="paidmember">Paid Member</option>
+  <option value="admin">Administrator</option>
+</select>
+<p>
+      <input type="submit" name="submit" id="submit" value="Sign up">
     </p>
 </fieldset>
 </form>
@@ -52,6 +81,9 @@ include("dbconnect.php")
         <tr>
             <td>
                 <h3>Username</h3>
+            </td>
+            <td>
+                <h3>Password</h3>
             </td>
             <td>
                 <h3>Firstname</h3>
@@ -78,7 +110,7 @@ $sql = "SELECT * FROM members";
 foreach ($dbh->query($sql) as $row)
 {
 ?>
-<form id="deleteForm" name="deleteForm" method="post" action="dbprocessartist.php" enctype="multipart/form-data">
+<form id="deleteForm" name="deleteForm" method="post" action="dbprocesmember.php" enctype="multipart/form-data">
 <?php
 	echo "<tr>
    <td><input type='email' name='username' value='$row[username]'></td>
@@ -91,6 +123,7 @@ foreach ($dbh->query($sql) as $row)
      <td><select type='text' name='accounttype' value='$row[accounttype]'>
   <option value='freemember'>Free Member</option>
   <option value='paidmember'>Paid Member</option>
+  <option value='admin'>Administrator</option>
 </select></td>
    </table>\n";
 

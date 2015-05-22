@@ -4,8 +4,10 @@
    (redirect with the header method) instead of printing the results here. 
    The X option demonstrates this ("silent" delete).
 */
+error_reporting(E_ALL);
 include("dbconnect.php");
 $debugOn = true;
+
 
 if ($_REQUEST['submit'] == "X")
 {
@@ -94,11 +96,6 @@ if ($debugOn) {
 	echo "</pre>";
 	echo "<br />\n";
 }
-foreach ($dbh->query($sql) as $row)
-{
-	print $row['artist'] .' - '. $row['details'] . "<br />\n";
-}
-
 
 // close the database connection
 $dbh = null;
