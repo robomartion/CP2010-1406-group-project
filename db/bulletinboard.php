@@ -42,10 +42,7 @@ include("dbconnect.php")
     </p>
     <?php
     echo 'Post will be added using account: ';
-    echo $_SESSION['username'];
-    "<p>
-    <input id='username' type='email' name='username' value='$_SESSION[username]'>
-    </p>"?>
+    echo $_SESSION['username'];?>
     <p>
       <input type="submit" name="submit" id="submit" value="Insert post">
     </p>

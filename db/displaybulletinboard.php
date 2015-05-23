@@ -7,13 +7,12 @@ include( "dbconnect.php"); /* Fairly simple example - there 's a form for insert
 <html>
 <head>
 <meta charset="UTF-8">
-<title>PHP SQLite Database (Artist Records)</title>
-<link href="../styles.css" rel="stylesheet" type="text/css">
+<title>Bulletin Board)</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<?php include("../header.php");?>
 <body>
-<!-- 
+
 <?php
 // this is the simple check if we're NOT logged in - if we ARE, do nothing (there's no "else")
 if (!isset($_SESSION['username']))
@@ -29,29 +28,18 @@ if (!isset($_SESSION['username']))
     }
 }
 ?>
- -->
-<a href="editbulletinboard.php">Edit posts</a>
 
-<h1>Artist data</h1>
+<a href="bulletinboard.php">Edit posts</a>
+
+<h1>Bulletin Board</h1>
 <table>
-    <tr>
-        <td>
-            <h3>Username</h3>
-        </td>
-        <td>
-            <h3>Title</h3>
-        </td>
-        <td>
-            <h3>Image</h3>
-        </td>
-        <td>
-            <h3>Description</h3>
-        </td>
-    </tr>
+
     <?php
-    $sql = "SELECT id, title, image, description FROM bulletinboard";
+    $sql = "SELECT bulletinboard.id AS id, bulletinboard.title AS title, bulletinboard.image AS image, bulletinboard.details AS details, bulletinboard.username AS username, 
+    members.mobile AS mobile, members.firstname AS firstname, members.surname AS surname FROM bulletinboard INNER JOIN members ON members.username=bulletinboard.username";
+    // echo $sql;
     foreach ($dbh->query($sql) as $row) {
-        echo "<tr><td><h3><a href=details.php?requested_post=$row[id]>$row[title]</a></h3></td><td><img src= 'uploads/$row[image]' width=300px></td><td>$row[summary]...</td></tr>";
+    echo "<tr><td><h3>$row[title]</a></h3>$row[details]<br><br>$row[username]<br>$row[firstname] $row[surname]<br>$row[mobile]</td><td><img src= 'uploads/$row[image]' height=300px></td></tr>";
     }
 
     $dbh  = null;

@@ -52,7 +52,7 @@
              </select>
  
 
- <label for="amount"><br>Number of Tickets:</label> <input type="number" class="amount"></input>
+ <label for="amount"><br>Number of Tickets:</label> <input type="number" class="amount" min="1"></input>
 
 <label for="payment_method"><br>Payment Method:</label>
  <select id = "payment" onChange="window.location.href=this.value" >

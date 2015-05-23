@@ -3,6 +3,7 @@
 session_start();
 // Report all PHP errors 
 error_reporting(E_ALL);
+include("../db/dbconnect.php");
 
 /* This code controls access to a page by checking to see if the username exists in the session.
  Since this variable is set by the login script, it means the user is logged in.
@@ -15,6 +16,10 @@ IMPORTANT NOTE: This is NOT a safe robust way to do secure authentication.
  (e.g. by setting a username session variable on one page and then going to this page).
 */
 
+$sql = "SELECT * FROM members";
+foreach ($dbh->query($sql) as $row);
+{
+
 // this is the simple check if we're NOT logged in - if we ARE, do nothing (there's no "else")
 if (!isset($_SESSION['username']))
 {
@@ -22,7 +27,7 @@ if (!isset($_SESSION['username']))
 	if (isset($_POST['username'])) 
 	{
 		// now do the username/password check - this could be a proper database lookup
-		if ($_POST['password'] == "password" && $_POST['username'] == "admin")
+		if ($_POST['password'] == $row['password'] && $_POST['username'] == $row['[username]'])
 		{
 			// Yes, valid credentials - set message and set session variable for logged in
 			$_SESSION['username'] = $_POST['username'];
@@ -31,7 +36,10 @@ if (!isset($_SESSION['username']))
 			session_regenerate_id();
 		}
 		else
-		{
+		{	
+			$_SESSION['password'] = $row['password'];
+			$_SESSION['username'] = $row['username'];
+
 			$_SESSION['msg'] = "Invalid username and/or password!";
 			// redirect them to the login page, protecting our secure page
 			header("Location: ../authenticate/login.php");
@@ -44,5 +52,6 @@ if (!isset($_SESSION['username']))
 		header("Location: /CP2010-1406-group-project/authenticate/login.php");
 		exit();
 	}
+}
 }
 ?>

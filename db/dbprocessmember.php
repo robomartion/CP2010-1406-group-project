@@ -101,6 +101,6 @@ if ($debugOn) {
 $dbh = null;
 
 ?>
-<p><a href="editmembers.php">Go back to list of members</a></p>
+<p><a href="members.php">Go back to list of members</a></p>
 </body>
 </html>

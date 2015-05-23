@@ -18,24 +18,15 @@
 </style>
 </head>
 
+<a href="events.php">Edit events</a>
+
 <body>
-<h1>Event data</h1>
+<h1>Events</h1>
 <table>
-    <tr>
-        <td>
-            <h3>Event</h3>
-        </td>
-        <td>
-            <h3>Image</h3>
-        </td>
-        <td>
-            <h3>Details</h3>
-        </td>
-    </tr>
     <?php
-    $sql = "SELECT id, artist, description, image, eventdate FROM events";
+    $sql = "SELECT id, title, artist, details, image, eventdate, time, ticket FROM events";
     foreach ($dbh->query($sql) as $row) {
-        echo "<tr><td><h3><a href=details.php?requested_event=$row[id]>$row[artist]</a></h3></td><td><img src= 'uploads/$row[image]' width=300px></td><td>$row[description]</td></tr>";
+        echo "<tr><td><h2><a href=$row[ticket]>$row[title]</a></h2><h3>$row[artist]</h3>$row[details]<br><br><b>$row[eventdate]<br>$row[time]<b></td><td><img src= 'uploads/$row[image]' width=300px></td></tr>";
     }
 
     $dbh  = null;

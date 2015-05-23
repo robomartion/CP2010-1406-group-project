@@ -1,0 +1,23 @@
+ul {
+	list-style-type: none;
+	padding:0; 
+	margin:0;
+}
+
+#timeline #left {
+	text-align: left;
+	margin-right: auto;
+	margin-left: 10px;
+}
+
+#timeline #right {
+	text-align: left
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+p {
+	text-align: left;
+	margin: 10px;
+	padding: 10px;
+}

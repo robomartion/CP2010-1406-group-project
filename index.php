@@ -15,7 +15,7 @@ include("db/dbconnect.php"); ?>
     <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
         <ul>
-        <li> <a href="Bulletin_board.php">Bulletin Board</a></li>
+        <li> <a href="bulletinboard.php">Bulletin Board</a></li>
           <li><a href="index.php" class="thispage">Home</a></li>
           <li><a href="db/displayevents.php">Events</a></li>
           <li><a href="db/displayartists.php">Artists</a></li>
@@ -67,6 +67,15 @@ include("db/dbconnect.php"); ?>
  <div id="welcome">
  
 <strong><h2>Upcoming Events:</h2></strong>
+
+<?php
+    $sql = "SELECT TOP 3 id, title, artist, details, image, eventdate, time, ticket FROM events";
+    foreach ($dbh->query($sql) as $row) {
+        echo "<tr><td><h2><a href=$row[ticket]>$row[title]</a></h2><h3>$row[artist]</h3>$row[details]<br><br><b>$row[eventdate]<br>$row[time]<b></td><td><img src= 'uploads/$row[image]' width=300px></td></tr>";
+    }
+
+    $dbh  = null;
+    ?>
 
 <div id="event1"> <img src="pictures/Oompahlogo600.png" width="200" height="200" alt=""/> </div>
 <div id="event1_text"> <strong>Die Frankfurter Oompah Band</strong> <br>2pm 31 May 2015<br>at C2 (Townsville Civic Centre)</div>

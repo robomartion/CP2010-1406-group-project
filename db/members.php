@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 <html>
 <head>
 <meta charset="UTF-8">
-<title>PHP SQLite Database (Artist Records)</title>
+<title>PHP SQLite Database (Member Records)</title>
 <style type="text/css">
 .subtleSet {
 	border-radius:25px;
@@ -19,6 +19,14 @@ error_reporting(E_ALL);
 .deleteButton {
 	color: red;
 }
+td{
+  font-size: 15px;
+}
+p{
+  font-size: 20px;
+  text-decoration: none;
+}
+
 </style>
 </head>
 
@@ -49,7 +57,7 @@ error_reporting(E_ALL);
     <h3>Optional</h3>
      <p>
       <label for="mobile">Mobile phone number: </label>
-      <input type="number" name="mobile" id="mobile" minlength="8" maxlength="10">
+      <input type="text" name="mobile" id="mobile" minlength="8" maxlength="10">
     </p>
       <p>
       <label for="homephone">Home phone number: </label>
@@ -110,17 +118,18 @@ $sql = "SELECT * FROM members";
 foreach ($dbh->query($sql) as $row)
 {
 ?>
-<form id="deleteForm" name="deleteForm" method="post" action="dbprocesmember.php" enctype="multipart/form-data">
+<form id="deleteForm" name="deleteForm" method="post" action="dbprocessmember.php" enctype="multipart/form-data">
 <?php
+
 	echo "<tr>
    <td><input type='email' name='username' value='$row[username]'></td>
    <td><input type='password' name='password' id='password' value='$row[password]'></td>
    <td><input type='text' name='firstname' id='firstname' value='$row[firstname]'></td>
    <td><input type='text' name='surname' id='surname' value='$row[surname]'></td>
-   <td><input type='text' name='mobile' id='mobile' value='$row[mobile]'></td>
-   <td><input type='text' name='homephone' id='homephone' value='$row[homephone]'></td>
+   <td><input type='text' name='mobile' id='mobile' value='$row[mobile]' minlength='8' maxlength='10'></td>
+   <td><input type='text' name='homephone' id='homephone' value='$row[homephone]' minlength='8' maxlength='10'></td>
     <td><input type='text' name='postaddress' id='postaddress' value='$row[postaddress]'></td>
-     <td><select type='text' name='accounttype' value='$row[accounttype]'>
+     <td>$row[accounttype] <select type='text' name='accounttype' value='$row[accounttype]'>
   <option value='freemember'>Free Member</option>
   <option value='paidmember'>Paid Member</option>
   <option value='admin'>Administrator</option>

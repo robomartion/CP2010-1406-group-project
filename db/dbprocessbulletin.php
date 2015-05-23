@@ -4,6 +4,7 @@
    (redirect with the header method) instead of printing the results here. 
    The X option demonstrates this ("silent" delete).
 */
+ session_start();
 include("dbconnect.php");
 $debugOn = true;
 
@@ -43,7 +44,7 @@ if ($_REQUEST['submit'] == "Insert post")
 {
 	include("upload.php");
 	$imageName = basename($_FILES["fileToUpload"]["name"]);
-	$sql = "INSERT INTO bulletinboard (title, details, image) VALUES ('$_REQUEST[title]', '$_REQUEST[details]', '$imageName')";
+	$sql = "INSERT INTO bulletinboard (username, title, details, image) VALUES ('$_SESSION[username]', '$_REQUEST[title]', '$_REQUEST[details]', '$imageName')";
 
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
@@ -102,7 +103,7 @@ if ($debugOn) {
 }
 foreach ($dbh->query($sql) as $row)
 {
-	print $row['artist'] .' - '. $row['details'] . "<br />\n";
+	print $row['title'] .' - '. $row['details'] . "<br />\n";
 }
 
 
