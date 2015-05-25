@@ -4,16 +4,18 @@ error_reporting(E_ALL);
 /*	This file is a login page that will send the user to a secure page.
 	There's a session 'msg' variable, which will be blank the first time (when not set).
 */
+include("../db/dbconnect.php");
  ?>
 <!doctype html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login</title>
-<link href="styles.css" rel="stylesheet">
+<title>Login Page</title>
+<link href="../styles.css" rel="stylesheet">
 </head>
 <body>
-<h1>Login</h1>
+<?php include("../header.php"); ?>
+<h1>Login Page</h1>
 <?php 
 // print message from session, if one exists
 if (isset($_SESSION['msg'])) {
@@ -31,7 +33,6 @@ if (!isset($_SESSION['username'])) {
   <br>
     <input type="submit" name="submit" value="Login">
 </form>
-<p>(The password is admin)</p>
     <?php } ?>
 <p>Here is the session data in $_SESSION:</p>
 <pre>
@@ -40,9 +41,10 @@ if (!isset($_SESSION['username'])) {
 print_r($_SESSION); 
 ?>
 </pre>
-<nav><a href="../db/artists.php">Edit Artists</a>
+<nav><a href="secure.php">Secure Page</a>
     <?php if (isset($_SESSION['username'])) echo '<a href="logout.php">Logout</a>';
 ?>    
 </nav>
 </body>
+<?php include("../footer.php"); ?>
 </html>

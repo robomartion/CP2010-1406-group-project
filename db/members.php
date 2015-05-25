@@ -1,5 +1,7 @@
 <?php
-require("../authenticate/authenticate.php"); 
+session_start(); 
+require("authenticate.php"); 
+require("verifyadmin.php");
 include("dbconnect.php");
 error_reporting(E_ALL);
 /* Fairly simple example - there's a form for inserting a new artist record and a set of forms, one for each record,

@@ -26,7 +26,7 @@ if (isset($_SESSION['msg'])) {
 ?>
 <p><?php echo "Welcome ".$_SESSION['username']; ?>
 </p>
-<p>This is the administrator panel.</p>
+<p>This content is secret. You can only see it if you are logged in...</p>
 <h2>Variables:</h2>
 <pre>
 <strong>Post:</strong>
@@ -41,7 +41,7 @@ print_r($_POST);
 ?>
 </pre>
 <nav>
-<a href="login.php">Login</a> <a href="secure.php">Reload</a> <a href="../db/artists.php">Edit Artists</a> <a href="../db/members.php">Edit Members</a> <a href="../db/events.php">Edit Events</a> <a href="../db/bulletinboard.php">Edit Bulletin Board</a> <a href="logout.php">Logout</a>
+<a href="login.php">Login</a> <a href="secure.php">Reload</a> <a href="more.php">Another Page</a> <a href="logout.php">Logout</a>
 </nav>
 </body>
 </html>

@@ -14,21 +14,8 @@ include( "dbconnect.php"); /* Fairly simple example - there 's a form for insert
 <body>
 
 <?php
-// this is the simple check if we're NOT logged in - if we ARE, do nothing (there's no "else")
-if (!isset($_SESSION['username']))
-{
-    // check if we came from a form (with username) - this could be more robust (check for our specific login form)
-    if (isset($_POST['username'])) 
-    {
-        // now do the username/password check - this could be a proper database lookup
-        if ($_POST['password'] == "password" && $_POST['username'] == "admin")
-        {?>
-        <a href="artists.php">Edit artists</a>
-        <?php }
-    }
-}
-?>
 
+?>
 <a href="bulletinboard.php">Edit posts</a>
 
 <h1>Bulletin Board</h1>

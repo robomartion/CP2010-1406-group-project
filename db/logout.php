@@ -15,5 +15,5 @@
 <body>
 <h1>Logged out</h1>
 <p>Goodbye <?php echo $username; ?>.</p>
-<nav><a href="login.php">Login</a> <a href="../db/artists.php">Secure Page</a></nav>
+<nav><a href="login.php">Login</a> <a href="secure.php">Secure Page</a></nav>
 </body></html>

@@ -1,5 +1,7 @@
-<?php session_start(); 
-include("db/dbconnect.php"); ?>
+<?php session_start();
+error_reporting(E_ALL); 
+include("db/dbconnect.php"); 
+?>
 <!doctype html>
 <html>
 <head>
@@ -14,47 +16,69 @@ include("db/dbconnect.php"); ?>
     <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
                 <ul>
-        	<li><a href="Bulletin_board.php">Bulletin Board</a></li>
-          	<li><a href="index.php">Home</a></li>
-          	<li><a href="Events.php">Events</a></li>
-          	<li><a href="db/displayartists.php">Artists</a></li>
-          	<li><a href="about.php">About</a></li>
-            <li><a href="Member_sign_in.php" class="thispage">Sign in</a></li>
+        	<li> <a href="bulletinboard.php">Bulletin Board</a></li>
+          <li><a href="index.php" class="thispage">Home</a></li>
+          <li><a href="db/displayevents.php">Events</a></li>
+          <li><a href="db/displayartists.php">Artists</a></li>
+          <li><a href="about.php">About</a></li>
+          	<?php
+          	if (!isset($_SESSION['username'])) {
+            echo "<li><a href='signin.php' class='thispage'>Sign in</a></li>";
+	    	}
+            else {
+            echo "<li><a href='signout.php' class='thispage'>Sign out</a></li>";	
+            }
+
+            ?>
         </ul>
       </nav>
       
-      <div id="second_nav">
-          <div id="BUY_TICKETS"><a href="Buy_Tickets.php">Buy Tickets</a></div>
-          <div id="PLAY_FOR_US"><a href="Play_for_us.php">Play For Us</a></div>
-          <div id="BECOME_A_MEMBER"><a href="Become_a_member.php">Become a Member</a></div>
-          <div id="BECOME_A_VOLUNTEER"><a href="Become_a_volunteer.php">Become a Volunteer</a></div>
-      </div>         
+       <div id="second_nav">
+          <a href="buytickets.php"><div id="BUY_TICKETS">Buy Tickets</div></a>
+        <a href="playforus.php"><div id="PLAY_FOR_US">Play For Us</div></a>
+          <a href="membersignup.php"><div id="BECOME_A_MEMBER">Become a Member</div></a>
+          <a href="volunteersignup.php"><div id="BECOME_A_VOLUNTEER">Become a Volunteer</div></a>
+      </div>      
     </header>
   </div>
     
- <div id="welcome_img_sign_in"><img src="pictures/BlackBox.jpg" width="1691" height="600" alt=""/></div>
+ <!-- <div id="welcome_img_sign_in"><img src="pictures/BlackBox.jpg" width="1691" height="600" alt=""/></div> -->
  <body1 id="body1_sign_in"> 
 <div id="sign_in_body1">   
   
-  
-<div id="sign_in_body1_text1"> 
+<?php 
+echo $_SESSION['username'];
+echo $_SESSION['msg'];
+echo $_SESSION['accounttype'];
+?>
+
+<div id="sign_in_body1_text1">
   <label for="sign_in"><h1>Sign In</h1></label>
   Sign in to your account here. Logging in with an administrator account will grant you aministrative priveleges.
-<?php
-$filename = substr(strrchr($_SERVER['SCRIPT_NAME'], "/"), 1); // missing '' around index - notice error
-$name = substr($filename, 0, strrpos($filename, ".")); ?>
-<header id="pageHeader">
-  <aside id="login"><form action="login.php?page=<?php echo $name; ?>" method="post"><input name="username" type="text" placeholder="Username"><input name="password" type="password" placeholder="Password"><input name="submit" type="submit" value="Login"></form></aside>
 
-<?php
+<?php 
+// print message from session, if one exists
 if (isset($_SESSION['username'])) {
-    echo "Hello " . $_SESSION['username'];
-    echo " - <a href=\"logout.php?page=$name\">Logout</a>";
+	echo "<p style='color:red'>".$_SESSION['msg']."</p>"; 
+	echo "Hello " . $_SESSION['username'];
 }
 else
     echo "(Not logged in)";
-?></p>
-</footer>
+// Only display the login form if the user is not logged in
+if (!isset($_SESSION['username'])) {
+?>
+<form id="login" name="login" method="post" action="/CP2010-1406-group-project/db/secure.php">
+  <label for="username">Username:</label>
+  <input type="email" name="username" id="username">
+  <br>
+    <label for="password">Password:</label>
+  <input type="password" name="password" id="password">
+  <br>
+    <input type="submit" name="submit" value="Login">
+</form>
+    <?php } if (isset($_SESSION['username'])) echo '<a href="signout.php">Logout</a>';
+?>
+
 <?php if (isset($dbh)) $dbh = null; ?>
  
 </form>
@@ -78,8 +102,8 @@ else
 <div id="sponsor2"> <a href="https://www.qld.gov.au/index.html"><img src="pictures/qg-coa-ogp.png" width="86" height="86" alt=""/></a> </div>
 <div id="sponsor3"> <img src="pictures/1525593_1_O.png" width="100" height="80" alt=""/> </div>
  </div>
-
 </footer>
+
 </div>
 </body>
 </html

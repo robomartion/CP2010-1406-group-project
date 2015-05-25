@@ -1,20 +1,29 @@
 <header id="top">
-    <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
+    <a href="index.php"><img src="/CP2010-1406-group-project/pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
                 <ul>
-          <li><a href="Bulletin_board.php">Bulletin Board</a></li>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="Events.php">Events</a></li>
-            <li><a href="Artists.php">Artists</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="Member_sign_in.php">Sign in</a></li>
+                
+          <li> <a href="/CP2010-1406-group-project/bulletinboard.php">Bulletin Board</a></li>
+          <li><a href="/CP2010-1406-group-project/index.php">Home</a></li>
+          <li><a href="/CP2010-1406-group-project/db/displayevents.php">Events</a></li>
+          <li><a href="/CP2010-1406-group-project/db/displayartists.php">Artists</a></li>
+          <li><a href="/CP2010-1406-group-project/about.php">About</a></li>
+          <?php
+            if (!isset($_SESSION['username'])) {
+            echo "<li><a href='signin.php'>Sign in</a></li>";
+        }
+            else {
+            echo "<li><a href='signout.php'Sign out</a></li>";  
+            }
+
+            ?>
         </ul>
       </nav>
       
       <div id="second_nav">
-          <div id="BUY_TICKETS"><a href="Buy_Tickets.php">Buy Tickets</a></div>
-          <div id="PLAY_FOR_US"><a href="playforus.php">Play For Us</a></div>
-          <div id="BECOME_A_MEMBER"><a href="Become_a_member.php">Become a Member</a></div>
-          <div id="BECOME_A_VOLUNTEER"><a href="Become_a_volunteer.php">Become a Volunteer</div>
+          <a href="/CP2010-1406-group-project/buytickets.php"><div id="BUY_TICKETS">Buy Tickets</div></a>
+        <a href="/CP2010-1406-group-project/playforus.php"><div id="PLAY_FOR_US">Play For Us</div></a>
+          <a href="/CP2010-1406-group-project/membersignup.php"><div id="BECOME_A_MEMBER">Become a Member</div></a>
+          <a href="/CP2010-1406-group-project/volunteersignup.php"><div id="BECOME_A_VOLUNTEER">Become a Volunteer</div></a>
       </div>    
   </header>

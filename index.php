@@ -11,28 +11,35 @@ include("db/dbconnect.php"); ?>
 <body>
 <div id="wrapper">
   <div id="content">  
-    <header id="top">   
+   <header id="top">
     <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
-        <ul>
-        <li> <a href="bulletinboard.php">Bulletin Board</a></li>
+                <ul>
+          <li> <a href="bulletinboard.php">Bulletin Board</a></li>
           <li><a href="index.php" class="thispage">Home</a></li>
           <li><a href="db/displayevents.php">Events</a></li>
           <li><a href="db/displayartists.php">Artists</a></li>
           <li><a href="about.php">About</a></li>
-          <li> <a href="signin.php">Sign In</a></li>
+            <?php
+            if (!isset($_SESSION['username'])) {
+            echo "<li><a href='signin.php' class='thispage'>Sign in</a></li>";
+        }
+            else {
+            echo "<li><a href='authenticate/logout.php' class='thispage'>Sign out</a></li>"; 
+            }
+
+            ?>
         </ul>
       </nav>
       
-      <div id="second_nav">
+       <div id="second_nav">
           <a href="buytickets.php"><div id="BUY_TICKETS">Buy Tickets</div></a>
         <a href="playforus.php"><div id="PLAY_FOR_US">Play For Us</div></a>
           <a href="membersignup.php"><div id="BECOME_A_MEMBER">Become a Member</div></a>
           <a href="volunteersignup.php"><div id="BECOME_A_VOLUNTEER">Become a Volunteer</div></a>
-      </div>
-      
-    
-  </header>
+      </div>      
+    </header>
+
   </div>
  <div id="welcome_img"><img src="pictures/BlackBox.jpg" width="1020" height="600" alt=""/></div>
  <body1 id="body1"> 
@@ -68,14 +75,16 @@ include("db/dbconnect.php"); ?>
  
 <strong><h2>Upcoming Events:</h2></strong>
 
-<?php
-    $sql = "SELECT TOP 3 id, title, artist, details, image, eventdate, time, ticket FROM events";
+<table>
+    <?php
+    $sql = "SELECT * FROM events";
     foreach ($dbh->query($sql) as $row) {
         echo "<tr><td><h2><a href=$row[ticket]>$row[title]</a></h2><h3>$row[artist]</h3>$row[details]<br><br><b>$row[eventdate]<br>$row[time]<b></td><td><img src= 'uploads/$row[image]' width=300px></td></tr>";
     }
 
     $dbh  = null;
     ?>
+</table>
 
 <div id="event1"> <img src="pictures/Oompahlogo600.png" width="200" height="200" alt=""/> </div>
 <div id="event1_text"> <strong>Die Frankfurter Oompah Band</strong> <br>2pm 31 May 2015<br>at C2 (Townsville Civic Centre)</div>

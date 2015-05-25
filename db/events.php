@@ -1,6 +1,7 @@
 <?php
-require("../authenticate/authenticate.php"); 
-include("dbconnect.php")
+session_start(); 
+require("authenticate.php"); 
+include("dbconnect.php");
 /* Fairly simple example - there's a form for inserting a new artist record and a set of forms, one for each record,
 	that allows for deleting and updating each record. In these ones, the id of the record is passed using a hidden form field. 
 */

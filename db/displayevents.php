@@ -7,21 +7,48 @@
 <head>
 <meta charset="UTF-8">
 <title>Events</title>
-<style type="text/css">
-.subtleSet {
-	border-radius:25px;
-	width: 30em;
-}
-.deleteButton {
-	color: red;
-}
-</style>
+<link href="../styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<a href="events.php">Edit events</a>
-
 <body>
+<div id="wrapper">
+  <div id="content">  
+   <header id="top">
+    <a href="index.php"><img src="../pictures/logowhite.png" width="200" height="123" alt=""/></a>
+      <nav id="mainnav">
+                <ul>
+          <li> <a href="bulletinboard.php">Bulletin Board</a></li>
+          <li><a href="index.php" class="thispage">Home</a></li>
+          <li><a href="db/displayevents.php">Events</a></li>
+          <li><a href="db/displayartists.php">Artists</a></li>
+          <li><a href="about.php">About</a></li>
+            <?php
+            if (!isset($_SESSION['msg'])) {
+            echo "<li><a href='signin.php'>Sign in</a></li>";
+        }
+            else {
+            echo "<li><a href='authentitcate/logout.php'>Sign out</a></li>"; 
+            }
+
+            ?>
+        </ul>
+      </nav>
+      
+       <div id="second_nav">
+          <a href="buytickets.php"><div id="BUY_TICKETS">Buy Tickets</div></a>
+        <a href="playforus.php"><div id="PLAY_FOR_US">Play For Us</div></a>
+          <a href="membersignup.php"><div id="BECOME_A_MEMBER">Become a Member</div></a>
+          <a href="volunteersignup.php"><div id="BECOME_A_VOLUNTEER">Become a Volunteer</div></a>
+      </div>      
+    </header>
+    
+  </div>
+
 <h1>Events</h1>
+<?php
+// if accounttype = member or admin {
+?>
+<a href="events.php">Edit events</a>
 <table>
     <?php
     $sql = "SELECT id, title, artist, details, image, eventdate, time, ticket FROM events";
@@ -32,6 +59,7 @@
     $dbh  = null;
     ?>
 </table>
+<?php include( "../footer.php")?>
     </body>
 
     </html>

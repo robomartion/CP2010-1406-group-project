@@ -67,11 +67,11 @@ if (!isset($_SESSION['username'])) {
     <h3>Optional</h3>
      <p>
       <label for="mobile">Mobile phone number: </label>
-      <input type="number" name="mobile" id="mobile" min="8" max="10">
+      <input type="text" name="mobile" id="mobile" minlength="8" maxlength="10">
     </p>
       <p>
       <label for="homephone">Home phone number: </label>
-      <input type="text" name="homephone" id="homephone" min="8" max="10">
+      <input type="text" name="homephone" id="homephone" minlength="8" maxlength="10">
     </p>
       <p>
       <label for="postaddress">Postal Address: </label>
