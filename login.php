@@ -4,14 +4,14 @@ error_reporting(E_ALL);
 /*	This file is a login page that will send the user to a secure page.
 	There's a session 'msg' variable, which will be blank the first time (when not set).
 */
-include("../db/dbconnect.php");
+include("dbconnect.php");
  ?>
 <!doctype html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
 <title>Login Page</title>
-<link href="../styles.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
 </head>
 <body>
 <?php include("../header.php"); ?>

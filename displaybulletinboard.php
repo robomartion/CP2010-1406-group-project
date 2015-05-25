@@ -11,27 +11,35 @@ include( "dbconnect.php"); /* Fairly simple example - there 's a form for insert
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<div id="wrapper">
+  <div id="content">
+<?php include("header.php") ?>
 
-<?php
+<div id="wrapper">
+  <div id="content">
+  <?php include("header.php");?>
+  <body>
 
-?>
-<a href="bulletinboard.php">Edit posts</a>
+<a href="artists.php">Edit artists</a>
 
+<div class='white'>
 <h1>Bulletin Board</h1>
 <table>
-
     <?php
     $sql = "SELECT bulletinboard.id AS id, bulletinboard.title AS title, bulletinboard.image AS image, bulletinboard.details AS details, bulletinboard.username AS username, 
     members.mobile AS mobile, members.firstname AS firstname, members.surname AS surname FROM bulletinboard INNER JOIN members ON members.username=bulletinboard.username";
     // echo $sql;
     foreach ($dbh->query($sql) as $row) {
-    echo "<tr><td><h3>$row[title]</a></h3>$row[details]<br><br>$row[username]<br>$row[firstname] $row[surname]<br>$row[mobile]</td><td><img src= 'uploads/$row[image]' height=300px></td></tr>";
+    echo "<tr><td><h3>$row[title]</a></h3>$row[details]<br><br>$row[username]<br>$row[firstname] $row[surname]<br>$row[mobile]</td><td><img src= 'uploads/$row[image]' width=500px></td></tr>";
     }
 
     $dbh  = null;
     ?>
 </table>
+</div>
+<a href="bulletinboard.php">Edit posts</a>
     </body>
+
+    <?php include("footer.php") ?>
 
     </html>

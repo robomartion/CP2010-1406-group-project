@@ -73,7 +73,7 @@ foreach ($dbh->query($sql) as $row)
 ?>
 <form id="deleteForm" name="deleteForm" method="post" action="dbprocessbulletin.php" enctype="multipart/form-data">
 <?php
-if($_SESSION['accounttype']) == 'admin')){
+if($_SESSION['accounttype'] == 'admin'){
 	echo "<tr>
   <td><input type='text' name='title' value='$row[title]'></td>
   <td><input type='text' name='details' id='details' value='$row[details]'></td>
@@ -101,7 +101,7 @@ else {
 <input type="submit" name="submit" value="X" class="deleteButton">
 </form>
 <?php
-}
+
 echo "</fieldset>\n";
 // close the database connection
 $dbh = null;
