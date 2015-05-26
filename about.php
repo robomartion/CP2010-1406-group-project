@@ -9,8 +9,8 @@
 <div id="wrapper">
   <div id="content">
  <header id="top">
-   <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
-   <nav id="mainnav">
+    <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
+      <nav id="mainnav">
                 <ul>
         	<li><a href="Bulletin_board.php">Bulletin Board</a></li>
           	<li><a href="index.php">Home</a></li>
@@ -19,7 +19,7 @@
           	<li><a href="about.php" class="thispage">About</a></li>
             <li><a href="Member_sign_in.php">Sign in</a></li>
         </ul>
-    </nav>
+      </nav>
       
       <div id="second_nav">
           <div id="BUY_TICKETS"><a href="Buy_Tickets.php">Buy Tickets</a></div>
@@ -41,78 +41,43 @@ The National Library of Australia has an online catalogue (TROVE) that lists not
 <br> 
 <br>
 Also discovered in the old collection were some pieces relevant to North Queensland. Local musicians performed these at a musical social afternoon on Sunday April 21st in C2 at the Civic Theatre. The remaining sheet music, books and CDs were put on display and distributed free of charge to the local music community. </p>
-</body1><br>
-<br>
-<br>
+</body1>
 
+<div id="timeline">
+<ul>
+<li><h3>1983</h3>
+<p>
+The Townsville Community Music Centre was established at a public meeting on May 24th. Then Deputy Mayor, Ken McElligott, opened the meeting and presented a cheque for $50 from the City Cotuxil to cover initial petty cash, the Centre's first fiinds. At the meeting an executive committee was formed. Over the next few weeks that committee drafted a constitution which was endorsed at another public meeting on June 15th. Fred Thompson was Chairman from September 1983, with Gordon Dean as his Deputy and Jan Eagleton as Secret.</p></li>
 
-<div class="timeline1983title">
-<p> 1983 </p>
+<li><h3>1985</h3>
+<p>
+Kirsty Veron was appointed as the first Director. Kirsty was very interested in teaching music to children and had worked with Mira in the 1983 classes. She held this position until 1988 leading the new organisation into a strong position in the Townsville arts community. </p></li>
+
+<li><h3>1987</h3>
+<p>
+This was the year of the first fund raising dinner. These dinners became a tradition as they were a wonderful mixture of good food, good wine and good music. The first ones were held at the home of Paul and June Tonnoir in North Ward. Later they moved to the Bishop's Lodge as guests of the Anglican Bishop. Attendees would often book their tickets for the next year's dinner as soon as they had attended this one. They ran until 2004.</p></li>
+
+<li><h3>1988</h3>
+<p>
+Mary Lou Schoenfeldt was appointed as Administrator. Although this was initially a small part time job with limited responsibilities, Mary Lou made the job, the Centre and indeed music in Townsville, her own. She was a wonderful asset to the Centre and to the cultural life of the City until she had to retire due to ill health in 2003.</p></li>
+
+<li><h3>1990</h3>
+<p>
+This year the first lunchtime concert was held at the PercTucker The importance of providing performance opportunities for emerging musicians had become evident and from this time, for a number of years, one of the major activities of the Centre was the production and management of concerts. </p></li>
+
+<li><h3>1999</h3>
+<p>
+Arts Queensland had been a major funder of Music Centre activities for a number of years but in this year they agree to provide funding on a three year basis. This made it much easier for the Centre to plan ahead and reduced the time that had to be spent on repetitive grant applications. This arrangement ran until 2004.</p></li>
+
+<li><h3>2003</h3>
+<p>
+A spectacular variety concert was held at the Townsville Civic Theatre to celebrate twenty years of the Music Centre and as a tribute to May Lou.</p></li>
+
+<li><h3>2005</h3>
+<p>
+The Centre moved to offices in the Old Magistrate's Court.</p></li>
+</ul>
 </div>
-<div class="timeline1983">
-<p> The Townsville Community Music Centre was established at a public meeting on May 24th. Then Deputy Mayor, Ken McElligott, opened the meeting and presented a cheque for $50 from the City Cotuxil to cover initial petty cash, the Centre's first fiinds. At the meeting an executive committee was formed. Over the next few weeks that committee drafted a constitution which was endorsed at another public meeting on June 15th. Fred Thompson was Chairman from September 1983, with Gordon Dean as his Deputy and Jan Eagleton as Secret.</p>
-</div>
-
-
-<div class="timeline1985title"> 
-<p> 1985 </p>
-</div>
-<div class="timeline1985">
-<p> Kirsty Veron was appointed as the first Director. Kirsty was very interested in teaching music to children and had worked with Mira in the 1983 classes. She held this position until 1988 leading the new organisation into a strong position in the Townsville arts community.</p>
-</div>
-
-
-<div class="timeline1987title">
-<p> 1987 </p>
-</div>
-<div class="timeline1987">
-<p> This was the year of the first fund raising dinner. These dinners became a tradition as they were a wonderful mixture of good food, good wine and good music. The first ones were held at the home of Paul and June Tonnoir in North Ward. Later they moved to the Bishop's Lodge as guests of the Anglican Bishop. Attendees would often book their tickets for the next year's dinner as soon as they had attended this one. They ran until 2004.</p>
-</div>
-
-
-<div class="timeline1988title">
-<p> 1988 </p>
-</div>
-
-<div class="timeline1988">
-<p> Mary Lou Schoenfeldt was appointed as Administrator. Although this was initially a small part time job with limited responsibilities, Mary Lou made the job, the Centre and indeed music in Townsville, her own. She was a wonderful asset to the Centre and to the cultural life of the City until she had to retire due to ill health in 2003.</p>
-</div>
-
-
-<div class="timeline1990title">
-<p> 1990 </p>
-</div>
-
-<div class="timeline1990">
-<p> This year the first lunchtime concert was held at the PercTucker The importance of providing performance opportunities for emerging musicians had become evident and from this time, for a number of years, one of the major activities of the Centre was the production and management of concerts. </p>
-</div>
-
-
-<div class="timeline1999title"> 
-<p> 1999 </p>
-</div>
-
-<div class="timeline1999">
-<p> Arts Queensland had been a major funder of Music Centre activities for a number of years but in this year they agree to provide funding on a three year basis. This made it much easier for the Centre to plan ahead and reduced the time that had to be spent on repetitive grant applications. This arrangement ran until 2004.</p>
-</div>
-
-<div class="timeline2003title">
-<p> 2003 </p>
-</div>
-
-<div class="timeline2003">
-<p> A spectacular variety concert was held at the Townsville Civic Theatre to celebrate twenty years of the Music Centre and as a tribute to May Lou.</p>
-</div>
-
-
-<div class="timeline2005title">
-<p> 2005 </p>
-</div>
-
-<div class="timeline2005">
-<p> The Centre moved to offices in the Old Magistrate's Court.</p>
-</div>
-
 
 <div class="image5"><img src="pictures/timelineredoneline.png" alt="" width="64" height="64" class="image5"/> </div>
 
