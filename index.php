@@ -1,5 +1,5 @@
 <?php session_start(); 
-include("dbconnect.php"); ?>
+include("db/dbconnect.php"); ?>
 <!doctype html>
 <html>
 <head>
@@ -15,17 +15,17 @@ include("dbconnect.php"); ?>
     <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
       <nav id="mainnav">
                 <ul>
-          <li> <a href="displaybulletinboard.php">Bulletin Board</a></li>
+          <li> <a href="bulletinboard.php">Bulletin Board</a></li>
           <li><a href="index.php" class="thispage">Home</a></li>
-          <li><a href="displayevents.php">Events</a></li>
-          <li><a href="displayartists.php">Artists</a></li>
+          <li><a href="db/displayevents.php">Events</a></li>
+          <li><a href="db/displayartists.php">Artists</a></li>
           <li><a href="about.php">About</a></li>
             <?php
             if (!isset($_SESSION['username'])) {
-            echo "<li><a href='signin.php'>Sign in</a></li>";
+            echo "<li><a href='signin.php' class='thispage'>Sign in</a></li>";
         }
             else {
-            echo "<li><a href='logout.php'>Sign out</a></li>"; 
+            echo "<li><a href='authenticate/logout.php' class='thispage'>Sign out</a></li>"; 
             }
 
             ?>
@@ -46,12 +46,12 @@ include("dbconnect.php"); ?>
  <div id="welcome">
 <div id="welcome_title"> <strong><h2>Welcome to the Townsville Community Centre</h2></strong> </div>
 <div id="body1_top_text"> We are a non-for-profit organisation operated by people <strong>like you</strong> giving the<br> spotlight to artists <strong>like you</strong>.</div>
-      <a href="volunteersignup.php"><div id="BECOME_A_VOLUNTEER_1">Become a Volunteer</div></a>
-      <a href="playforus.php"><div id="PLAY_FOR_US_1">Play For Us</div></a>
+      <a href="Become_a_volunteer.php"><div id="BECOME_A_VOLUNTEER_1">Become a Volunteer</div></a>
+      <a href="Play_for_us.php"><div id="PLAY_FOR_US_1">Play For Us</div></a>
       
- <div id="body1_bottom_text">If you have other obligations but would still like to help out, <strong><u><a href="membersignup.php">become a member</a></u></strong> to <br>support us and get up to a <strong>50% discount on tickets</strong> or just make a <a href="Become_a_member.html">donation</a>.
+ <div id="body1_bottom_text">If you have other obligations but would still like to help out, <strong><u><a href="Become_a_member.html">become a member</a></u></strong> to <br>support us and get up to a <strong>50% discount on tickets</strong> or just make a <a href="Become_a_member.html">donation</a>.
 <br><br>
- <a href="feeder.php"> <u>Check out our article</u> </a> on how to get your name out there as a musician.
+ <a href="feeder.html"> <u>Check out our article</u> </a> on how to get your name out there as a musician.
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
@@ -77,9 +77,9 @@ include("dbconnect.php"); ?>
 
 <table>
     <?php
-    $sql = "SELECT * FROM events LIMIT 3";
+    $sql = "SELECT * FROM events";
     foreach ($dbh->query($sql) as $row) {
-        // echo "<tr><td><img src= 'uploads/$row[image]' width=300px></td><td><h2><a href=$row[ticket]>$row[title]</a></h2><h3>$row[artist]</h3>$row[details]<br><br><b>$row[eventdate]<br>$row[time]<b></td></tr>";
+        echo "<tr><td><h2><a href=$row[ticket]>$row[title]</a></h2><h3>$row[artist]</h3>$row[details]<br><br><b>$row[eventdate]<br>$row[time]<b></td><td><img src= 'uploads/$row[image]' width=300px></td></tr>";
     }
 
     $dbh  = null;
@@ -101,7 +101,24 @@ include("dbconnect.php"); ?>
  </div>
  </body3>
  
-<?php include("footer.php") ?>
+<footer id="footer">
+<div id="contact"><h2 class="footer_contact"><strong>Contact</strong></h2>Open 9:30-2:30 Monday - Wednesday<br>Phone: 07 4724 2086 <br> Mobile: 0402 255 182 <br> Email Address: <a href="mailto:admin@townsvillemusic.org.au">admin@townsvillemusic.org.au</a> <br> Postal Address: PO Box 1006, Townsville, Qld 4810 <br> Street Address: Townsville Civic Theatre, 41 Boundary Street, Townsville, Qld 4810 
+<div id="fblogo"> <a href="https://www.facebook.com/pages/Townsville-Community-Music-Centre/159636880763534?fref=ts"><img src="pictures/fblogo.jpg" width="64" height="64" alt=""/></a></div>
+
+<div id="links1"><a href="index.php">Home</a><br> <a href="Events.php">Events</a><br><a href="Artists.php">Artists</a><br>
+  <a href="about.php">About</a></div> 
+<div id="links2"><a href="Play_for_us.php">Play For Us</a><br>
+  <a href="Buy_Tickets.php">Buy Tickets</a><br>
+  <a href="Become_a_volunteer.php">Become a Volunteer</a><br>
+  <a href="Become_a_member.php">Become a Member</a></div>
+</div>
+<div id="sponsors"> <strong><h2> Sponsors</h2> </strong> 
+<div id="sponsor1"> <a href="http://www.townsville.qld.gov.au/Pages/default.aspx"><img src="pictures/1152800_1_M.png" width="60" height="86" alt=""/></a> </div>
+<div id="sponsor2"> <a href="https://www.qld.gov.au/index.html"><img src="pictures/qg-coa-ogp.png" width="86" height="86" alt=""/></a> </div>
+<div id="sponsor3"> <img src="pictures/1525593_1_O.png" width="100" height="80" alt=""/> </div>
+ </div>
+
+</footer>
 </div>     
 </div>   
 </body>
