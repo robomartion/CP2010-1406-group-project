@@ -35,6 +35,7 @@ body {
 	border-color: #000000;
 	border-width: medium;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
 }
 #footer {
 	background-color: #000000;
@@ -194,7 +195,7 @@ a:hover, a:active, a:focus {
 
 #wrapper #content #top {
 	position: absolute;
-	top: 0px;
+	top: 2px;
 	width: 0px;
 	height: 130px;
 	z-index: 4;
@@ -209,6 +210,7 @@ a:hover, a:active, a:focus {
 	max-height: 100%;
 	font-style: normal;
 	margin-bottom: -251px;
+	left: 1px;
 }
 #BUY_TICKETS {
 	left: 0px;
@@ -308,14 +310,7 @@ a:hover, a:active, a:focus {
 	margin-top: -12px;
 	margin-left: 16px;
 }
-body p {
-	position: absolute;
-	top: 193px;
-	right: 0px;
-	left: 375px;
-	font-size: large;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-}
+
 image {
 	top: 0px;
 	position: absolute;
@@ -1406,11 +1401,11 @@ image body {
 }
 .image5 {
 	position: absolute;
-	top: 333px;
-	width: 82.5%;
-	height: 1627px;
+	top: 352px;
+	width: 1425px;
+	height: 1631px;
 	opacity: 0.92;
-	left: 108px;
+	left: 8px;
 }
 
 body img {
@@ -1690,4 +1685,202 @@ body img {
 	border-color: #FFFFFF;
 	background-color: #FFFFFF;
 	text-decoration: underline;
+}
+.timeline1983 {
+	position: absolute;
+	top: 851px;
+	right: 0px;
+	left: 1px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+	
+}
+
+.timeline1985 {
+	position: absolute;
+	top: 1005px;
+	right: 0px;
+	left: 829px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+	
+}
+
+
+.timeline1987 {
+	position: absolute;
+	top: 1204px;
+	right: 0px;
+	left: -5px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+.timeline1988 {
+	position: absolute;
+	top: 1270px;
+	right: 0px;
+	left: 752px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+.timeline1990 {
+	position: absolute;
+	top: 1494px;
+	right: 0px;
+	left: 8px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+.timeline1999 {
+	position: absolute;
+	top: 1651px;
+	right: 0px;
+	left: 772px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+
+.timeline2003 {
+	position: absolute;
+	top: 1805px;
+	right: 0px;
+	left: 11px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+.timeline2005 {
+	position: absolute;
+	top: 1952px;
+	right: 0px;
+	left: 822px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+.timeline1983title {
+	position: absolute;
+	top: 787px;
+	right: 0px;
+	left: 157px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+.timeline1985title {
+	position: absolute;
+	top: 953px;
+	right: 0px;
+	left: 971px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+
+.timeline1987title {
+	position: absolute;
+	top: 1151px;
+	right: 0px;
+	left: 174px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+	
+.timeline1988title {
+	position: absolute;
+	top: 1220px;
+	right: 0px;
+	left: 952px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+.timeline1990title {
+	position: absolute;
+	top: 1430px;
+	right: 0px;
+	left: 176px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+
+.timeline1999title {
+	position: absolute;
+	top: 1594px;
+	right: 0px;
+	left: 980px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+.timeline2003title {
+	position: absolute;
+	top: 1751px;
+	right: 0px;
+	left: 240px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
+}
+
+
+.timeline2005title {
+	position: absolute;
+	top: 1912px;
+	right: 0px;
+	left: 963px;
+	font-size: large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: left;
+	width: 685px;
+	height: 202px;
 }
