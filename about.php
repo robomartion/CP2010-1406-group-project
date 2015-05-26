@@ -1,13 +1,14 @@
-<!doctype html>
+<?php session_start() ?>
 <html>
 <head>
 <meta charset="utf-8">
 <title>TCMC - About</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+
 <div id="wrapper">
   <div id="content">
+<<<<<<< HEAD
  <header id="top">
    <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
    <nav id="mainnav">
@@ -29,6 +30,10 @@
       </div>         
     </header> 
 </div>  
+=======
+  <?php include("header.php");?>
+  <body>
+>>>>>>> origin/master
 
  <img src="pictures/untitled-1 2.jpg" alt="" width="500" height="237" class="image2" />
 <body1 id="body1_aboutus_page">

@@ -23,6 +23,20 @@ body {
 	background-size: 2600px 1600px;
 }
 
+.white {
+	background-color:rgba(255,255,255,0.7);
+	padding: 20px;
+	margin-top: 125px;
+}
+
+.black {
+	background-color:rgba(0,0,0,0.7);
+	padding: 20px;
+	width: 700px;
+	margin-top: 125px;
+}
+
+
 #wrapper {
 	width: 100%;
 	min-width: 1700px;
@@ -157,6 +171,12 @@ a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
+
+.white a {
+	text-decoration: underline;
+	color: #000000;
+}
+
 a:link {
 	border-top-left-radius: 0px;
 }
@@ -376,6 +396,8 @@ image body {
 	margin-top: -814px;
 	float: left;
 }
+
+
 #wrapper #body1_volunteer {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	color: #FFFFFF;
@@ -713,6 +735,7 @@ image body {
 	margin-top: -186px;
 	margin-left: 218px;
 }
+
 #wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_1 {
 	width: 150px;
 	border-color: #000000;
@@ -728,6 +751,11 @@ image body {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_1 a {
+	color: #000000;
+}
+
 #wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_1:hover  {
 	width: 150px;
 	border-color: #000000;
@@ -742,8 +770,14 @@ image body {
 	font-size: x-large;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: #FFFFFF;
+	background-color: #000000;
+	color: white;
 }
+
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_1 a:hover {
+	color: white;
+}
+
 #body3 #welcome #event2 {
 	margin-left: 561px;
 	margin-top: -170px;
@@ -769,6 +803,16 @@ image body {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_2 a {
+	color: #000000;
+}
+
+
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_2 a:hover {
+	color: white;
+}
+
 #wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_3 {
 	width: 150px;
 	border-color: #000000;
@@ -784,6 +828,11 @@ image body {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_3 a {
+	color: #000000;
+}
+
 #wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_3:hover  {
 	width: 150px;
 	border-color: #000000;
@@ -798,8 +847,13 @@ image body {
 	font-size: x-large;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: #FFFFFF;
+	background-color: #000000;
 }
+
+#wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_3 a:hover {
+	color: white;
+}
+
 #wrapper #body3 #welcome #BUY_TICKETS_BOTTOM_2:hover  {
 	width: 150px;
 	border-color: #000000;
@@ -814,7 +868,8 @@ image body {
 	font-size: x-large;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: #FFFFFF;
+	background-color: #000000;
+	color: white;
 }
 #body3 #welcome #event3 {
 	margin-left: 1156px;
