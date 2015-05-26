@@ -42,7 +42,7 @@ include("dbconnect.php");
     </header>
   </div>
     
- <!-- <div id="welcome_img_sign_in"><img src="pictures/BlackBox.jpg" width="1691" height="600" alt=""/></div> -->
+<div id="welcome_img_sign_in"><img src="pictures/BlackBox.jpg" width="1691" height="600" alt=""/></div>
  <body1 id="body1_sign_in"> 
 <div id="sign_in_body1">   
   
@@ -56,7 +56,6 @@ echo $_SESSION['accounttype'];
   <label for="sign_in"><h1>Sign In</h1></label>
   Sign in to your account here. Logging in with an administrator account will grant you aministrative priveleges.
 
-<div class="black">
 <?php 
 // print message from session, if one exists
 if (isset($_SESSION['username'])) {
@@ -87,7 +86,6 @@ if (!isset($_SESSION['username'])) {
 <?php if (isset($dbh)) $dbh = null; ?>
  
 </form>
-</div>
 </div>
 </div>
  </body1>
