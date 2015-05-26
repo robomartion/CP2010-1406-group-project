@@ -1,8 +1,6 @@
 <?php
-if ($SESSION['accounttype'] = "paidmember"){
-}
-else {
+if ($_SESSION['accounttype'] != "admin"){
 	header("Location: login.php");
-			exit();
+	exit();
 }
 ?>

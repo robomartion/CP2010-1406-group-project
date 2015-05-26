@@ -1,8 +1,7 @@
 <?php
-session_start(); 
-require("authenticate.php");
-require("verifymember");
 include("dbconnect.php");
+require("authenticate.php");
+require("verifymember.php");
 /* Fairly simple example - there's a form for inserting a new artist record and a set of forms, one for each record,
 	that allows for deleting and updating each record. In these ones, the id of the record is passed using a hidden form field. 
 */
@@ -83,7 +82,8 @@ foreach ($dbh->query($sql) as $row)
 <input type="submit" name="submit" value="X" class="deleteButton">
 </form>
 <?php
-}}
+}
+}
 echo "</fieldset>\n";
 // close the database connection
 $dbh = null;

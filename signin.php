@@ -61,14 +61,18 @@ echo $_SESSION['accounttype'];
 // print message from session, if one exists
 if (isset($_SESSION['username'])) {
 	echo "<p style='color:red'>".$_SESSION['msg']."</p>"; 
-	echo "Hello " . $_SESSION['username'];
+	echo "Hello " . $_SESSION['firstname'];
 }
 else
     echo "(Not logged in)";
 // Only display the login form if the user is not logged in
+// print message from session, if one exists
+if (isset($_SESSION['msg'])) {
+    echo $_SESSION['msg'];
+}
 if (!isset($_SESSION['username'])) {
 ?>
-<form id="login" name="login" method="post" action="/CP2010-1406-group-project/db/secure.php">
+<form id="login" name="login" method="post" action="welcomeuser.php">
   <label for="username">Username:</label>
   <input type="email" name="username" id="username">
   <br>
@@ -77,7 +81,7 @@ if (!isset($_SESSION['username'])) {
   <br>
     <input type="submit" name="submit" value="Login">
 </form>
-    <?php } if (isset($_SESSION['username'])) echo '<a href="signout.php">Logout</a>';
+    <?php } if (isset($_SESSION['username'])) echo '<a href="signout.php"><br>Logout</a>';
 ?>
 
 <?php if (isset($dbh)) $dbh = null; ?>

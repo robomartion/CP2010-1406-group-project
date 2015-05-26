@@ -1,5 +1,4 @@
 <?php
-session_start(); 
 require("authenticate.php"); 
 require("verifyadmin.php");
 include("dbconnect.php");
@@ -34,6 +33,7 @@ p{
 
 <body>
 <h1>Member Database</h1>
+<h2><a href='signin.php'>Sign in</a><h2>
 <h2>Add a new member or edit an exisiting one at the bottom of this page.<h2>
 
 <form id="signup" name="signup" method="post" action="dbprocessmember.php" enctype="multipart/form-data">

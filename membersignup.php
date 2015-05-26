@@ -10,36 +10,9 @@
 <body>
 <div id="wrapper">
   <div id="content">  
-<header id="top">
-    <a href="index.php"><img src="pictures/logowhite.png" width="200" height="123" alt=""/></a>
-      <nav id="mainnav">
-                <ul>
-          <li> <a href="displaybulletinboard.php">Bulletin Board</a></li>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="displayevents.php">Events</a></li>
-          <li><a href="displayartists.php">Artists</a></li>
-          <li><a href="about.php">About</a></li>
-            <?php
-            if (!isset($_SESSION['username'])) {
-            echo "<li><a href='signin.php' class='thispage'>Sign in</a></li>";
-        }
-            else {
-            echo "<li><a href='logout.php' class='thispage'>Sign out</a></li>"; 
-            }
-
-            ?>
-        </ul>
-      </nav>
-      
-       <div id="second_nav">
-          <a href="buytickets.php"><div id="BUY_TICKETS">Buy Tickets</div></a>
-        <a href="playforus.php"><div id="PLAY_FOR_US">Play For Us</div></a>
-          <a href="membersignup.php"><div id="BECOME_A_MEMBER">Become a Member</div></a>
-          <a href="volunteersignup.php"><div id="BECOME_A_VOLUNTEER">Become a Volunteer</div></a>
-      </div>      
-    </header>
+<?php include("header.php"); ?>
   </div>
- <!-- <div id="welcome_img_become_a_member"><img src="pictures/BlackBox.jpg" width="1691" height="1700" alt=""/></div> -->
+  <div id="welcome_img_become_a_member"><img src="pictures/BlackBox.jpg" width="1691" height="1700" alt=""/></div>
  <body1 id="body1_become_a_member"> 
  
 <div id="become_a_member_body1">   
@@ -52,38 +25,37 @@ All members receive up to a <strong>50% discount on all tickets</strong>. By bec
 // Only display the signup form if the user is not logged in
 if (!isset($_SESSION['username'])) {
 ?>
-<form id="signup" name="signup" method="post" action="db/dbprocessmember.php" enctype="multipart/form-data">
+<form id="signup" name="signup" method="post" action="dbprocessmember.php" enctype="multipart/form-data">
 <h3>Login Details</h3>
-    <p>
+
       <label for="username">Username(email address): </label>
       <input type="email" name="username" id="username" required>
-    </p>
-    <p>
+<br>
+
       <label for="password">Password: </label>
       <input type="password" name="password" id="password" required>
-    </p>
+
     <h3>Contact Details</h3>
-     <p>
+
       <label for="firstname">First name: </label>
       <input type="text" name="firstname" id="firstname" required>
-    </p>
-      <p>
+
+    <br>
       <label for="surname">Surname: </label>
       <input type="text" name="surname" id="surname" required>
-    </p>
+
     <h3>Optional</h3>
-     <p>
+
       <label for="mobile">Mobile phone number: </label>
       <input type="text" name="mobile" id="mobile" minlength="8" maxlength="10">
-    </p>
-      <p>
+    <br>
+
       <label for="homephone">Home phone number: </label>
       <input type="text" name="homephone" id="homephone" minlength="8" maxlength="10">
-    </p>
-      <p>
+    <br>
       <label for="postaddress">Postal Address: </label>
       <input type="text" name="postaddress" id="postaddress">
-    </p>
+    <br>
     <label for="extra">Anything else (comments, suggestions, anything):</label> <br>
     <textarea rows="4" cols="50" type="text" name="extra" id="extra"></textarea>
     <br>
@@ -95,10 +67,10 @@ A members account will allow you to buy tickets at a discounted price on our web
     <select type="text" name="accounttype" id="accounttype">
   <option value="freemember">Free Member</option>
   <option value="paidmember">Paid Member</option>
-</select>
-<p>
+</select><br>
+
       <input type="submit" name="submit" id="submit" value="Sign up">
-    </p>
+
 </form>
 <?php } ?>
 
@@ -128,6 +100,6 @@ The Music Centre is also registered as a Deductible Gift Recipient. Any extra do
 
  </body1>   
 
-<?php include("footer.php") ?>  
+<?php //include("footer.php") ?><!--  -->
 </body>
 </html>

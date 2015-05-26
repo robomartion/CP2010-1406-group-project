@@ -1,7 +1,5 @@
 <?php
-if ($SESSION['accounttype'] = "admin" || ($SESSION['accounttype'] = "paidmember"){
-}
-else {
+if ($_SESSION['accounttype'] == "freemember"){
 	header("Location: login.php");
 			exit();
 }

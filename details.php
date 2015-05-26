@@ -6,22 +6,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>PHP SQLite Database (Artist Records)</title>
-<style type="text/css">
-.subtleSet {
-	border-radius:25px;
-	width: 30em;
-}
-.deleteButton {
-	color: red;
-}
-</style>
+<title>Artist Details</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-<!-- 
-<?php include "../header.php" ?>
- -->
+<div id="wrapper">
+    <div id="content">
+        <?php include("header.php");?>
+        <body>
+
+
+<div class="white">
 <h1>
     <?php
     $_GET["requested_artist"];
@@ -37,8 +32,8 @@
     $dbh  = null;
     ?>
 </table>
+    </div>
 <?php
-echo "</fieldset>\n";
 // close the database connection
     $dbh=null;
 ?>

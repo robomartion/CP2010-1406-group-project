@@ -5,16 +5,21 @@ error_reporting(E_ALL);
 	There's a session 'msg' variable, which will be blank the first time (when not set).
 */
 include("dbconnect.php");
+if (isset($_SESSION['username'])) //Checks if user is already logged on
+{
+    header("Location: index.php");
+    exit();
+}
  ?>
 <!doctype html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
 <title>Login Page</title>
-<link href="styles.css" rel="stylesheet">
+<!--<link href="styles.css" rel="stylesheet">-->
 </head>
 <body>
-<?php include("../header.php"); ?>
+<?php include("header.php"); ?>
 <h1>Login Page</h1>
 <?php 
 // print message from session, if one exists
@@ -46,5 +51,5 @@ print_r($_SESSION);
 ?>    
 </nav>
 </body>
-<?php include("../footer.php"); ?>
+<?php include("footer.php"); ?>
 </html>
