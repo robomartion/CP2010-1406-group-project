@@ -36,6 +36,21 @@
 <body1 id="body1_events">
 <div id="events_events1"> <img src="pictures/Harbourside300.jpg" width="350" height="350" alt="aviva_quartet_group_photo.jpg"/> </div>
 <div id="events_name">
+  <h1>Events</h1>
+<?php
+// if accounttype = member or admin {
+?>
+<a href="events.php">Edit events</a>
+<table>
+    <?php
+    $sql = "SELECT id, title, artist, details, image, eventdate, time, ticket FROM events";
+    foreach ($dbh->query($sql) as $row) {
+        echo "<tr><td><h2><a href=$row[ticket]>$row[title]</a></h2><h3>$row[artist]</h3>$row[details]<br><br><b>$row[eventdate]<br>$row[time]<b></td><td><img src= 'uploads/$row[image]' width=300px></td></tr>";
+    }
+
+    $dbh  = null;
+    ?>
+</table>
   <h3>Dream Serenade</h3>  
   <div id="events_artist_text">
       <h4>Artists:</h4>
