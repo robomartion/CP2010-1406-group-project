@@ -21,7 +21,7 @@ include( "dbconnect.php");
     <?php
     $sql = "SELECT id, artist, image, substr(details, 1, 50) AS summary FROM artist";
     foreach ($dbh->query($sql) as $row) {
-        echo "<tr><h3><a href=details.php?requested_artist=$row[id]>$row[artist]</a></h3><td><img src= 'uploads/$row[image]' width=300px></td><td>$row[summary]...</td></tr>";
+        echo "<tr><td><h3><a href=details.php?requested_artist=$row[id]>$row[artist]</a></h3></td><td><img src= 'uploads/$row[image]' width=300px></td><td>$row[summary]...</td></tr>";
     }
 
     $dbh  = null;
