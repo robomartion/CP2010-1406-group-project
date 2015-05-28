@@ -43,7 +43,7 @@
 <div id="volunteer_body1">    
 <div id="volunteer_body1_text1"> 
 <form>
-
+<form id="signup" name="signup" method="post" action="dbprocessvolunteer.php" enctype="multipart/form-data">
   <label for="volunteer"><h1>Volunteer</h1></label>
   Become a volunteer today to help out with the Townsville Community Music Centre<br><br>
   <label for="name"><br>Name:</label> <input type="text" class="amount"></input>
