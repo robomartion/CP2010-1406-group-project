@@ -59,47 +59,18 @@ if (!isset($_SESSION['username'])) {
     <label for="extra">Anything else (comments, suggestions, anything):</label> <br>
     <textarea rows="4" cols="50" type="text" name="extra" id="extra"></textarea>
     <br>
-    <h3>Account Type</h3>
-A members account will allow you to buy tickets at a discounted price on our website, post on the bulletin board, add artists as well as see members only content.
- A free account will allow you to post on the bulletin board.<br><br>
- Individual Membership subscription is <b>$25</b> per year.<br>
-    <label for="accounttype">Type of Membership: </label>
     <select type="text" name="accounttype" id="accounttype">
-  <option value="freemember">Free Member</option>
-  <option value="paidmember">Paid Member</option>
-</select><br>
-
+        <option value="freemember">Free Member</option>
+    </select>
       <input type="submit" name="submit" id="submit" value="Sign up">
 
 </form>
 <?php } ?>
 
-<form>
-
-<br>
-</form>
-<img src="pictures/paypal.png" alt="Pay with PayPal" width=auto height=35>
-<br>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="GCRJ28AFLXURQ">
-                    <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_paynow_SM.gif" name="submit" alt="PayPal � The safer, easier way to pay online.">
-                    <img alt="" bord
-<br>
-</form>
-<br>
-The Music Centre is also registered as a Deductible Gift Recipient. Any extra donations are tax-deductible!
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="67K2M93WVJM2L">
-                    <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal � The safer, easier way to pay online.">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_AU/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-
 </div>
 
- </body1>   
+ </body1>
 
-<?php //include("footer.php") ?><!--  -->
+<?php include("footer.php") ?>
 </body>
 </html>

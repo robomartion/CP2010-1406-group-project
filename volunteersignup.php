@@ -2,14 +2,26 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TCMC - Volunteer</title>
+
+<title>TCMC - Become a Member</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-<body1 id="volunteer_tickets">
-  <div id="volunteer_body1">
-    <div id="volunteer_body1_text1">
-      <form id="signup" name="signup" method="post" action="dbprocessvolunteer.php" enctype="multipart/form-data">
+<div id="wrapper">
+  <div id="content">  
+<?php include("header.php"); ?>
+  </div>
+  <div id="welcome_img_become_a_member"><img src="pictures/BlackBox.jpg" width="1691" height="1700" alt=""/></div>
+ <body1 id="body1_become_a_member"> 
+ 
+<div id="become_a_member_body1">   
+  
+
+<h1>Become a Member</h1>
+All members receive up to a <strong>50% discount on all tickets</strong>. By becoming a member you become a part of the Townsville Community Music Centre. <br>You are also supporting local musicians and keeping music <strong><i>alive</i></strong> in Townsville. 
+
+<<form id="signup" name="signup" method="post" action="dbprocessvolunteer.php" enctype="multipart/form-data">
         <label for="volunteer"></label>
         <h1>Volunteer</h1>
         You are what makes the Townsville Community Music Centre what it is. Become a volunteer today to help out with upcoming events.<br>
@@ -61,16 +73,11 @@
         <br>
         <input type="submit" name="submit" id="submit" value="Sign up">
       </form>
-    </div>
-  </div>
-</body1>
-<div id="wrapper">
-  <div id="content">
-<?php include"header.php" ?>
-  </div>
-    
- <div id="welcome_img_become_a_volunteer"><img src="pictures/BlackBox.jpg" width="1691" height="800" alt=""/></div>
- <?php include("footer.php") ?>
+
 </div>
+
+ </body1>
+
+<?php include("footer.php") ?>
 </body>
-</html
+</html>
