@@ -45,34 +45,6 @@
   
 <div id="play_for_us_body1_text1">  
 
-  
-<form>
-  <label for="play for us"><h1>Play for us</h1></label>
-   Play for us today to get your band some publicity with the Townsville Community Music Centre<br><br>
-  <label for="band name"><br>Band name:</label> <input type="text" class="amount"></input>
-  <label for="genre"> <br>Genre:</label> 
-  <select id = "Genre">
-               <option value = "jazz">Jazz</option>
-               <option value = "Classical">Classical</option>
-               <option value = "Folk">Folk</option>
-               <option value = "Blues">Blues</option>
-               <option value = "Contemporary">Contemporary </option>
-               <option value= "other">other</option>
-    </select>
- <label for="other"><br>if you put other please provide what genre you do: </label>
- <input type="text">
- 
-<label for="phone number"><br>phone number:</label>
- <input type="tel">
-<label for="email"><br>Email Address:</label>
-<input type="email"> 
-<label for="website"><br>Your band website (optional):</label>
-<input type="url">
-<br>
- <button  class="submit" >Submit</button> 
- <button type="reset" class="reset"> reset </button>
- 
-</form>
 <h2>Play for us today to get your band some publicity with the Townsville Community Music Centre</h2>
 <form id="signup" name="signup" method="post" action="dbprocessmusician.php" enctype="multipart/form-data">
     
@@ -82,7 +54,7 @@
       <label for="bandmembers">Your band's name: </label>
       <input type="number" name="bandmembers" id="bandmembers" min="1">
     
-      <label for="repetoire">About how many songs could you play in a live performance setting? </label>
+      <label for="repertoire">About how many songs could you play in a live performance setting? </label>
       <input type="repetoire" name="repetoire" id="repetoire" min="1">
     
         <label for="musiciantype">Do you want to play as a house musician (as a filler between sets of the main act) or play a full show? </label>

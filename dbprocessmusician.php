@@ -37,34 +37,33 @@ echo "</pre>";
 // execute the appropriate query based on which submit button (insert, delete or update) was clicked
 if ($_REQUEST['submit'] == "Sign up")
 {
-	$sql = "INSERT INTO members (username, password, firstname, surname, accounttype, mobile, homephone, postaddress, extra) 
-	VALUES ('$_REQUEST[username]', '$_REQUEST[password]', '$_REQUEST[firstname]', '$_REQUEST[surname]','$_REQUEST[accounttype]', '$_REQUEST[mobile]', '$_REQUEST[homephone]', '$_REQUEST[postaddress]', '$_REQUEST[extra]')";
+	$sql = "INSERT INTO musicians (bandname, bandmembers, repertoire, musiciantype, genre, extra) 
+	VALUES ('$_REQUEST[bandname]', '$_REQUEST[bandmembers]', '$_REQUEST[repertoire]', '$_REQUEST[musiciantype]','$_REQUEST[genre]', '$_REQUEST[extra]')";
 
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
-		echo "Inserted $_REQUEST[username] ($_REQUEST[firstname], $_REQUEST[surname])";
+		echo "Inserted $_REQUEST[bandname]";
 	else
 		echo "Not inserted"; // in case it didn't work - e.g. if database is not writeable
 
 }
 else if ($_REQUEST['submit'] == "Delete Entry")
 {
-	$sql = "DELETE FROM members WHERE id = '$_REQUEST[id]'";
+	$sql = "DELETE FROM musicians WHERE id = '$_REQUEST[id]'";
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
-		echo "Deleted $_REQUEST[username]";
+		echo "Deleted $_REQUEST[bandname]";
 	else
 		echo "Not deleted";
 }
 else if ($_REQUEST['submit'] == "Update Entry")
 {
-	$sql = "UPDATE members SET username = '$_REQUEST[username]', password = '$_REQUEST[password]', 
-	firstname = '$_REQUEST[firstname]', surname = '$_REQUEST[surname]', accounttype = '$_REQUEST[accounttype]',
-	mobile = '$_REQUEST[mobile]', homephone = '$_REQUEST[homephone]', postaddress = '$_REQUEST[postaddress]', extra = '$_REQUEST[extra]'
+	$sql = "UPDATE members SET bandname = '$_REQUEST[bandname]', bandmembers = '$_REQUEST[bandmembers]', 
+	repertoire = '$_REQUEST[repertoire]', musiciantype = '$_REQUEST[musiciantype]', genre = '$_REQUEST[genre]', extra = '$_REQUEST[extra]'
 	 WHERE id = '$_REQUEST[id]'";
 	echo "<p>Query: " . $sql . "</p>\n<p><strong>"; 
 	if ($dbh->exec($sql))
-		echo "Updated $_REQUEST[username]";
+		echo "Updated $_REQUEST[bandname]";
 	else
 		echo "Not updated";
 }
@@ -75,7 +74,7 @@ echo "</strong></p>\n";
 
 // Basic select and display all contents from table 
 
-echo "<h2>Member Records in Database Now</h2>\n";
+echo "<h2>Musician Records in Database Now</h2>\n";
 $sql = "SELECT * FROM members";
 $result = $dbh->query($sql);
 $resultCopy = $result;
@@ -99,6 +98,9 @@ if ($debugOn) {
 
 // close the database connection
 $dbh = null;
+
+header("Location: index.php");
+	exit();
 
 ?>
 <p><a href="members.php">Go back to list of members</a></p>
