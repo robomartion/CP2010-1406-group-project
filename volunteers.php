@@ -39,28 +39,25 @@ p{
     <table>
         <tr>
             <td>
-                <h3>Username</h3>
+                <h3>Name</h3>
             </td>
             <td>
-                <h3>Password</h3>
+                <h3>Phone</h3>
             </td>
             <td>
-                <h3>Firstname</h3>
+                <h3>Event</h3>
             </td>
             <td>
-                <h3>Surname</h3>
+                <h3>Day</h3>
             </td>
             <td>
-                <h3>Mobile</h3>
+                <h3>Time</h3>
             </td>
             <td>
-                <h3>Home phone</h3>
+                <h3>Email</h3>
             </td>
             <td>
-                <h3>Postal Address</h3>
-            </td>
-            <td>
-                <h3>Account Type</h3>
+                <h3>Helping with</h3>
             </td>
         </tr>
 <?php
@@ -75,13 +72,39 @@ foreach ($dbh->query($sql) as $row)
 	echo "<tr>
    <td><input type='text' name='name' value='$row[name]'></td>
    <td><input type='text' name='phone' id='phone' value='$row[phone]' minlength='8' maxlength='10'></td>
-   <td><input type='text' name='event' id='event' value='$row[event]'></td>
-    <td><input type='text' name='postaddress' id='postaddress' value='$row[postaddress]'></td>
-     <td>$row[accounttype] <select type='text' name='accounttype' value='$row[accounttype]'>
-  <option value='freemember'>Free Member</option>
-  <option value='paidmember'>Paid Member</option>
-  <option value='admin'>Administrator</option>
-</select></td>
+   
+   <td><select id = 'event' name='event' value='$row[event]'></td>
+          <option value = 'Harbourside Duo'>Harbourside Duo</option>
+          <option value = 'Die Frankfurter Oompah Band'>Die Frankfurter Oompah Band</option>
+          <option value = 'AVIVA and Friends Go Abroad!'>AVIVA and Friends Go Abroad!</option>
+          <option value = 'SUNDAY VARIETY CONCERT'>SUNDAY VARIETY CONCERT</option>
+          <option value = 'Townsville Concert Band'>Townsville Concert Band </option>
+          <option value = 'Voices of Pimlico'>Voices of Pimlico</option>
+          <option value = 'SUNDAY VARIETY CONCERT'>Allegro Choir </option>
+        </select>
+		
+		<select id = 'day' name='day'>
+          <option value = 'mon'>monday</option>
+          <option value = 'tue'>tuesday</option>
+          <option value = 'wed'>wednesday</option>
+          <option value = 'thur'>thursday</option>
+          <option value = 'fri'>friday </option>
+          <option value = 'sat'>saturday</option>
+          <option value = 'sun'>sunday </option>
+        </select>
+        <label for='time'> <br>
+          Choose a time that you can help on:</label>
+        <select id = 'time' name='time'>
+          <option value = '8am_10am'>8am to 10am</option>
+          <option value = '10am_12pm'>10am to 12pm</option>
+          <option value = '12pm_2pm'>12pm to 2pm</option>
+          <option value = '2pm_4pm'>2pm to 4pm</option>
+          <option value = '4pm_6pm'>4pm to 6pm </option>
+          <option value = '6pm_8pm'>6pm to 8pm</option>
+        </select>
+		
+    <td><input type='text' name='email' id='email' value='$row[email]'></td>
+     <td><input type='text' name='help' id='help' value='$row[help]'></td>
    </table>\n";
 
     echo "<input type='hidden' name='id' value='$row[id]'/>\n";
