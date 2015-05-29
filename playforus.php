@@ -74,34 +74,32 @@
  
 </form>
 <h2>Play for us today to get your band some publicity with the Townsville Community Music Centre</h2>
-<form id="signup" name="signup" method="post" action="db/dbprocessmusician.php" enctype="multipart/form-data">
-    <p>
+<form id="signup" name="signup" method="post" action="dbprocessmusician.php" enctype="multipart/form-data">
+    
       <label for="bandname">Your band's name: </label>
       <input type="text" name="bandname" id="bandname" required>
-    </p>
-    <p>
+    
       <label for="bandmembers">Your band's name: </label>
       <input type="number" name="bandmembers" id="bandmembers" min="1">
-    </p>
-    <p>
+    
       <label for="repetoire">About how many songs could you play in a live performance setting? </label>
       <input type="repetoire" name="repetoire" id="repetoire" min="1">
-    </p>
-    <label for="musiciantype">Do you want to play as a house musician (as a filler between sets of the main act) or play a full show? </label>
+    
+        <label for="musiciantype">Do you want to play as a house musician (as a filler between sets of the main act) or play a full show? </label>
     <select type="text" name="musiciantype" id="musiciantype">
   <option value="house">House musician</option>
   <option value="mainact">Full show</option>
   </select>
-    <p>
-      <label for="genre">Briefly describe your music and style:</label> <br>
+   
+      <label for="genre">Briefly describe your music and style:</label> 
     <textarea rows="4" cols="50" type="genre" name="genre" id="genre"></textarea>
-    </p>
+    
     <label for="extra">Briefly describe yourself/selves)</label> <br>
     <textarea rows="4" cols="50" type="text" name="extra" id="extra"></textarea>
     <br>
-<p>
+
       <input type="submit" name="submit" id="submit" value="Sign up">
-    </p>
+    
 </form>
 </div>
 </div>
